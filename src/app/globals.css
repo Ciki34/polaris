@@ -44,9 +44,9 @@
   --color-chart-5: var(--chart-5);
 
   /* Polaris brand */
-  --color-polaris-gold:        var(--polaris-gold);
-  --color-polaris-midnight:    var(--polaris-midnight);
+  --color-polaris-emerald:     var(--polaris-emerald);
   --color-polaris-cream:       var(--polaris-cream);
+  --color-polaris-peach:       var(--polaris-peach);
   --color-polaris-sage:        var(--polaris-sage);
 
   /* Typography */
@@ -66,59 +66,59 @@
 
 /* ─── Light Mode ─────────────────────────────────────────────────────────── */
 :root {
-  /* Base */
-  --background:           oklch(0.99 0.004 85);   /* warm off-white */
-  --foreground:           oklch(0.15 0.01 260);   /* deep navy-charcoal */
+  /* Base — Cream #FDF8F6 background */
+  --background:           oklch(0.98 0.006 62);   /* #FDF8F6 warm cream */
+  --foreground:           oklch(0.17 0.040 185);  /* #062C2B deep emerald */
 
   /* Cards */
   --card:                 oklch(1 0 0);
-  --card-foreground:      oklch(0.15 0.01 260);
+  --card-foreground:      oklch(0.17 0.040 185);
   --popover:              oklch(1 0 0);
-  --popover-foreground:   oklch(0.15 0.01 260);
+  --popover-foreground:   oklch(0.17 0.040 185);
 
-  /* Primary — deep midnight */
-  --primary:              oklch(0.18 0.025 260);
-  --primary-foreground:   oklch(0.98 0.004 85);
+  /* Primary — Deep Emerald #062C2B */
+  --primary:              oklch(0.17 0.040 185);
+  --primary-foreground:   oklch(0.98 0.006 62);
 
-  /* Secondary — soft cream */
-  --secondary:            oklch(0.96 0.008 85);
-  --secondary-foreground: oklch(0.18 0.025 260);
+  /* Secondary — soft cream tint */
+  --secondary:            oklch(0.96 0.008 62);
+  --secondary-foreground: oklch(0.17 0.040 185);
 
   /* Muted */
-  --muted:                oklch(0.96 0.006 85);
-  --muted-foreground:     oklch(0.52 0.01 260);
+  --muted:                oklch(0.95 0.007 62);
+  --muted-foreground:     oklch(0.52 0.016 185);
 
-  /* Accent — Polaris gold */
-  --accent:               oklch(0.88 0.065 85);
-  --accent-foreground:    oklch(0.18 0.025 260);
+  /* Accent — Peach #EBC5B2 */
+  --accent:               oklch(0.82 0.052 33);
+  --accent-foreground:    oklch(0.17 0.040 185);
 
   /* Utility */
   --destructive:          oklch(0.577 0.245 27.325);
-  --border:               oklch(0.91 0.006 85);
-  --input:                oklch(0.91 0.006 85);
-  --ring:                 oklch(0.75 0.025 260);
+  --border:               oklch(0.91 0.010 62);
+  --input:                oklch(0.91 0.010 62);
+  --ring:                 oklch(0.52 0.040 185);
 
   /* Charts */
-  --chart-1: oklch(0.87 0 0);
-  --chart-2: oklch(0.75 0.04 85);
-  --chart-3: oklch(0.55 0.02 260);
-  --chart-4: oklch(0.37 0.02 260);
-  --chart-5: oklch(0.27 0.015 260);
+  --chart-1: oklch(0.82 0.052 33);
+  --chart-2: oklch(0.65 0.06 148);
+  --chart-3: oklch(0.17 0.040 185);
+  --chart-4: oklch(0.37 0.030 185);
+  --chart-5: oklch(0.55 0.020 185);
 
   /* Sidebar */
-  --sidebar:                    oklch(0.97 0.005 85);
-  --sidebar-foreground:         oklch(0.15 0.01 260);
-  --sidebar-primary:            oklch(0.18 0.025 260);
-  --sidebar-primary-foreground: oklch(0.98 0.004 85);
-  --sidebar-accent:             oklch(0.93 0.008 85);
-  --sidebar-accent-foreground:  oklch(0.18 0.025 260);
-  --sidebar-border:             oklch(0.91 0.006 85);
-  --sidebar-ring:               oklch(0.75 0.025 260);
+  --sidebar:                    oklch(0.97 0.007 62);
+  --sidebar-foreground:         oklch(0.17 0.040 185);
+  --sidebar-primary:            oklch(0.17 0.040 185);
+  --sidebar-primary-foreground: oklch(0.98 0.006 62);
+  --sidebar-accent:             oklch(0.93 0.010 62);
+  --sidebar-accent-foreground:  oklch(0.17 0.040 185);
+  --sidebar-border:             oklch(0.91 0.010 62);
+  --sidebar-ring:               oklch(0.52 0.040 185);
 
   /* Polaris brand palette */
-  --polaris-gold:     oklch(0.78 0.095 85);
-  --polaris-midnight: oklch(0.14 0.03 262);
-  --polaris-cream:    oklch(0.97 0.01 85);
+  --polaris-emerald:  oklch(0.17 0.040 185);  /* #062C2B */
+  --polaris-cream:    oklch(0.98 0.006 62);   /* #FDF8F6 */
+  --polaris-peach:    oklch(0.82 0.052 33);   /* #EBC5B2 */
   --polaris-sage:     oklch(0.72 0.06 148);
 
   --radius: 0.5rem;
@@ -126,40 +126,40 @@
 
 /* ─── Dark Mode ──────────────────────────────────────────────────────────── */
 .dark {
-  --background:           oklch(0.11 0.018 262);
-  --foreground:           oklch(0.97 0.004 85);
-  --card:                 oklch(0.16 0.02 262);
-  --card-foreground:      oklch(0.97 0.004 85);
-  --popover:              oklch(0.16 0.02 262);
-  --popover-foreground:   oklch(0.97 0.004 85);
-  --primary:              oklch(0.88 0.065 85);
-  --primary-foreground:   oklch(0.14 0.03 262);
-  --secondary:            oklch(0.22 0.02 262);
-  --secondary-foreground: oklch(0.97 0.004 85);
-  --muted:                oklch(0.22 0.02 262);
-  --muted-foreground:     oklch(0.65 0.01 262);
-  --accent:               oklch(0.78 0.095 85);
-  --accent-foreground:    oklch(0.14 0.03 262);
+  --background:           oklch(0.12 0.020 185);
+  --foreground:           oklch(0.97 0.006 62);
+  --card:                 oklch(0.17 0.022 185);
+  --card-foreground:      oklch(0.97 0.006 62);
+  --popover:              oklch(0.17 0.022 185);
+  --popover-foreground:   oklch(0.97 0.006 62);
+  --primary:              oklch(0.82 0.052 33);
+  --primary-foreground:   oklch(0.12 0.020 185);
+  --secondary:            oklch(0.22 0.022 185);
+  --secondary-foreground: oklch(0.97 0.006 62);
+  --muted:                oklch(0.22 0.022 185);
+  --muted-foreground:     oklch(0.65 0.014 185);
+  --accent:               oklch(0.82 0.052 33);
+  --accent-foreground:    oklch(0.12 0.020 185);
   --destructive:          oklch(0.704 0.191 22.216);
   --border:               oklch(1 0 0 / 8%);
   --input:                oklch(1 0 0 / 12%);
-  --ring:                 oklch(0.78 0.095 85);
-  --chart-1: oklch(0.87 0 0);
-  --chart-2: oklch(0.75 0.04 85);
-  --chart-3: oklch(0.55 0.02 262);
-  --chart-4: oklch(0.37 0.02 262);
-  --chart-5: oklch(0.27 0.015 262);
-  --sidebar:                    oklch(0.14 0.025 262);
-  --sidebar-foreground:         oklch(0.97 0.004 85);
-  --sidebar-primary:            oklch(0.78 0.095 85);
-  --sidebar-primary-foreground: oklch(0.14 0.03 262);
-  --sidebar-accent:             oklch(0.22 0.02 262);
-  --sidebar-accent-foreground:  oklch(0.97 0.004 85);
+  --ring:                 oklch(0.82 0.052 33);
+  --chart-1: oklch(0.82 0.052 33);
+  --chart-2: oklch(0.65 0.06 148);
+  --chart-3: oklch(0.55 0.020 185);
+  --chart-4: oklch(0.37 0.030 185);
+  --chart-5: oklch(0.27 0.020 185);
+  --sidebar:                    oklch(0.15 0.025 185);
+  --sidebar-foreground:         oklch(0.97 0.006 62);
+  --sidebar-primary:            oklch(0.82 0.052 33);
+  --sidebar-primary-foreground: oklch(0.12 0.020 185);
+  --sidebar-accent:             oklch(0.22 0.022 185);
+  --sidebar-accent-foreground:  oklch(0.97 0.006 62);
   --sidebar-border:             oklch(1 0 0 / 8%);
-  --sidebar-ring:               oklch(0.78 0.095 85);
-  --polaris-gold:     oklch(0.82 0.1 85);
-  --polaris-midnight: oklch(0.11 0.018 262);
-  --polaris-cream:    oklch(0.22 0.02 262);
+  --sidebar-ring:               oklch(0.82 0.052 33);
+  --polaris-emerald:  oklch(0.25 0.045 185);
+  --polaris-cream:    oklch(0.22 0.022 185);
+  --polaris-peach:    oklch(0.75 0.055 33);
   --polaris-sage:     oklch(0.65 0.07 148);
 }
 
@@ -207,20 +207,21 @@
   .polaris-gradient {
     background: linear-gradient(
       135deg,
-      oklch(var(--polaris-midnight)) 0%,
-      oklch(0.22 0.04 270) 100%
+      var(--polaris-emerald) 0%,
+      oklch(0.24 0.048 185) 100%
     );
   }
 
-  .polaris-gold-text {
+  .polaris-peach-text {
     background: linear-gradient(
       135deg,
-      oklch(var(--polaris-gold)) 0%,
-      oklch(0.88 0.08 70) 100%
+      var(--polaris-peach) 0%,
+      oklch(0.87 0.058 25) 100%
     );
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     background-clip: text;
+    color: transparent;
   }
 
   .text-balance {

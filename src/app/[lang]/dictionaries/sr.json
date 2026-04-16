@@ -1,0 +1,735 @@
+{
+  "nav": {
+    "about": "O nama",
+    "products": "Proizvodi",
+    "journal": "Magazin",
+    "signIn": "Prijava",
+    "getStarted": "Počnite"
+  },
+  "hero": {
+    "badge": "Zasnovano na istraživanjima Nikole Tesle",
+    "title": "Budućnost prirodne regeneracije",
+    "titleItalic": "u vašim rukama.",
+    "subtitle": "Mi smo bića elektromagnetne prirode. Iskoristite snagu biofotonike i vratite sopstveni organizam u idealan balans. Polaris je vaša lična antena za vitalnu energiju, razvijena na temeljima istraživanja Nikole Tesle i Georgesa Lakhovskog.",
+    "cta": "Poruči svoj Polaris",
+    "scroll": "Istraži"
+  },
+  "strip": [
+    "Biofotonika",
+    "Tesla princip",
+    "Vitalna energija",
+    "Zlatni presek",
+    "Regeneracija",
+    "Ravnoteža",
+    "Fokus",
+    "Prirodno"
+  ],
+  "novak": {
+    "eyebrow": "Globalno prepoznanje",
+    "title": "Standard šampiona.",
+    "body": "Kada pomerate granice ljudskih mogućnosti, oporavak je važan koliko i trening. Novak Đoković, najbolji sportista svih vremena, koristi Polaris kao neizostavan deo svog dnevnog protokola za održavanje fokusa, unutrašnjeg mira i fizičke regeneracije.",
+    "quote": "Jedna od 10 stvari bez kojih nigde ne idem.",
+    "attribution": "Novak Đoković",
+    "videoLabel": "Pogledajte video"
+  },
+  "problem": {
+    "eyebrow": "Prepoznajete li se?",
+    "title": "Gde vaš organizam",
+    "titleItalic": "gubi snagu?",
+    "cards": [
+      {
+        "number": "01",
+        "title": "Hronični umor",
+        "body": "Budite se iscrpljeni uprkos 'dovoljno' sati sna? Vaše ćelije ne dobijaju dovoljno energije za regeneraciju tokom noći."
+      },
+      {
+        "number": "02",
+        "title": "Dugotrajni bolovi",
+        "body": "Bilo da je u pitanju kičma, zglobovi ili mišići, bol je jasan signal blokiranog protoka energije. Polaris otvara te kanale."
+      },
+      {
+        "number": "03",
+        "title": "Stres i pritisak",
+        "body": "Živimo u moru veštačkih frekvencija. Polaris neutrališe štetne uticaje okoline i vraća vam miran san i oštar fokus."
+      }
+    ]
+  },
+  "solution": {
+    "eyebrow": "Šta je Polaris",
+    "title": "Nije magija.",
+    "titleItalic": "To je fizika.",
+    "body": "Polaris nije lekovito sredstvo u klasičnom smislu – on je bio-antena. Izrađen od specijalne legure metala, sa devet prstenova precizno podešenih prema Zlatnom preseku (Phi), on pasivno fokusira vitalnu energiju iz okruženja i usmerava je direktno u vaše telo.",
+    "cta": "Saznaj više o nauci"
+  },
+  "sport": {
+    "eyebrow": "Za profesionalce",
+    "title": "Snaga za ekstremne izazove.",
+    "body": "Polaris Sport nije samo veći disk – to je intenzivniji izvor energije. Dizajniran za profesionalne sportiste koji žele brži oporavak tkiva nakon napora. Ubrzava drenažu toksina, smanjuje upale i vraća mišićima elastičnost.",
+    "cta": "Istraži Polaris Sport",
+    "badge": "Novo"
+  },
+  "testimonials": {
+    "eyebrow": "Iskustva korisnika",
+    "title": "Šta kažu",
+    "titleItalic": "korisnici?",
+    "items": [
+      {
+        "quote": "Bol u leđima koji me mučio godinama nestao je za tri dana. Nisam mogla da poverujem.",
+        "author": "Milena K.",
+        "location": "Beograd"
+      },
+      {
+        "quote": "Konačno spavam cele noći. Jutros sam se probudila odmorna po prvi put u mesecima.",
+        "author": "Dragan P.",
+        "location": "Novi Sad"
+      },
+      {
+        "quote": "Kao profesionalni sportista, oporavak mi je sve. Polaris je promenio moj trening protokol.",
+        "author": "Aleksandar M.",
+        "location": "Niš"
+      },
+      {
+        "quote": "Fokus i koncentracija su mi se dramatično poboljšali. Preporučujem svima.",
+        "author": "Jelena T.",
+        "location": "Subotica"
+      }
+    ]
+  },
+  "finalCta": {
+    "eyebrow": "Počnite danas",
+    "title": "Započnite svoju",
+    "titleItalic": "transformaciju danas.",
+    "subtitle": "Pridružite se hiljadama koji su već otkrili razliku.",
+    "cta": "Idi u prodavnicu"
+  },
+  "howToUse": {
+    "pageHero": {
+      "eyebrow": "Protokol primene",
+      "title": "Vaš vodič za",
+      "titleItalic": "vitalnu regeneraciju.",
+      "subtitle": "Polaris funkcioniše na principu pasivne bio-rezonancije. Nema struje, nema podešavanja — samo ga postavite i pustite fiziku da radi."
+    },
+    "mapSection": {
+      "eyebrow": "Interaktivna mapa tela",
+      "title": "Izaberite oblast primene",
+      "subtitle": "Kliknite na jednu od sedam energetskih tačaka da vidite detaljni protokol i benefite.",
+      "mobileHint": "Kliknite na tačku za detalje",
+      "durationLabel": "Vreme primene",
+      "positionLabel": "Položaj",
+      "warningNote": "Strogo 2–3 minuta. Kod starijih i dece kraće.",
+      "indicationsLabel": "Indikacije",
+      "noteLabel": "Napomena",
+      "localDurationNote": "Lokalna mesta: 10–20 min, 2–3 puta dnevno"
+    },
+    "points": [
+      {
+        "id": 1,
+        "name": "Baza / Prva čakra",
+        "title": "Baza vitalnosti i eliminacija toksina.",
+        "benefits": "Podrška urološkom zdravlju, pomoć kod hemoroida i problema sa prostatom. Jača osnovnu životnu energiju i stabilnost organizma.",
+        "duration": "5–10 minuta",
+        "position": "Sedeći položaj ili direktno na regiju",
+        "warning": false,
+        "indications": [
+          "Analne infekcije",
+          "Pruritus (svrab) vagine",
+          "Upala mokraćnih kanala",
+          "Hemoroidi",
+          "Impotencija",
+          "Hipertrofija prostate"
+        ],
+        "note": ""
+      },
+      {
+        "id": 2,
+        "name": "Donji stomak / Druga čakra",
+        "title": "Centar hormonalnog balansa.",
+        "benefits": "Ključna tačka za ginekološko zdravlje, regulaciju menstrualnog ciklusa i plodnost. Pomaže kod urinarnih tegoba i problema sa crevima.",
+        "duration": "5–10 minuta",
+        "position": "Ležeći položaj, disk na donjem stomaku",
+        "warning": false,
+        "indications": [
+          "Sterilitet",
+          "Lumbago",
+          "Opšta slabost",
+          "Bubrežni problemi",
+          "Opstipacija",
+          "Dijareja"
+        ],
+        "note": ""
+      },
+      {
+        "id": 3,
+        "name": "Solar Plexus / Treća čakra",
+        "title": "Glavni rezervoar unutrašnjeg mira.",
+        "benefits": "Trenutno smiruje želudac, reguliše varenje i kontroliše stres. Izuzetno efikasna tačka za prirodno snižavanje povišenog krvnog pritiska.",
+        "duration": "5–10 minuta",
+        "position": "Disk iznad želuca, lagano pritisnut",
+        "warning": false,
+        "indications": [
+          "Gastritis",
+          "Čir",
+          "Mučnina",
+          "Povišen pritisak",
+          "Depresija",
+          "Uznemirenost",
+          "Lupanje srca"
+        ],
+        "note": ""
+      },
+      {
+        "id": 4,
+        "name": "Srce / Četvrta čakra",
+        "title": "Centar emotivne ravnoteže i daha.",
+        "benefits": "Podrška radu srca i pluća. Pomaže kod astme, bronhitisa i osećaja teskobe u grudima.",
+        "duration": "5–10 minuta",
+        "position": "Na sredini grudne kosti",
+        "warning": false,
+        "indications": [
+          "Astma",
+          "Bronhitis",
+          "Bolovi u dojkama",
+          "Srčani problemi"
+        ],
+        "note": ""
+      },
+      {
+        "id": 5,
+        "name": "Grlo / Peta čakra",
+        "title": "Dirigent metabolizma i podmlađivanja.",
+        "benefits": "Nezaobilazna tačka za zdravlje štitne žlezde. Stimuliše detoksikaciju i usporava procese starenja organizma.",
+        "duration": "5–10 minuta",
+        "position": "Na bazi vrata, lagan pritisak",
+        "warning": false,
+        "indications": [
+          "Hashimoto",
+          "Tireoiditis",
+          "Upale grla",
+          "Problemi sa desnima"
+        ],
+        "note": "Štitna žlezda je dirigent organizma – tretirati i za mladalački izgled."
+      },
+      {
+        "id": 6,
+        "name": "Čelo / Šesta čakra",
+        "title": "Fokus, intuicija i mentalna jasnoća.",
+        "benefits": "Ublažava sinuzitis, vrtoglavicu i smetnje vida. Priprema mozak za dubok i regenerativni san.",
+        "duration": "Strogo 2–3 minuta (kod starijih i kraće)",
+        "position": "Na sredini čela — kraća ekspozicija!",
+        "warning": true,
+        "indications": [
+          "Sinuzitis",
+          "Vrtoglavica",
+          "Očne smetnje"
+        ],
+        "note": ""
+      },
+      {
+        "id": 7,
+        "name": "Vrh glave / Sedma čakra",
+        "title": "Harmonizacija celokupnog nervnog sistema.",
+        "benefits": "Pomaže kod teške nesanice, cerebralnih poremećaja, spazama i kontraktura. Vraća osećaj jedinstva sa telom.",
+        "duration": "Strogo 2–3 minuta (kod starijih i kraće)",
+        "position": "Na vrhu glave — kraća ekspozicija!",
+        "warning": true,
+        "indications": [
+          "Nesanica",
+          "Cerebralni poremećaji",
+          "Spazmi",
+          "Kontrakture"
+        ],
+        "note": ""
+      }
+    ],
+    "extras": {
+      "eyebrow": "Dodatna primena",
+      "title": "Više od terapije",
+      "titleItalic": "tela.",
+      "items": [
+        {
+          "id": "water",
+          "title": "Energizacija vode i hrane",
+          "body": "Stavite bokal sa vodom ili posudu sa hranom na Polaris na 30 minuta. Disk transformiše molekularnu strukturu, čineći vodu 'živom' i lakše svarljivom.",
+          "stat": "30 min"
+        },
+        {
+          "id": "plants",
+          "title": "Biljke i kućni ljubimci",
+          "body": "Životinje nepogrešivo osećaju dobru energiju. Biljke zalivane energizovanom vodom rastu i do 30% brže uz vidno veću vitalnost listova.",
+          "stat": "+30% rast"
+        },
+        {
+          "id": "space",
+          "title": "Čišćenje prostora",
+          "body": "Držite disk u prostoriji u kojoj najviše boravite kako biste neutralisali štetna elektromagnetna zračenja (EMF) i negativne uticaje okoline.",
+          "stat": "EMF zaštita"
+        },
+        {
+          "id": "obesity",
+          "title": "Gojaznost i metabolizam",
+          "body": "Tretman sredine trbuha i pete čakre (grlo) ubrzava metabolizam. Koristiti 2–3 puta dnevno za optimalnu metaboličku aktivaciju.",
+          "stat": "2–3× dnevno"
+        },
+        {
+          "id": "circulation",
+          "title": "Cirkulacija",
+          "body": "Stanite tabanima na Polaris disk 10–15 minuta. Stimuliše perifernu cirkulaciju u celom telu, odozdo prema gore.",
+          "stat": "10–15 min"
+        },
+        {
+          "id": "stress",
+          "title": "Neutralizacija stresa",
+          "body": "Oba dlana položite na disk ili disk stavite na treću čakru (solar plexus). Momentalno smiruje nervni sistem i reguliše krvni pritisak.",
+          "stat": "Odmah"
+        }
+      ]
+    },
+    "alert": {
+      "title": "Važna napomena",
+      "body": "Moguće su senzacije u vidu pojačanja bola, peckanja ili zagrevanja. To je znak da organizam počinje da popravlja poremećaj. Ne brinite, senzacije će nestajati kako se problem uklanja."
+    }
+  },
+  "footer": {
+    "tagline": "Zasnovano na fizici. Usmereno ka vama.",
+    "copyright": "Sva prava zadržana.",
+    "sections": {
+      "company": "Kompanija",
+      "products": "Proizvodi",
+      "support": "Podrška"
+    },
+    "links": {
+      "about": "O nama",
+      "journal": "Magazin",
+      "careers": "Karijere",
+      "allProducts": "Svi proizvodi",
+      "collections": "Kolekcije",
+      "giftSets": "Poklon seti",
+      "faq": "Česta pitanja",
+      "contact": "Kontakt",
+      "shipping": "Dostava",
+      "privacy": "Privatnost",
+      "terms": "Uslovi korišćenja",
+      "cookies": "Kolačići"
+    }
+  },
+  "shop": {
+    "eyebrow": "Polaris prodavnica",
+    "title": "Izaberite vaš",
+    "titleItalic": "Polaris.",
+    "subtitle": "Dostava na kućnu adresu. Plaćanje pouzećem.",
+    "currency": "RSD",
+    "currencySymbol": "RSD",
+    "shippingCost": 340,
+    "products": [
+      {
+        "id": "classic",
+        "name": "Polaris Disk",
+        "badge": "Classic",
+        "price": 3000,
+        "priceLabel": "3.000 RSD",
+        "description": "Vaš svakodnevni alat za balans. Idealan za čakre, lokalne bolove i energizaciju vode. Trajanje: Neograničeno.",
+        "features": [
+          "Ideal za svakodnevnu upotrebu",
+          "Svih 7 čakri i lokalni bolovi",
+          "Energizacija vode i hrane",
+          "Trajanje: Neograničeno"
+        ]
+      },
+      {
+        "id": "sport",
+        "name": "Polaris Sport",
+        "badge": "Pro",
+        "price": 8000,
+        "priceLabel": "8.000 RSD",
+        "description": "Pojačana snaga za sportiste i tretiranje velikih prostora. Maksimalna regeneracija tkiva i EMF zaštita.",
+        "features": [
+          "Za profesionalne sportiste",
+          "Tretiranje velikih prostora",
+          "Maksimalna regeneracija tkiva",
+          "EMF zaštita i detoksikacija"
+        ]
+      }
+    ],
+    "addToCart": "Dodaj",
+    "qty": "kom",
+    "orderButton": "Naruči",
+    "emptyCart": "Dodajte proizvod u korpu da biste nastavili",
+    "checkout": {
+      "title": "Vaša porudžbina",
+      "steps": [
+        "Podaci",
+        "Dostava",
+        "Pregled"
+      ],
+      "step1Title": "Podaci o kupcu",
+      "step2Title": "Adresa dostave",
+      "step3Title": "Pregled porudžbine",
+      "fields": {
+        "fullName": "Ime i prezime",
+        "email": "Email adresa",
+        "phone": "Broj telefona",
+        "city": "Grad",
+        "address": "Ulica i broj",
+        "postcode": "Poštanski broj"
+      },
+      "placeholders": {
+        "fullName": "npr. Marko Marković",
+        "email": "marko@email.com",
+        "phone": "+381 60 123 4567",
+        "city": "npr. Beograd",
+        "address": "npr. Knez Mihailova 10/3",
+        "postcode": "11000"
+      },
+      "required": "Obavezno polje",
+      "subtotal": "Cena proizvoda",
+      "shipping": "Dostava",
+      "total": "Za platiti",
+      "codNote": "Plaćanje pouzećem · Nema predujma",
+      "back": "Nazad",
+      "next": "Sledeći korak",
+      "confirm": "Potvrdi porudžbinu",
+      "processing": "Obrađujemo...",
+      "success": {
+        "title": "Porudžbina primljena!",
+        "body": "Hvala vam! Kontaktiraćemo vas u roku od 24h na navedeni broj telefona.",
+        "cta": "Nazad na početnu"
+      },
+      "error": "Došlo je do greške. Molimo pokušajte ponovo."
+    }
+  },
+  "aboutPage": {
+    "pageHero": {
+      "eyebrow": "Nauka o Polarisu",
+      "title": "Šta je",
+      "titleItalic": "Polaris?",
+      "subtitle": "Odgovor nije u magiji. Odgovor je u fizici."
+    },
+    "science": {
+      "eyebrow": "Naša elektromagnetna priroda",
+      "title": "Povratak osnovama elektromagnetne prirode.",
+      "body": "Mi smo bića elektromagnetne prirode. Svaka ćelija u vašem telu emituje i prima elektromagnetne signale — to je jezik kojim vaši organi komuniciraju. Kada taj tok stane, nastaje disbalans koji se manifestuje kao bol, umor i bolest. Polaris je tu da ponovo uspostavi tu vezu, pasivno i bez hemije.",
+      "stat1": {
+        "value": "7.83 Hz",
+        "label": "Šumannova rezonancija Zemlje"
+      },
+      "stat2": {
+        "value": "Φ 1.618",
+        "label": "Zlatni presek prirode"
+      },
+      "stat3": {
+        "value": "100 μV",
+        "label": "Bioelektrični potencijal ćelije"
+      }
+    },
+    "mechanism": {
+      "eyebrow": "Antenski princip",
+      "title": "Devet prstenova.",
+      "titleItalic": "Jedna svrha.",
+      "body": "Devet prstenova Polarisa, izrađenih od specijalne legure i precizno podešenih prema Zlatnom preseku (Phi = 1.618...), deluju kao pasivna bio-antena. Poput sočiva koje fokusira rasejanu svetlost u tačku, Polaris prikuplja vitalnu energiju (Prana/Qi) iz okoline i usmerava je direktno u vaše ćelije.",
+      "detail1": {
+        "label": "9 prstenova",
+        "body": "Svaki prsten proporcionalno manji po Phi rati, stvarajući savršenu harmoničnu seriju."
+      },
+      "detail2": {
+        "label": "Pasivna tehnologija",
+        "body": "Nema baterija, nema struje, nema zračenja. Samo geometrija i legura."
+      },
+      "detail3": {
+        "label": "Legura metala",
+        "body": "Specijalna kombinacija metala optimizovana za bioelektromagnetsku rezonanciju."
+      }
+    },
+    "heritage": {
+      "eyebrow": "Na ramenima giganata",
+      "title": "Nasleđe",
+      "titleItalic": "velikana.",
+      "intro": "Polaris nije nastao u vakuumu. On stoji na temeljima koje su postavila dva vizionara čiji su radovi daleko ispred svog vremena.",
+      "conceptTitle": "Ćelije kao oscilatorni krugovi",
+      "conceptBody": "Lakhovsky je 1925. godine postavio revolucionarnu tezu: svaka živa ćelija funkcioniše kao mali oscilatorni krug — poput radio predajnika i prijemnika koji konstantno emituje i prima frekvencije. Kada je ćelija zdrava, oscilira na svojoj prirodnoj frekvenciji. Polaris pomaže u vraćanju ćelija na tu optimalnu frekvenciju.",
+      "people": [
+        {
+          "name": "Nikola Tesla",
+          "years": "1856 – 1943",
+          "role": "Vizionar električne rezonancije",
+          "contribution": "Tesla je bio prvi koji je sistematski istražio rezonanciju kao fundamentalnu silu prirode. Shvatio je da svaki objekat ima svoju prirodnu frekvenciju i da energija može biti prenošena bez žice — samo kroz prostor.",
+          "quote": "Ako hoćete da spoznate tajne svemira, razmišljajte u kategorijama energije, frekvencije i vibracije."
+        },
+        {
+          "name": "Georges Lakhovsky",
+          "years": "1869 – 1942",
+          "role": "Otac oscilatornih krugova",
+          "contribution": "Francuski inženjer ruskog porekla koji je revolucionarizovao razumevanje biologije. Autor dela Le Secret de la Vie, u kome opisuje teoriju da su sve žive ćelije oscilatorni krugovi koji komuniciraju putem elektromagnetnih talasa.",
+          "quote": "Svaka živa ćelija je poput malog radio predajnika i prijemnika koji neprestano emituje i prima talase."
+        }
+      ]
+    },
+    "expert": {
+      "eyebrow": "Reč stručnjaka",
+      "name": "Dr. Dino Tomić",
+      "role": "Ginekolog · Bioenergičar · Osnivač Polarisa",
+      "title": "Od klasične ginekologije do kvantne harmonije.",
+      "body": "Nakon dvadeset godina rada kao specijalist ginekologije, Dr. Tomić je počeo da uviđa ono što medicinska literatura ne govori: mnogi hronični zdravstveni problemi pacijenata nisu imali strukturalni uzrok koji bi konvencionalna medicina mogla da reši. To ga je navelo na istraživanje bioenergetike, kvantne biologije i elektromagnetnih terapija.",
+      "body2": "Polaris nije lek. To je alat koji sam dizajnirao da pacijentu vrati ono što mu je uvek pripadalo — moć sopstvenog isceljenja.",
+      "quote": "Nisam napustio medicinu. Proširio sam je. Polaris je alat koji omogućava pacijentu da postane aktivni učesnik u sopstvenom isceljenju, umesto pasivnog primaoca terapije.",
+      "credentials": [
+        "Specijalist ginekologije",
+        "20+ godina kliničke prakse",
+        "Istraživač bioenergetike",
+        "Mentor i predavač"
+      ]
+    }
+  },
+  "testimonialsPage": {
+    "pageHero": {
+      "eyebrow": "Iskustva korisnika",
+      "title": "Stvarne priče.",
+      "titleItalic": "Stvarni rezultati.",
+      "subtitle": "Hiljade zadovoljnih korisnika. Ovo su neka od njihovih originalnih svedočenja."
+    },
+    "filters": {
+      "sve": "Sve",
+      "bol": "Bol",
+      "stit": "Štitna žlezda i hormoni",
+      "spavanje": "Spavanje i stres",
+      "varenje": "Varenje i organi",
+      "deca": "Deca i ljubimci"
+    },
+    "items": [
+      {
+        "id": "adisa-hotic",
+        "type": "text",
+        "category": "stit",
+        "hook": "Hashimoto 20+ godina — cela porodica osetila razliku",
+        "quote": "Poštovani dr.Tomić, moram da podijelim svoje iskustvo sa primjenom POLARISa. Naručila sam vaš POLARIS i zaista ne mogu da ne budem oduševljena efektom, iako ga koristim tek nekih tri sedmice. Moj Hashimoto, od 1993, eto skoro više od dvadeset godina ga imam. Ono što je ostalo od moje štitne je sasvim malo, ali evo ja ne posustajem u traganju. Stoga sam ja sa nekom radošću čitala vaš članak preko atma.hr i bilo mi je neizmjerno drago. Pa, budući da su i stavovi sa kojima ja živim nekoliko zadnjih godina kad se tiče ishrane, slični mojima, ja sam odmah naručila POLARIS. I onako kako ste vi naveli u svome članku, ne odvajam se od njega! Ali ne samo ja, cijela moja porodica, a nas je petoro. Kćerka i ja tretiramo štitnu žliježdzu i čakre, a i ostali sve po potrebi! Baš kad mi je stigao POLARIS-uho me je jako boljelo, cijelu jednu noć prije toga nisam spavala i morala sam popiti brufen. Stigao je POLARIS i tretirala sam samo 2 minute svaki dan i prošlo me je. Kod djece proljev, prošlo. Glavobolja - prošlo. Sinusitis - prošlo za dan. Prehlada - prošla. Čim stave Polaris, hoće zaspati, opušta ih, opušta nas! Pa nemam riječi osim duboke ZAHVALE. Moj muž je s blagim nepovjerenjem prišao POLARISU - jer kako kaže - malo sam mu dosadna sa svojim nametanjem onog što je dobro i zdravo - ali već nakon dva dana tražio je sam. I sad se s njim redovno druži, ja mu ne moram govoriti da stavi. Probava mu automatski proradi - a inače ima problema sa zatvorom i sa bolesnim želucem i sa malo povišenim tlakom itd. Znači, dr. Dino- hvala Vam što ste nam POLARIS učinili dostupnim!!! Ja sam već mnogima preporučila POLARIS i mislim da će biti sve više narudžbi iz Sanskog Mosta. U nadi da ćete mi odgovoriti kad stignete, srdačno vas pozdravljam i želim Vam sve najbolje u Novoj godini.",
+        "author": "Adisa Hotić",
+        "profession": "medicinska sestra",
+        "location": "Sanski most",
+        "verified": true,
+        "duration": ""
+      },
+      {
+        "id": "snezana-korlin",
+        "type": "text",
+        "category": "stit",
+        "hook": "TSH pao sa 30 na 3 za pola godine",
+        "quote": "Poštovani gospodine Dino, Uz pomoć vašeg polaris diska, za ovih pola godine, uspjela sam smanjiti TSH sa 30 na 3. Zahvalna sam vam na polaris disku koji je zaista savršen. Hvala vam! S poštovanjem, Snezana Korlin.",
+        "author": "Snežana Korlin",
+        "profession": "",
+        "location": "Zagreb",
+        "verified": true,
+        "duration": ""
+      },
+      {
+        "id": "jasna-radanovic",
+        "type": "text",
+        "category": "stit",
+        "hook": "Doza leka za štitnu žlezdu smanjena sa 125mg na 100mg",
+        "quote": "Postovani dr.Tomic evo da se javim povodom terapije stitne zlezde sa Polarisom. smanjili su mi dozu leka sa 125mg na 100mg. to je uspeh. nastavljam terapiju polarisom. Pozdrav iz Linca",
+        "author": "Jasna Radanović",
+        "profession": "",
+        "location": "Linz",
+        "verified": true,
+        "duration": ""
+      },
+      {
+        "id": "vesna-djukic",
+        "type": "text",
+        "category": "bol",
+        "hook": "Bol u kolenu nestao sledećeg dana, upala uha prošla za pola sata",
+        "quote": "Dobro vece doktore Tomicu, evo da i je konacno napisem moja iskustva sa polarisom, i da vam se zahvalim sto ste mi pruzili mogucnost da ga koristim. Ja sam prije nego sto sam narucla polaris vec vjerovala da je to prava stvar ali sad sam i potpuno uvjerena kroz iskustvo. Npr. imala sam bolove u koljenu posto tesko radim a koljeno mi je osteceno poslije pada sa scootera, i uvece sam drzala polaris na mjestu bola drugi dan mi je koljeno bilo sasvim normalno i bez bolova. Imam vec dugo problem sa desnimuhom i uvijek neku malu upalu nekad je bol izrazeniji drzim polaris na uhu vec nakon pola sata bol nestaje. Ima jos puno primjera a i najradosnija sam zbog toga sto osjecam da u mojoj kuci sad ima puno vise pozitivne energije i ja nisam vise tako depresivna. Ne odvajam se od polarisa kad idem van nosim ga u torbi. Moja kcerkica od 10 godina isto ga koristi i vec je osjetila koliko pomaze. Eto za sada toliko. Hvala vam puno sto ste nam omogucili da ovako nesto jednostavno i efikasno u odrzavanju naseg zdravlja mozemo da si priustimo. Srdacan pozdrav.",
+        "author": "Vesna Đukić",
+        "profession": "",
+        "location": "Maastricht, Holandija",
+        "verified": true,
+        "duration": ""
+      },
+      {
+        "id": "blazenka-m",
+        "type": "text",
+        "category": "bol",
+        "hook": "Kvržice na dojci nestale za 6 dana — UZV nalaz u najboljem redu",
+        "quote": "Poštovani doktore Tomić, Imala sam dvije kvržice na d.dojci veličine manjeg oraha kao posljedicu mastitisa (dojenja) skoro 2 g. Prije 3 mj se ponovo aktiviralo i bilo je jako bolno trajalo je mjesec dana s tim da u ove dvije godine uopće nisam mogla spavati na d. boku zbog bolova u dojci. No unatrag 3 tjedna sam stavljala disk i već 6 dan osjetila olakšanje tkivo je postalo mekano i nisam više pipala kvrge.. Odmah sam se naručila na UZV i nalaz je u najboljem redu. Kod tretiranja sam bila više usredotočena na čakre a na dojku sam stavljala onako \"usput\" i nisam očekivala nikakve rezultate no iznenadila sam se pozitivno. Dr kaže da je rijetkost da ciste puknu same od sebe a začehureni infekti buknu kad tad i rješavaju se operativno.... Bilo je peckanja topline, povremeni bolovi oštri, i kao da mi netko izvlači nerve iz tkiva i kože. (Dr nisam rekla što sam poduzela da kvrga više nema jer me ionako u čudu gledao što sam došla kad je sve ok..) i nije mi baš vjerovao isto ko ni ja što ne vjerujem neki put... Izgleda da disk djeluje kako god bilo to nevjerojatno. Hvala Vam i srdačan pozdrav.",
+        "author": "Blažena M.",
+        "profession": "",
+        "location": "Paro, Pag",
+        "verified": true,
+        "duration": ""
+      },
+      {
+        "id": "ljubica-krnac",
+        "type": "text",
+        "category": "bol",
+        "hook": "Trogodišnji bol u glavi nestao potpuno",
+        "quote": "Tri godine sam imala sevajuci bol u glavi 2 cm levo od temena. Sve sam snimala i nista ne mogu da nadju, a na lekove slabo popusta. Koristila sam polaris po 2-3 min na tom mestu i bol je potpuno nestao, neverovatno. Puno vas pozdravljam i zahvaljujem.",
+        "author": "Ljubica Krnač",
+        "profession": "",
+        "location": "Erdevik",
+        "verified": true,
+        "duration": ""
+      },
+      {
+        "id": "jelka-rusmir",
+        "type": "text",
+        "category": "varenje",
+        "hook": "Upala bubrega — pritisak normalizovan, zglobovi više ne otiču",
+        "quote": "Moj suprug je imao upalu bubrega više od mjesec dana borili smo se sa temperaturom koja je bila 37,3 C. Visok pritisk, otjecanje zglobova i 4 plusa u urinu. Početkom 12mj. naručila sam Polaris, od tada ga suprug svakodnevno koristi. Krvni pritisak sada je idealan, više mu zglobovi ne otječu. Tri sedmice je kihao, kašljao i iskašljavao sekret, iz nosa mu tekao potok, da smo se već bili jako zabrinuli. A zatim slijedi poboljšanje - kašalj je prestao, nos više ne curi, ali i dalje u urinu ima pluseva sad tri, i bubrezi propuštaju proteine. Dok ovo pišem nisu mi nalazi pri ruci da Vam tačno napišem rezultate, ali razlika od prvih i zadnjih nalaza je očigledna na bolje. Ovim putem želim da se zahvalim za Polaris i nadam se da ću Vam se uskoro javiti sa još boljim nalazima. VELIKA HVALA, s poštovanjem, Jelka.",
+        "author": "Jelka Rusmir",
+        "profession": "",
+        "location": "BiH",
+        "verified": true,
+        "duration": ""
+      },
+      {
+        "id": "anton-rizman",
+        "type": "text",
+        "category": "varenje",
+        "hook": "Pozitivne promene kod uvećane prostate za dve nedelje",
+        "quote": "Bog blagoslovi Vas in Vaš Polaris. Uporabljam ga dva tedna in že opažam pozitivne spremembe v obnašanju povečane prostate. Prepričan pa sem, da bom z njim lahko odpravil še drugo težavo, ki jo imam z pulzom, ta mi občasno zelo naraste. S spoštovanjem in vse dobro!",
+        "author": "Anton Rizman",
+        "profession": "",
+        "location": "Ljubljana",
+        "verified": true,
+        "duration": ""
+      },
+      {
+        "id": "joki-bezovnik",
+        "type": "text",
+        "category": "deca",
+        "hook": "Mačka preživela trovanje zahvaljujući Polarisu",
+        "quote": "Dobar dan, ja sam jedan vrlo sretni korisnik polarisa, moji prijatelji me uglavnom sa nevjericom slušaju ali ne marim za to, mačka se izvukla od trovanja, preživila je, turala sam polaris ispod nje kad god se i ma gdje srušila, evo je živa je!",
+        "author": "Joki Bezovnik",
+        "profession": "",
+        "location": "Hvar",
+        "verified": true,
+        "duration": ""
+      },
+      {
+        "id": "ivana-stojanovic",
+        "type": "text",
+        "category": "deca",
+        "hook": "Cela porodica oduševljena — čak i uginulo cveće se oporavilo",
+        "quote": "Poštovani dr.Tomiću, htela sam na ovaj način da iskažem oduševljenje Vašim POLARISOM. Pre petnaestak dana sam naručila dva i počela intenzivnije da ga koristim kao i cela moja porodica. Ranije sam pozajmljivala od sestre, čija je svekrva kupila Polarise skoro svim članovima uže i šire porodice. I gotovo svi imaju pozitivna iskustva sa njim. Pomenuću Vam i to da sam uspela pomoću Polarisa da oporavim skoro uginulo cveće.",
+        "author": "Ivana Stojanović",
+        "profession": "",
+        "location": "Lučani",
+        "verified": true,
+        "duration": ""
+      },
+      {
+        "id": "vesna-djinovic",
+        "type": "text",
+        "category": "spavanje",
+        "hook": "Spava s Polarisom pored jastuka — buđenje odmorna, bez ukočenog vrata",
+        "quote": "Zdrav mi bio. Moja iskustva su pozitivna. Spavam sa tvojim polarisom pored jastuka. Budim se odmorna i bez ukočenog vrata.",
+        "author": "Vesna Djinović",
+        "profession": "",
+        "location": "Beograd",
+        "verified": true,
+        "duration": ""
+      },
+      {
+        "id": "bojana-soskic",
+        "type": "text",
+        "category": "spavanje",
+        "hook": "15 dana buđenja u 3h — prve noći s Polarisom spavala kao beba",
+        "quote": "A za disk vam mogu reci da sam ga sinoc stavila na moju natkasnu pored glave i da sam spavala do ujutro kao beba, vidjecu kako ce biti nocas jer se vec skoro 15 dana budim svaku noc oko 3 h, a glava sva mokra od znoja, to je normalno jer sa 50 god. vec ulazim u menopauzu.",
+        "author": "Bojana Šoškić",
+        "profession": "",
+        "location": "Podgorica",
+        "verified": true,
+        "duration": ""
+      },
+      {
+        "id": "miroslav-sukur",
+        "type": "text",
+        "category": "spavanje",
+        "hook": "Bolje spavam — ni Melatonin nije pomagao pre Polarisa",
+        "quote": "Drago moj doktore bolje spavam , pre ni Melatonin nije pomagao . Hvala vam puno. Miki",
+        "author": "Miroslav Šukur",
+        "profession": "",
+        "location": "Beograd",
+        "verified": true,
+        "duration": ""
+      },
+      {
+        "id": "sanja-antunovic",
+        "type": "text",
+        "category": "spavanje",
+        "hook": "Spavam mirno, hemoroid se povukao, vitiligo se popravlja — sve zajedno",
+        "quote": "Doktore polaris mi je dao toliko vere..snage i elana. Hemoroid mi se povukao. Ne boli me nista...pigment mi se pojavljuje skoro na svim mestima (vitiligo). Sada imam redovnu stolicu, a nisam imala, muke sam mucila. Jako sam srecna i pozitivna. Ja koja sam se nocu trzala, budila, sada spavam mirno i budim se odmorna sa polarisom. Hvala vam puno",
+        "author": "Sanja Antunović",
+        "profession": "",
+        "location": "Sremska Mitrovica",
+        "verified": true,
+        "duration": ""
+      }
+    ]
+  },
+  "contactPage": {
+    "pageHero": {
+      "eyebrow": "Podrška i kontakt",
+      "title": "Ovde smo",
+      "titleItalic": "za vas.",
+      "subtitle": "Imate pitanje? Pišite nam ili pogledajte najčešća pitanja ispod."
+    },
+    "faq": {
+      "eyebrow": "Česta pitanja",
+      "title": "Sve što trebate da znate.",
+      "items": [
+        {
+          "id": "batteries",
+          "question": "Da li Polaris ima baterije ili električno napajanje?",
+          "answer": "Ne. Polaris je potpuno pasivan uređaj — nema baterija, kablova, niti bilo kakvog električnog napajanja. Funkcioniše isključivo na osnovu geometrije i legure metala od kojih je izrađen, bez ikakvog spoljašnjeg izvora energije."
+        },
+        {
+          "id": "radiation",
+          "question": "Da li Polaris emituje elektromagnetno zračenje?",
+          "answer": "Ne. Polaris je pasivna bio-antena, što znači da ne emituje nikakvo zračenje. Umesto toga, poput optičkog sočiva koje usmerava svetlost, on prikuplja i fokusira već prisutne prirodne frekvencije iz okoline — ne stvara ih."
+        },
+        {
+          "id": "children",
+          "question": "Mogu li ga koristiti deca?",
+          "answer": "Da. Polaris je bezbedan za primenu kod dece svih uzrasta. Pošto je u potpunosti pasivan i ne emituje nikakve signale, nema kontraindikacija za decu. Preporučujemo kraće sesije (10–15 minuta) za mlađu decu, uz nadzor roditelja."
+        },
+        {
+          "id": "lifespan",
+          "question": "Koliki je rok trajanja Polarisa?",
+          "answer": "Neograničen. Pošto Polaris nema pokretnih delova, elektronike ni materijala koji se troše ili degradiraju, njegova geometrija i rezonantna svojstva ostaju netaknuta zauvek. Jednom kupljeni Polaris je investicija za ceo život."
+        },
+        {
+          "id": "usage",
+          "question": "Koliko dugo treba da se koristi?",
+          "answer": "Standardna preporuka je 20–30 minuta dnevno na odabranoj zoni. Za akutne bolove, sesije od 3×15 minuta daju brze rezultate. Za hronična stanja, redovna primena jednom dnevno tokom 30 dana daje optimalne efekte."
+        },
+        {
+          "id": "delivery",
+          "question": "Kada mogu da očekujem dostavu?",
+          "answer": "Dostava u roku od 24 sata za Srbiju. Za regiju (Bosna, Hrvatska, Crna Gora) 2–3 radna dana. Za ostatak Evrope 5–7 radnih dana. Svaka narudžbina se prati putem tracking koda koji dobijate na email."
+        }
+      ]
+    },
+    "contactForm": {
+      "eyebrow": "Kontaktirajte nas",
+      "title": "Pišite nam.",
+      "subtitle": "Odgovaramo u roku od 24 sata, radnim danima.",
+      "namePlaceholder": "Vaše ime i prezime",
+      "emailPlaceholder": "vas@email.com",
+      "messagePlaceholder": "Kako vam možemo pomoći?",
+      "submitLabel": "Pošalji poruku",
+      "submittingLabel": "Šalje se...",
+      "successTitle": "Poruka primljena!",
+      "successBody": "Hvala vam. Odgovorićemo vam u roku od 24 sata.",
+      "errorLabel": "Došlo je do greške. Pokušajte ponovo."
+    },
+    "support": {
+      "eyebrow": "Direktna podrška",
+      "title": "Kontakt informacije.",
+      "phoneLabel": "Telefon",
+      "phoneValue": "+381 60 123 4567",
+      "emailLabel": "Email",
+      "emailValue": "podrska@polaris.rs",
+      "hoursLabel": "Radno vreme",
+      "hoursValue": "Pon–Pet, 09:00–17:00"
+    }
+  }
+}

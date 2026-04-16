@@ -48,7 +48,7 @@ export default async function ShopPage({
         <ScrollReveal delay={0.13}>
           <h1 className="font-heading text-5xl md:text-6xl lg:text-7xl tracking-tight text-balance leading-[1.07] mb-6">
             {d.title}{" "}
-            <span className="italic polaris-peach-text">{d.titleItalic}</span>
+            <span className="italic text-polaris-peach">{d.titleItalic}</span>
           </h1>
         </ScrollReveal>
 

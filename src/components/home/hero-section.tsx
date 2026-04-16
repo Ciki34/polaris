@@ -63,7 +63,7 @@ export function HeroSection({ dict, lang }: HeroSectionProps) {
               transition={{ duration: 0.8, delay: 0.1, ease: [0.25, 0.1, 0.25, 1] }}
             >
               {dict.title}{" "}
-              <span className="italic polaris-peach-text">{dict.titleItalic}</span>
+              <span className="italic text-polaris-peach">{dict.titleItalic}</span>
             </motion.h1>
 
             <motion.p

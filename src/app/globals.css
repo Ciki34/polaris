@@ -212,18 +212,6 @@
     );
   }
 
-  .polaris-peach-text {
-    background: linear-gradient(
-      135deg,
-      var(--polaris-peach) 0%,
-      oklch(0.87 0.058 25) 100%
-    );
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    background-clip: text;
-    color: transparent;
-  }
-
   .text-balance {
     text-wrap: balance;
   }
@@ -236,3 +224,4 @@
     @apply max-w-5xl mx-auto;
   }
 }
+

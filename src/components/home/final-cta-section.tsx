@@ -66,7 +66,7 @@ export function FinalCtaSection({ dict, lang }: { dict: FinalCtaDict; lang: stri
           <h2 className="font-heading text-4xl md:text-6xl lg:text-[4rem] tracking-tight text-balance leading-[1.08] mb-6">
             {dict.title}
             <br />
-            <span className="italic polaris-peach-text">{dict.titleItalic}</span>
+            <span className="italic text-polaris-peach">{dict.titleItalic}</span>
           </h2>
         </ScrollReveal>
 

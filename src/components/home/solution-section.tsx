@@ -119,7 +119,7 @@ export function SolutionSection({ dict, lang }: { dict: SolutionDict; lang: stri
               <h2 className="font-heading text-4xl md:text-5xl lg:text-[3.2rem] tracking-tight leading-[1.1] mb-8">
                 {dict.title}
                 <br />
-                <span className="italic polaris-peach-text">{dict.titleItalic}</span>
+                <span className="italic text-polaris-peach">{dict.titleItalic}</span>
               </h2>
             </ScrollReveal>
 

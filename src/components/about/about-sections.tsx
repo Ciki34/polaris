@@ -204,7 +204,7 @@ export function MechanismSection({ dict }: { dict: AboutDict["mechanism"] }) {
             <ScrollReveal delay={0.13}>
               <h2 className="font-heading text-3xl md:text-4xl lg:text-[2.8rem] tracking-tight leading-[1.12] mb-7">
                 {dict.title}<br />
-                <span className="italic polaris-peach-text">{dict.titleItalic}</span>
+                <span className="italic text-polaris-peach">{dict.titleItalic}</span>
               </h2>
             </ScrollReveal>
             <ScrollReveal delay={0.21}>

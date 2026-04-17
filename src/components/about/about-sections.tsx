@@ -1,5 +1,6 @@
 "use client";
 
+import { useEffect, useState } from "react";
 import Image from "next/image";
 import { motion } from "framer-motion";
 import { ScrollReveal, RevealChild } from "@/components/home/scroll-reveal";
@@ -39,6 +40,9 @@ interface AboutDict {
 const RING_RADII = [82, 70, 59, 49, 40, 32, 24, 17, 11];
 
 function PolarisRings({ size = 280, animated = false }: { size?: number; animated?: boolean }) {
+  const [mounted, setMounted] = useState(false);
+  useEffect(() => setMounted(true), []);
+
   return (
     <svg viewBox="0 0 200 200" width={size} height={size} aria-hidden>
       <defs>
@@ -56,9 +60,9 @@ function PolarisRings({ size = 280, animated = false }: { size?: number; animate
           stroke="oklch(0.17 0.040 185)"
           strokeWidth={i === 0 ? 0.9 : 0.65}
           strokeOpacity={0.12 + (RING_RADII.length - i) * 0.038}
-          initial={animated ? { scale: 0, opacity: 0 } : undefined}
-          whileInView={animated ? { scale: 1, opacity: 1 } : undefined}
-          viewport={{ once: true }}
+          initial={animated && mounted ? { scale: 0, opacity: 0 } : false}
+          whileInView={animated && mounted ? { scale: 1, opacity: 1 } : undefined}
+          viewport={animated && mounted ? { once: true, amount: 0.1 } : undefined}
           transition={{ delay: i * 0.07, duration: 0.55, ease: "easeOut" }}
           style={animated ? { transformOrigin: "100px 100px" } : undefined}
         />
@@ -72,6 +76,8 @@ function PolarisRings({ size = 280, animated = false }: { size?: number; animate
    SECTION 1 — SCIENCE
    ═══════════════════════════════════════════════════════════════════════════ */
 export function ScienceSection({ dict }: { dict: AboutDict["science"] }) {
+  const [mounted, setMounted] = useState(false);
+  useEffect(() => setMounted(true), []);
   const stats = [dict.stat1, dict.stat2, dict.stat3];
 
   return (
@@ -127,8 +133,10 @@ export function ScienceSection({ dict }: { dict: AboutDict["science"] }) {
                   <motion.circle key={i} cx="150" cy="150" r={r}
                     fill="none" stroke="oklch(0.17 0.040 185)" strokeWidth="0.7"
                     strokeOpacity={0.06 + i * 0.04} strokeDasharray={i % 2 === 0 ? "4 3" : "none"}
-                    initial={{ scale: 0, opacity: 0 }} whileInView={{ scale: 1, opacity: 1 }}
-                    viewport={{ once: true }} transition={{ delay: i * 0.1, duration: 0.6 }}
+                    initial={mounted ? { scale: 0, opacity: 0 } : false}
+                    whileInView={mounted ? { scale: 1, opacity: 1 } : undefined}
+                    viewport={mounted ? { once: true, amount: 0.1 } : undefined}
+                    transition={{ delay: i * 0.1, duration: 0.6 }}
                     style={{ transformOrigin: "150px 150px" }}
                   />
                 ))}
@@ -136,7 +144,9 @@ export function ScienceSection({ dict }: { dict: AboutDict["science"] }) {
                 {/* Central cell nucleus */}
                 <motion.circle cx="150" cy="150" r="20"
                   fill="oklch(0.82 0.052 33 / 0.25)" stroke="oklch(0.82 0.052 33 / 0.5)" strokeWidth="1"
-                  initial={{ scale: 0 }} whileInView={{ scale: 1 }} viewport={{ once: true }}
+                  initial={mounted ? { scale: 0 } : false}
+                  whileInView={mounted ? { scale: 1 } : undefined}
+                  viewport={mounted ? { once: true, amount: 0.1 } : undefined}
                   transition={{ delay: 0.5, type: "spring", stiffness: 200 }}
                   style={{ transformOrigin: "150px 150px" }}
                 />
@@ -149,7 +159,9 @@ export function ScienceSection({ dict }: { dict: AboutDict["science"] }) {
                   const y = 150 + r * Math.sin(rad);
                   return (
                     <motion.g key={i}
-                      initial={{ opacity: 0 }} whileInView={{ opacity: 1 }} viewport={{ once: true }}
+                      initial={mounted ? { opacity: 0 } : false}
+                      whileInView={mounted ? { opacity: 1 } : undefined}
+                      viewport={mounted ? { once: true, amount: 0.1 } : undefined}
                       transition={{ delay: 0.3 + i * 0.08 }}
                     >
                       <line x1="150" y1="150" x2={x} y2={y}
@@ -174,6 +186,8 @@ export function ScienceSection({ dict }: { dict: AboutDict["science"] }) {
    SECTION 2 — MECHANISM
    ═══════════════════════════════════════════════════════════════════════════ */
 export function MechanismSection({ dict }: { dict: AboutDict["mechanism"] }) {
+  const [mounted, setMounted] = useState(false);
+  useEffect(() => setMounted(true), []);
   const details = [dict.detail1, dict.detail2, dict.detail3];
 
   return (
@@ -192,8 +206,10 @@ export function MechanismSection({ dict }: { dict: AboutDict["mechanism"] }) {
               {/* Phi label */}
               <motion.div
                 className="absolute -bottom-8 left-1/2 -translate-x-1/2 bg-background border border-border rounded-full px-5 py-2 shadow-sm"
-                initial={{ opacity: 0, y: 10 }} whileInView={{ opacity: 1, y: 0 }}
-                viewport={{ once: true }} transition={{ delay: 0.8 }}
+                initial={mounted ? { opacity: 0, y: 10 } : false}
+                whileInView={mounted ? { opacity: 1, y: 0 } : undefined}
+                viewport={mounted ? { once: true, amount: 0.1 } : undefined}
+                transition={{ delay: 0.8 }}
               >
                 <p className="text-xs tracking-widest uppercase font-light text-muted-foreground">
                   9 prstenova · Φ = 1.618
@@ -343,6 +359,9 @@ export function HeritageSection({ dict }: { dict: AboutDict["heritage"] }) {
    SECTION 4 — DR. TOMIĆ (Expert)
    ═══════════════════════════════════════════════════════════════════════════ */
 export function ExpertSection({ dict }: { dict: AboutDict["expert"] }) {
+  const [mounted, setMounted] = useState(false);
+  useEffect(() => setMounted(true), []);
+
   return (
     <section className="section-padding overflow-hidden relative">
       <div aria-hidden className="pointer-events-none absolute inset-0 -z-10"
@@ -361,9 +380,9 @@ export function ExpertSection({ dict }: { dict: AboutDict["expert"] }) {
                   borderRadius: "62% 38% 55% 45% / 52% 48% 52% 48%",
                   background: "linear-gradient(155deg, oklch(0.93 0.015 62) 0%, oklch(0.86 0.030 40) 55%, oklch(0.78 0.042 30) 100%)",
                 }}
-                initial={{ scale: 0.94, opacity: 0 }}
-                whileInView={{ scale: 1, opacity: 1 }}
-                viewport={{ once: true }}
+                initial={mounted ? { scale: 0.94, opacity: 0 } : false}
+                whileInView={mounted ? { scale: 1, opacity: 1 } : undefined}
+                viewport={mounted ? { once: true, amount: 0.1 } : undefined}
                 transition={{ duration: 0.8, ease: [0.25, 0.1, 0.25, 1] }}
               >
                 <div className="absolute inset-0 flex flex-col items-center justify-end pb-10 px-8">
@@ -377,8 +396,10 @@ export function ExpertSection({ dict }: { dict: AboutDict["expert"] }) {
               {/* Credentials pill */}
               <motion.div
                 className="absolute -bottom-4 -right-4 bg-background border border-border rounded-2xl px-4 py-3 shadow-sm"
-                initial={{ opacity: 0, x: 16 }} whileInView={{ opacity: 1, x: 0 }}
-                viewport={{ once: true }} transition={{ delay: 0.6 }}
+                initial={mounted ? { opacity: 0, x: 16 } : false}
+                whileInView={mounted ? { opacity: 1, x: 0 } : undefined}
+                viewport={mounted ? { once: true, amount: 0.1 } : undefined}
+                transition={{ delay: 0.6 }}
               >
                 <p className="text-[10px] tracking-widest uppercase text-muted-foreground font-light mb-1">Iskustvo</p>
                 <p className="font-heading text-xl tracking-tight">20+ god.</p>

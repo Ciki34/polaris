@@ -82,7 +82,7 @@ export function HeroSection({ dict, lang }: HeroSectionProps) {
               transition={{ duration: 0.7, delay: 0.38, ease: "easeOut" }}
             >
               <Link
-                href={`/${lang}/products`}
+                href={`/${lang}/shop`}
                 className={cn(
                   buttonVariants({ size: "lg" }),
                   "rounded-full px-10 h-13 text-sm tracking-widest uppercase font-medium shadow-lg shadow-primary/20 hover:shadow-primary/30 transition-shadow"

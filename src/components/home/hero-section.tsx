@@ -51,7 +51,7 @@ export function HeroSection({ dict, lang }: HeroSectionProps) {
               animate={{ opacity: 1, y: 0 }}
               transition={{ duration: 0.6, ease: "easeOut" }}
             >
-              <span className="inline-flex items-center gap-2 mb-8 text-xs tracking-[0.22em] uppercase text-muted-foreground font-light border border-border/70 rounded-full px-5 py-2">
+              <span className="inline-flex items-center gap-2 mb-8 text-xs tracking-[0.22em] uppercase text-white font-light bg-accent rounded-full px-5 py-2">
                 <span className="w-1 h-1 rounded-full bg-polaris-peach inline-block" />
                 {dict.badge}
               </span>

@@ -1,5 +1,6 @@
 "use client";
 
+import { useEffect, useState } from "react";
 import { motion, useReducedMotion, type Variants } from "framer-motion";
 
 const defaultVariants: Variants = {
@@ -32,8 +33,16 @@ export function ScrollReveal({
   delay = 0,
   stagger = false,
 }: ScrollRevealProps) {
+  const [mounted, setMounted] = useState(false);
+  useEffect(() => setMounted(true), []);
+
   const reduced = useReducedMotion();
   const variants = stagger ? staggerContainerVariants : defaultVariants;
+
+  if (!mounted) {
+    return <div className={className}>{children}</div>;
+  }
+
   return (
     <motion.div
       className={className}
@@ -41,7 +50,7 @@ export function ScrollReveal({
       initial={reduced ? false : "hidden"}
       whileInView={reduced ? undefined : "show"}
       animate={reduced ? "show" : undefined}
-      viewport={{ once: true, margin: "-80px" }}
+      viewport={{ once: true, amount: 0.1 }}
       transition={!stagger && !reduced ? { delay } : undefined}
     >
       {children}

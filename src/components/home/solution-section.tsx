@@ -1,5 +1,6 @@
 "use client";
 
+import { useEffect, useState } from "react";
 import Link from "next/link";
 import { motion } from "framer-motion";
 import { buttonVariants } from "@/components/ui/button";
@@ -17,6 +18,9 @@ interface SolutionDict {
 const rings = [56, 48, 40, 32, 24, 16, 9, 4, 1];
 
 export function SolutionSection({ dict, lang }: { dict: SolutionDict; lang: string }) {
+  const [mounted, setMounted] = useState(false);
+  useEffect(() => setMounted(true), []);
+
   return (
     <section className="section-padding bg-secondary/20 border-y border-border/40 overflow-hidden relative">
       {/* Background peach glow */}
@@ -47,9 +51,9 @@ export function SolutionSection({ dict, lang }: { dict: SolutionDict; lang: stri
                     stroke="oklch(0.17 0.040 185)"
                     strokeWidth={i === 0 ? 0.8 : 0.6}
                     strokeOpacity={0.15 + (rings.length - i) * 0.04}
-                    initial={{ scale: 0, opacity: 0 }}
-                    whileInView={{ scale: 1, opacity: 1 }}
-                    viewport={{ once: true }}
+                    initial={mounted ? { scale: 0, opacity: 0 } : false}
+                    whileInView={mounted ? { scale: 1, opacity: 1 } : undefined}
+                    viewport={mounted ? { once: true, amount: 0.1 } : undefined}
                     transition={{ delay: i * 0.07, duration: 0.5, ease: "easeOut" }}
                     style={{ transformOrigin: "100px 100px" }}
                   />
@@ -61,9 +65,9 @@ export function SolutionSection({ dict, lang }: { dict: SolutionDict; lang: stri
                   r="3.5"
                   fill="oklch(0.17 0.040 185)"
                   fillOpacity="0.55"
-                  initial={{ scale: 0 }}
-                  whileInView={{ scale: 1 }}
-                  viewport={{ once: true }}
+                  initial={mounted ? { scale: 0 } : false}
+                  whileInView={mounted ? { scale: 1 } : undefined}
+                  viewport={mounted ? { once: true, amount: 0.1 } : undefined}
                   transition={{ delay: 0.7, duration: 0.4 }}
                   style={{ transformOrigin: "100px 100px" }}
                 />
@@ -95,9 +99,9 @@ export function SolutionSection({ dict, lang }: { dict: SolutionDict; lang: stri
               {/* Floating label */}
               <motion.div
                 className="absolute -bottom-6 left-1/2 -translate-x-1/2 bg-background border border-border rounded-full px-5 py-2 shadow-sm whitespace-nowrap"
-                initial={{ opacity: 0, y: 10 }}
-                whileInView={{ opacity: 1, y: 0 }}
-                viewport={{ once: true }}
+                initial={mounted ? { opacity: 0, y: 10 } : false}
+                whileInView={mounted ? { opacity: 1, y: 0 } : undefined}
+                viewport={mounted ? { once: true, amount: 0.1 } : undefined}
                 transition={{ delay: 0.9 }}
               >
                 <p className="text-xs tracking-widest uppercase font-light text-muted-foreground">

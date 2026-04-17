@@ -1,5 +1,6 @@
 "use client";
 
+import { useEffect, useState } from "react";
 import Link from "next/link";
 import { motion } from "framer-motion";
 import { buttonVariants } from "@/components/ui/button";
@@ -22,6 +23,9 @@ const features = [
 ];
 
 export function SportSection({ dict, lang }: { dict: SportDict; lang: string }) {
+  const [mounted, setMounted] = useState(false);
+  useEffect(() => setMounted(true), []);
+
   return (
     <section className="mx-4 md:mx-6 lg:mx-10 xl:mx-16 my-24 rounded-3xl overflow-hidden relative">
       {/* Dark emerald background */}
@@ -110,9 +114,9 @@ export function SportSection({ dict, lang }: { dict: SportDict; lang: string }) 
                       stroke="white"
                       strokeWidth={i === 0 ? 1 : 0.7}
                       strokeOpacity={0.08 + (9 - i) * 0.045}
-                      initial={{ scale: 0, opacity: 0 }}
-                      whileInView={{ scale: 1, opacity: 1 }}
-                      viewport={{ once: true }}
+                      initial={mounted ? { scale: 0, opacity: 0 } : false}
+                      whileInView={mounted ? { scale: 1, opacity: 1 } : undefined}
+                      viewport={mounted ? { once: true, amount: 0.1 } : undefined}
                       transition={{ delay: i * 0.06, duration: 0.5 }}
                       style={{ transformOrigin: "100px 100px" }}
                     />

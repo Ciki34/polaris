@@ -76,8 +76,8 @@
   --popover:              oklch(1 0 0);
   --popover-foreground:   oklch(0.17 0.040 185);
 
-  /* Primary — Deep Emerald #062C2B */
-  --primary:              oklch(0.17 0.040 185);
+  /* Primary — Emerald Green (sport-section match) */
+  --primary:              oklch(0.32 0.085 170);
   --primary-foreground:   oklch(0.98 0.006 62);
 
   /* Secondary — soft cream tint */

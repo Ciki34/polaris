@@ -23,11 +23,11 @@ const features = [
 ];
 
 export function SportSection({ dict, lang }: { dict: SportDict; lang: string }) {
-  const svgRef = useRef<HTMLDivElement>(null);
-  const inView = useInView(svgRef, { once: true, amount: 0 });
+  const sectionRef = useRef<HTMLElement>(null);
+  const inView = useInView(sectionRef, { once: true, amount: 0 });
 
   return (
-    <section className="mx-4 md:mx-6 lg:mx-10 xl:mx-16 my-24 rounded-3xl overflow-hidden relative">
+    <section ref={sectionRef} className="mx-4 md:mx-6 lg:mx-10 xl:mx-16 my-24 rounded-3xl overflow-hidden relative">
       {/* Dark emerald background */}
       <div
         className="absolute inset-0"
@@ -102,7 +102,7 @@ export function SportSection({ dict, lang }: { dict: SportDict; lang: string }) 
           <div className="flex flex-col items-center lg:items-end gap-8">
             {/* Sport disc visual */}
             <ScrollReveal delay={0.1} className="relative">
-              <div ref={svgRef} className="relative isolate w-52 h-52 md:w-64 md:h-64">
+              <div className="relative isolate w-52 h-52 md:w-64 md:h-64">
                 <svg viewBox="0 0 200 200" className="w-full h-full">
                   {[88, 76, 64, 52, 40, 28, 18, 10, 4].map((r, i) => (
                     <motion.circle
@@ -115,7 +115,7 @@ export function SportSection({ dict, lang }: { dict: SportDict; lang: string }) 
                       strokeWidth={i === 0 ? 1 : 0.7}
                       strokeOpacity={0.08 + (9 - i) * 0.045}
                       initial={{ scale: 0, opacity: 0 }}
-                      animate={inView ? { scale: 1, opacity: 1 } : {}}
+                      animate={inView ? { scale: 1, opacity: 1 } : { scale: 0, opacity: 0 }}
                       transition={{ delay: i * 0.06, duration: 0.5 }}
                       style={{ transformOrigin: "100px 100px" }}
                     />

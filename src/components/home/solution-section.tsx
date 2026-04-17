@@ -18,11 +18,11 @@ interface SolutionDict {
 const rings = [56, 48, 40, 32, 24, 16, 9, 4, 1];
 
 export function SolutionSection({ dict, lang }: { dict: SolutionDict; lang: string }) {
-  const svgRef = useRef<HTMLDivElement>(null);
-  const inView = useInView(svgRef, { once: true, amount: 0 });
+  const sectionRef = useRef<HTMLElement>(null);
+  const inView = useInView(sectionRef, { once: true, amount: 0 });
 
   return (
-    <section className="section-padding bg-secondary/20 border-y border-border/40 overflow-hidden relative">
+    <section ref={sectionRef} className="section-padding bg-secondary/20 border-y border-border/40 overflow-hidden relative">
       {/* Background peach glow */}
       <div
         aria-hidden
@@ -38,7 +38,7 @@ export function SolutionSection({ dict, lang }: { dict: SolutionDict; lang: stri
 
           {/* Left — Polaris disc visualisation */}
           <ScrollReveal delay={0.05} className="flex justify-center order-2 lg:order-1">
-            <div ref={svgRef} className="relative isolate w-72 h-72 md:w-80 md:h-80">
+            <div className="relative isolate w-72 h-72 md:w-80 md:h-80">
               {/* Animated rings */}
               <svg viewBox="0 0 200 200" className="w-full h-full">
                 {rings.map((r, i) => (
@@ -52,7 +52,7 @@ export function SolutionSection({ dict, lang }: { dict: SolutionDict; lang: stri
                     strokeWidth={i === 0 ? 0.8 : 0.6}
                     strokeOpacity={0.15 + (rings.length - i) * 0.04}
                     initial={{ scale: 0, opacity: 0 }}
-                    animate={inView ? { scale: 1, opacity: 1 } : {}}
+                    animate={inView ? { scale: 1, opacity: 1 } : { scale: 0, opacity: 0 }}
                     transition={{ delay: i * 0.07, duration: 0.5, ease: "easeOut" }}
                     style={{ transformOrigin: "100px 100px" }}
                   />
@@ -65,7 +65,7 @@ export function SolutionSection({ dict, lang }: { dict: SolutionDict; lang: stri
                   fill="oklch(0.17 0.040 185)"
                   fillOpacity="0.55"
                   initial={{ scale: 0 }}
-                  animate={inView ? { scale: 1 } : {}}
+                  animate={inView ? { scale: 1 } : { scale: 0 }}
                   transition={{ delay: 0.7, duration: 0.4 }}
                   style={{ transformOrigin: "100px 100px" }}
                 />
@@ -98,7 +98,7 @@ export function SolutionSection({ dict, lang }: { dict: SolutionDict; lang: stri
               <motion.div
                 className="absolute -bottom-6 left-1/2 -translate-x-1/2 bg-background border border-border rounded-full px-5 py-2 shadow-sm whitespace-nowrap"
                 initial={{ opacity: 0, y: 10 }}
-                animate={inView ? { opacity: 1, y: 0 } : {}}
+                animate={inView ? { opacity: 1, y: 0 } : { opacity: 0, y: 10 }}
                 transition={{ delay: 0.9 }}
               >
                 <p className="text-xs tracking-widest uppercase font-light text-muted-foreground">

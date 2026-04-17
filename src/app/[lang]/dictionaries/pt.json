@@ -1,339 +1,293 @@
 {
   "nav": {
-    "about": "About",
-    "products": "Products",
-    "journal": "Journal",
-    "signIn": "Sign in",
-    "getStarted": "Get Started"
+    "about": "Sobre nós",
+    "products": "Produtos",
+    "journal": "Artigos",
+    "signIn": "Entrar",
+    "getStarted": "Começar"
   },
   "hero": {
-    "badge": "Based on Nikola Tesla's Research",
-    "title": "The future of natural regeneration",
-    "titleItalic": "in your hands.",
-    "subtitle": "We are beings of electromagnetic nature. Harness the power of biophotonics and restore your body to its ideal balance. Polaris is your personal antenna for vital energy, developed on the foundations of Nikola Tesla and Georges Lakhovsky's research.",
-    "cta": "Order Your Polaris",
-    "scroll": "Explore"
+    "badge": "Baseado na pesquisa de Nikola Tesla",
+    "title": "O futuro da regeneração natural",
+    "titleItalic": "nas suas mãos.",
+    "subtitle": "Somos seres de natureza eletromagnética. Aproveite o poder da biofotônica e restaure seu corpo ao equilíbrio ideal. Polaris é sua antena pessoal de energia vital, desenvolvida sobre os fundamentos da pesquisa de Nikola Tesla e Georges Lakhovsky.",
+    "cta": "Peça o seu Polaris",
+    "scroll": "Explorar"
   },
   "strip": [
-    "Biophotonics",
-    "Tesla Principle",
-    "Vital Energy",
-    "Golden Ratio",
-    "Regeneration",
-    "Balance",
-    "Focus",
+    "Biofotônica",
+    "Princípio Tesla",
+    "Energia vital",
+    "Proporção áurea",
+    "Regeneração",
+    "Equilíbrio",
+    "Foco",
     "Natural"
   ],
   "novak": {
-    "eyebrow": "Global Recognition",
-    "title": "A champion's standard.",
-    "body": "When you push the boundaries of human performance, recovery matters as much as training. Novak Djokovic, the greatest athlete of all time, uses Polaris as an essential part of his daily protocol for maintaining focus, inner peace, and physical regeneration.",
-    "quote": "One of the 10 things I never go anywhere without.",
+    "eyebrow": "Reconhecimento global",
+    "title": "O padrão de um campeão.",
+    "body": "Quando você ultrapassa os limites do desempenho humano, a recuperação importa tanto quanto o treino. Novak Djokovic, o maior atleta de todos os tempos, usa o Polaris como parte essencial do seu protocolo diário para manter o foco, a paz interior e a regeneração física.",
+    "quote": "Uma das 10 coisas com as quais nunca vou a lugar nenhum.",
     "attribution": "Novak Djokovic",
-    "videoLabel": "Watch the video"
+    "videoLabel": "Assistir ao vídeo"
   },
   "problem": {
-    "eyebrow": "Do you recognize yourself?",
-    "title": "Where does your body",
-    "titleItalic": "lose its strength?",
+    "eyebrow": "Você se reconhece?",
+    "title": "Onde seu corpo",
+    "titleItalic": "perde a força?",
     "cards": [
       {
         "number": "01",
-        "title": "Chronic fatigue",
-        "body": "Waking up exhausted despite 'enough' sleep? Your cells aren't getting sufficient energy for regeneration during the night."
+        "title": "Fadiga crónica",
+        "body": "Você acorda exausto apesar de dormir o 'suficiente'? Suas células não recebem energia suficiente para a regeneração noturna."
       },
       {
         "number": "02",
-        "title": "Persistent pain",
-        "body": "Whether it's your spine, joints, or muscles, pain is a clear signal of blocked energy flow. Polaris opens those channels."
+        "title": "Dor persistente",
+        "body": "Seja na coluna, articulações ou músculos, a dor é um sinal claro de bloqueio energético. O Polaris abre esses canais."
       },
       {
         "number": "03",
-        "title": "Stress and pressure",
-        "body": "We live in a sea of artificial frequencies. Polaris neutralizes harmful environmental influences and restores peaceful sleep and sharp focus."
+        "title": "Estresse e pressão",
+        "body": "Vivemos num mar de frequências artificiais. O Polaris neutraliza as influências eletromagnéticas prejudiciais e restaura o sono tranquilo e o foco nítido."
       }
     ]
   },
   "solution": {
-    "eyebrow": "What is Polaris",
-    "title": "Not magic.",
-    "titleItalic": "It's physics.",
-    "body": "Polaris is not a remedy in the classical sense – it is a bio-antenna. Made from a special metal alloy, with nine rings precisely tuned to the Golden Ratio (Phi), it passively focuses vital energy from the environment and directs it into your body.",
-    "cta": "Learn more about the science"
+    "eyebrow": "O que é o Polaris",
+    "title": "Não é magia.",
+    "titleItalic": "É física.",
+    "body": "O Polaris não é um remédio no sentido clássico — é uma bio-antena. Fabricado com uma liga metálica especial, com nove anéis precisamente sintonizados à Proporção Áurea (Phi), captura passivamente a energia vital do ambiente e a direciona para o seu corpo.",
+    "cta": "Saiba mais sobre a ciência"
   },
   "sport": {
-    "eyebrow": "For professionals",
-    "title": "Power for extreme challenges.",
-    "body": "Polaris Sport is not just a bigger disc – it's a more intense energy source. Designed for professional athletes who want faster tissue recovery after exertion. Accelerates toxin drainage, reduces inflammation, and restores muscle elasticity.",
-    "cta": "Explore Polaris Sport",
-    "badge": "New"
+    "eyebrow": "Para profissionais",
+    "title": "Potência para desafios extremos.",
+    "body": "O Polaris Sport não é apenas um disco maior — é uma fonte de energia mais intensa. Projetado para atletas profissionais que desejam uma recuperação tecidual mais rápida após o esforço. Acelera a drenagem de toxinas, reduz a inflamação e restaura a elasticidade muscular.",
+    "cta": "Explorar Polaris Sport",
+    "badge": "Novo"
   },
   "testimonials": {
-    "eyebrow": "User experiences",
-    "title": "What do",
-    "titleItalic": "users say?",
+    "eyebrow": "Experiências de utilizadores",
+    "title": "O que dizem",
+    "titleItalic": "os utilizadores?",
     "items": [
       {
-        "quote": "The back pain that had been bothering me for years disappeared in three days. I couldn't believe it.",
+        "quote": "A dor nas costas que me incomodava há anos desapareceu em três dias. Não conseguia acreditar.",
         "author": "Milena K.",
-        "location": "Belgrade"
+        "location": "Belgrado"
       },
       {
-        "quote": "I finally sleep through the night. I woke up rested this morning for the first time in months.",
+        "quote": "Finalmente durmo a noite toda. Acordei descansado esta manhã pela primeira vez em meses.",
         "author": "Dragan P.",
         "location": "Novi Sad"
       },
       {
-        "quote": "As a professional athlete, recovery is everything. Polaris has changed my training protocol.",
+        "quote": "Como atleta profissional, a recuperação é tudo. O Polaris mudou o meu protocolo de treino.",
         "author": "Aleksandar M.",
-        "location": "Nis"
+        "location": "Niš"
       },
       {
-        "quote": "My focus and concentration have dramatically improved. I recommend it to everyone.",
+        "quote": "O meu foco e concentração melhoraram drasticamente. Recomendo a todos.",
         "author": "Jelena T.",
         "location": "Subotica"
       }
     ]
   },
   "finalCta": {
-    "eyebrow": "Start today",
-    "title": "Begin your",
-    "titleItalic": "transformation today.",
-    "subtitle": "Join thousands who have already discovered the difference.",
-    "cta": "Go to the shop"
-  },
-  "footer": {
-    "tagline": "Rooted in physics. Directed towards you.",
-    "copyright": "All rights reserved.",
-    "sections": {
-      "company": "Company",
-      "products": "Products",
-      "support": "Support"
-    },
-    "links": {
-      "about": "About",
-      "journal": "Journal",
-      "careers": "Careers",
-      "allProducts": "All Products",
-      "collections": "Collections",
-      "giftSets": "Gift Sets",
-      "faq": "FAQ",
-      "contact": "Contact",
-      "shipping": "Shipping",
-      "privacy": "Privacy",
-      "terms": "Terms",
-      "cookies": "Cookies"
-    }
+    "eyebrow": "Comece hoje",
+    "title": "Inicie a sua",
+    "titleItalic": "transformação hoje.",
+    "subtitle": "Junte-se a milhares que já descobriram a diferença.",
+    "cta": "Ir para a loja"
   },
   "howToUse": {
     "pageHero": {
-      "eyebrow": "Application Protocol",
-      "title": "Your guide to",
-      "titleItalic": "vital regeneration.",
-      "subtitle": "Polaris operates on the principle of passive bio-resonance. No electricity, no setup — just place it and let physics do the work."
+      "eyebrow": "Protocolo de aplicação",
+      "title": "O seu guia para a",
+      "titleItalic": "regeneração vital.",
+      "subtitle": "O Polaris funciona com base no princípio da bio-ressonância passiva. Sem eletricidade, sem configuração — basta colocá-lo e deixar a física fazer o trabalho."
     },
     "mapSection": {
-      "eyebrow": "Interactive Body Map",
-      "title": "Select an application area",
-      "subtitle": "Click on one of the seven energy points to see the detailed protocol and benefits.",
-      "mobileHint": "Tap a point for details",
-      "durationLabel": "Application time",
-      "positionLabel": "Position",
+      "eyebrow": "Mapa corporal interativo",
+      "title": "Selecione uma área de aplicação",
+      "subtitle": "Clique num dos sete pontos de energia para ver o protocolo detalhado e os benefícios.",
+      "mobileHint": "Toque num ponto para detalhes",
+      "durationLabel": "Tempo de aplicação",
+      "positionLabel": "Posição",
       "warningNote": "Estritamente 2–3 minutos. Menos para idosos e crianças.",
       "indicationsLabel": "Indicações",
       "noteLabel": "Nota",
-      "localDurationNote": "Locais específicos: 10–20 min, 2–3 vezes por dia"
+      "localDurationNote": "Pontos locais: 10–20 min, 2–3 vezes ao dia"
     },
     "points": [
       {
         "id": 1,
-        "name": "Root / First Chakra",
-        "title": "Foundation of vitality and toxin elimination.",
-        "benefits": "Support for urological health, relief from hemorrhoids and prostate issues. Strengthens core life energy and bodily stability.",
-        "duration": "10–15 minutes",
-        "position": "Seated position or placed directly on the area",
+        "name": "Base / Primeiro Chakra",
+        "title": "Fundamento da vitalidade e eliminação de toxinas.",
+        "benefits": "Apoia a saúde urológica, ajuda com hemorroidas e problemas de próstata. Fortalece a energia vital central e a estabilidade corporal.",
+        "duration": "5–10 minutos",
+        "position": "Posição sentada ou diretamente sobre a região",
         "warning": false,
-        "indications": [
-          "Infecções anais",
-          "Prurido vaginal",
-          "Inflamação urinária",
-          "Hemorroidas",
-          "Impotência",
-          "Hipertrofia prostática"
-        ],
+        "indications": ["Infeções anais", "Prurido vaginal", "Inflamação do canal urinário", "Hemorroidas", "Impotência", "Hipertrofia da próstata"],
         "note": ""
       },
       {
         "id": 2,
-        "name": "Sacral / Second Chakra",
-        "title": "Center of hormonal balance.",
-        "benefits": "Key point for gynecological health, menstrual cycle regulation, and fertility. Helps with urinary complaints and intestinal bloating.",
-        "duration": "5–10 minutes",
-        "position": "Lying down, disc on lower abdomen",
+        "name": "Abdómen inferior / Segundo Chakra",
+        "title": "Centro do equilíbrio hormonal.",
+        "benefits": "Ponto-chave para a saúde ginecológica, regulação do ciclo menstrual e fertilidade. Ajuda com queixas urinárias e problemas intestinais.",
+        "duration": "5–10 minutos",
+        "position": "Deitado, disco sobre o abdómen inferior",
         "warning": false,
-        "indications": [
-          "Esterilidade",
-          "Lombalgia",
-          "Fraqueza geral",
-          "Problemas renais",
-          "Obstipação",
-          "Diarreia"
-        ],
+        "indications": ["Esterilidade", "Lumbago", "Fraqueza geral", "Problemas renais", "Obstipação", "Diarreia"],
         "note": ""
       },
       {
         "id": 3,
-        "name": "Solar Plexus / Third Chakra",
-        "title": "Main reservoir of inner peace.",
-        "benefits": "Immediately calms the stomach, regulates digestion and stress. Highly effective point for naturally lowering elevated blood pressure.",
-        "duration": "10–15 minutes",
-        "position": "Disc above the stomach, lightly pressed",
+        "name": "Plexo Solar / Terceiro Chakra",
+        "title": "Principal reservatório de paz interior.",
+        "benefits": "Acalma instantaneamente o estômago, regula a digestão e controla o estresse. Excepcionalmente eficaz para baixar naturalmente a pressão arterial elevada.",
+        "duration": "5–10 minutos",
+        "position": "Disco sobre o estômago, levemente pressionado",
         "warning": false,
-        "indications": [
-          "Gastrite",
-          "Úlcera",
-          "Náuseas",
-          "Pressão alta",
-          "Depressão",
-          "Ansiedade",
-          "Palpitações"
-        ],
+        "indications": ["Gastrite", "Úlcera", "Náuseas", "Pressão arterial alta", "Depressão", "Ansiedade", "Palpitações cardíacas"],
         "note": ""
       },
       {
         "id": 4,
-        "name": "Heart / Fourth Chakra",
-        "title": "Center of emotional balance and breath.",
-        "benefits": "Support for heart and lung function. Helps with asthma, bronchitis, and feelings of tightness in the chest.",
-        "duration": "5–10 minutes",
-        "position": "On the middle of the sternum",
+        "name": "Coração / Quarto Chakra",
+        "title": "Centro do equilíbrio emocional e da respiração.",
+        "benefits": "Apoia a função cardíaca e pulmonar. Ajuda com asma, bronquite e sensação de aperto no peito.",
+        "duration": "5–10 minutos",
+        "position": "No centro do esterno",
         "warning": false,
-        "indications": [
-          "Asma",
-          "Bronquite",
-          "Dor mamária",
-          "Problemas cardíacos"
-        ],
+        "indications": ["Asma", "Bronquite", "Dor no peito", "Problemas cardíacos"],
         "note": ""
       },
       {
         "id": 5,
-        "name": "Throat / Fifth Chakra",
-        "title": "Conductor of metabolism and rejuvenation.",
-        "benefits": "Essential point for thyroid health. Stimulates detoxification and slows the aging processes of the body.",
-        "duration": "5–10 minutes",
-        "position": "At the base of the neck, light pressure",
+        "name": "Garganta / Quinto Chakra",
+        "title": "Diretor do metabolismo e do rejuvenescimento.",
+        "benefits": "Ponto essencial para a saúde da tiroide. Estimula a desintoxicação e abranda os processos de envelhecimento do corpo.",
+        "duration": "5–10 minutos",
+        "position": "Na base do pescoço, pressão leve",
         "warning": false,
-        "indications": [
-          "Doença de Hashimoto",
-          "Tireoidite",
-          "Inflamação da garganta",
-          "Problemas gengivais"
-        ],
-        "note": "A tiroide é o maestro do organismo – tratar também para uma aparência jovem."
+        "indications": ["Doença de Hashimoto", "Tiroidite", "Inflamação da garganta", "Problemas nas gengivas"],
+        "note": "A tiroide é o maestro do corpo — trate-a também para uma aparência jovem."
       },
       {
         "id": 6,
-        "name": "Third Eye / Sixth Chakra",
-        "title": "Focus, intuition, and mental clarity.",
-        "benefits": "Relieves headaches and sinusitis. Prepares the brain for deep and regenerative sleep.",
-        "duration": "Maximum 2–3 minutes",
-        "position": "On the center of the forehead — shorter exposure!",
+        "name": "Testa / Sexto Chakra",
+        "title": "Foco, intuição e clareza mental.",
+        "benefits": "Alivia a sinusite, tonturas e perturbações visuais. Prepara o cérebro para um sono profundo e regenerador.",
+        "duration": "Estritamente 2–3 minutos (menos para idosos)",
+        "position": "No centro da testa — exposição curta!",
         "warning": true,
-        "indications": [
-          "Sinusite",
-          "Tonturas",
-          "Distúrbios oculares"
-        ],
+        "indications": ["Sinusite", "Tonturas", "Perturbações visuais"],
         "note": ""
       },
       {
         "id": 7,
-        "name": "Crown / Seventh Chakra",
-        "title": "Harmonization of the entire nervous system.",
-        "benefits": "Helps with severe insomnia, cerebral disorders, and general disorientation. Restores the sense of unity with the body.",
-        "duration": "Maximum 2–3 minutes",
-        "position": "On the top of the head — shorter exposure!",
+        "name": "Coroa / Sétimo Chakra",
+        "title": "Harmonização de todo o sistema nervoso.",
+        "benefits": "Ajuda com insónia grave, perturbações cerebrais, espasmos e contraturas. Restaura o sentido de unidade com o corpo.",
+        "duration": "Estritamente 2–3 minutos (menos para idosos)",
+        "position": "No topo da cabeça — exposição curta!",
         "warning": true,
-        "indications": [
-          "Insônia",
-          "Distúrbios cerebrais",
-          "Espasmos",
-          "Contraturas"
-        ],
+        "indications": ["Insónia", "Perturbações cerebrais", "Espasmos", "Contraturas"],
         "note": ""
       }
     ],
     "extras": {
-      "eyebrow": "Additional Uses",
-      "title": "More than body",
-      "titleItalic": "therapy.",
+      "eyebrow": "Usos adicionais",
+      "title": "Mais do que terapia",
+      "titleItalic": "corporal.",
       "items": [
         {
           "id": "water",
-          "title": "Energizing water and food",
-          "body": "Place a jug of water or a dish of food on Polaris for 30 minutes. The disc transforms the molecular structure, making water 'alive' and more easily digestible.",
+          "title": "Energização de água e alimentos",
+          "body": "Coloque um jarro de água ou um prato de comida sobre o Polaris durante 30 minutos. O disco transforma a estrutura molecular, tornando a água 'viva' e mais facilmente digerível.",
           "stat": "30 min"
         },
         {
           "id": "plants",
-          "title": "Plants and pets",
-          "body": "Animals infallibly sense good energy. Plants watered with energized water grow up to 30% faster with noticeably greater leaf vitality.",
-          "stat": "+30% growth"
+          "title": "Plantas e animais de estimação",
+          "body": "Os animais percepcionam infalívelmente a boa energia. As plantas regadas com água energizada crescem até 30% mais rápido com uma vitalidade foliar visivelmente maior.",
+          "stat": "+30% crescimento"
         },
         {
           "id": "space",
-          "title": "Space cleansing",
-          "body": "Keep the disc in the room you spend the most time in to neutralize harmful electromagnetic radiation (EMF) and negative environmental influences.",
-          "stat": "EMF protection"
+          "title": "Purificação do espaço",
+          "body": "Mantenha o disco no quarto onde passa mais tempo para neutralizar a radiação eletromagnética prejudicial (EMF) e as influências ambientais negativas.",
+          "stat": "Proteção EMF"
         },
         {
           "id": "obesity",
           "title": "Obesidade e metabolismo",
-          "body": "O tratamento do centro abdominal e do 5.º chakra (garganta) acelera o metabolismo. Usar 2–3 vezes por dia para uma ativação metabólica ideal.",
+          "body": "O tratamento do centro abdominal e do 5.º chakra (garganta) acelera o metabolismo. Use 2–3 vezes por dia para uma ativação metabólica ótima.",
           "stat": "2–3× por dia"
         },
         {
           "id": "circulation",
           "title": "Circulação",
-          "body": "Coloque as plantas dos pés sobre o disco Polaris durante 10–15 minutos. Estimula a circulação periférica em todo o corpo, dos pés à cabeça.",
+          "body": "Fique de pé com as plantas dos pés sobre o disco Polaris durante 10–15 minutos. Estimula a circulação periférica em todo o corpo, dos pés à cabeça.",
           "stat": "10–15 min"
         },
         {
           "id": "stress",
-          "title": "Neutralização do stress",
-          "body": "Coloque ambas as palmas sobre o disco ou o disco sobre o terceiro chakra (plexo solar). Acalma instantaneamente o sistema nervoso e regula a pressão arterial.",
-          "stat": "Imediato"
+          "title": "Neutralização do estresse",
+          "body": "Coloque ambas as palmas sobre o disco, ou coloque o disco no terceiro chakra (plexo solar). Acalma instantaneamente o sistema nervoso e regula a pressão arterial.",
+          "stat": "Instantâneo"
         }
       ]
     },
     "alert": {
       "title": "Aviso importante",
-      "body": "Podem ocorrer sensações como aumento da dor, formigamento ou calor. Este é um sinal de que o organismo está a começar a corrigir o distúrbio. Não se preocupe, as sensações desaparecerão à medida que o problema for resolvido."
+      "body": "Pode sentir sensações como aumento da dor, formigueiro ou calor. É um sinal de que o corpo está a começar a corrigir o distúrbio. Não se preocupe — as sensações desaparecerão à medida que o problema se resolver."
+    }
+  },
+  "footer": {
+    "tagline": "Enraizado na física. Dirigido a si.",
+    "copyright": "Todos os direitos reservados.",
+    "sections": {
+      "company": "Empresa",
+      "products": "Produtos",
+      "support": "Suporte"
+    },
+    "links": {
+      "about": "Sobre nós",
+      "journal": "Artigos",
+      "careers": "Emprego",
+      "allProducts": "Todos os produtos",
+      "collections": "Coleções",
+      "giftSets": "Conjuntos de presente",
+      "faq": "FAQ",
+      "contact": "Contacto",
+      "shipping": "Envios",
+      "privacy": "Privacidade",
+      "terms": "Termos",
+      "cookies": "Cookies"
     }
   },
   "shop": {
-    "eyebrow": "Polaris shop",
-    "title": "Choose your",
+    "eyebrow": "Loja Polaris",
+    "title": "Escolha o seu",
     "titleItalic": "Polaris.",
-    "subtitle": "Home delivery. Payment on delivery.",
+    "subtitle": "Entrega ao domicílio. Pagamento na entrega.",
     "currency": "EUR",
     "currencySymbol": "€",
     "shippingCost": 4,
     "products": [
       {
         "id": "classic",
-        "name": "Polaris Disc",
-        "badge": "Classic",
+        "name": "Disco Polaris",
+        "badge": "Clássico",
         "price": 39,
         "priceLabel": "€39",
-        "description": "Your everyday tool for balance. Ideal for chakras, local pain, and water energization. Duration: Unlimited.",
-        "features": [
-          "Ideal for everyday use",
-          "All 7 chakras and local pain",
-          "Water and food energization",
-          "Duration: Unlimited"
-        ]
+        "description": "A sua ferramenta diária para o equilíbrio. Ideal para chakras, dor local e energização da água. Duração: Ilimitada.",
+        "features": ["Ideal para uso diário", "Os 7 chakras e dor local", "Energização de água e alimentos", "Duração: Ilimitada"]
       },
       {
         "id": "sport",
@@ -341,147 +295,115 @@
         "badge": "Pro",
         "price": 99,
         "priceLabel": "€99",
-        "description": "Amplified power for athletes and treating large spaces. Maximum tissue regeneration and EMF protection.",
-        "features": [
-          "For professional athletes",
-          "Treating large spaces",
-          "Maximum tissue regeneration",
-          "EMF protection and detox"
-        ]
+        "description": "Potência amplificada para atletas e tratamento de grandes espaços. Máxima regeneração tecidual e proteção EMF.",
+        "features": ["Para atletas profissionais", "Tratamento de grandes espaços", "Máxima regeneração tecidual", "Proteção EMF e detox"]
       }
     ],
-    "addToCart": "Add",
-    "qty": "pcs",
-    "orderButton": "Order",
-    "emptyCart": "Add a product to your cart to continue",
+    "addToCart": "Adicionar",
+    "qty": "un",
+    "orderButton": "Pedir",
+    "emptyCart": "Adicione um produto ao seu carrinho para continuar",
     "checkout": {
-      "title": "Your order",
-      "steps": [
-        "Details",
-        "Delivery",
-        "Review"
-      ],
-      "step1Title": "Customer details",
-      "step2Title": "Delivery address",
-      "step3Title": "Order review",
+      "title": "O seu pedido",
+      "steps": ["Dados", "Entrega", "Revisão"],
+      "step1Title": "Dados do cliente",
+      "step2Title": "Endereço de entrega",
+      "step3Title": "Revisão do pedido",
       "fields": {
-        "fullName": "Full name",
-        "email": "Email address",
-        "phone": "Phone number",
-        "city": "City",
-        "address": "Street and number",
-        "postcode": "Postal code"
+        "fullName": "Nome completo",
+        "email": "Endereço de e-mail",
+        "phone": "Número de telefone",
+        "city": "Cidade",
+        "address": "Rua e número",
+        "postcode": "Código postal"
       },
       "placeholders": {
-        "fullName": "e.g. John Smith",
-        "email": "john@email.com",
-        "phone": "+44 7911 123456",
-        "city": "e.g. London",
-        "address": "e.g. 10 Downing Street",
-        "postcode": "SW1A 2AA"
+        "fullName": "ex. João Silva",
+        "email": "joao@email.com",
+        "phone": "+351 900 123 456",
+        "city": "ex. Lisboa",
+        "address": "ex. Rua Augusta 1",
+        "postcode": "1100-048"
       },
-      "required": "Required field",
-      "subtotal": "Products subtotal",
-      "shipping": "Shipping",
+      "required": "Campo obrigatório",
+      "subtotal": "Subtotal de produtos",
+      "shipping": "Envio",
       "total": "Total",
-      "codNote": "Cash on delivery · No prepayment",
-      "back": "Back",
-      "next": "Next step",
-      "confirm": "Confirm order",
-      "processing": "Processing...",
+      "codNote": "Pagamento na entrega · Sem pré-pagamento",
+      "back": "Voltar",
+      "next": "Próximo passo",
+      "confirm": "Confirmar pedido",
+      "processing": "A processar...",
       "success": {
-        "title": "Order received!",
-        "body": "Thank you! We will contact you within 24h at the provided phone number.",
-        "cta": "Back to home"
+        "title": "Pedido recebido!",
+        "body": "Obrigado! Entraremos em contacto consigo em 24h no número de telefone fornecido.",
+        "cta": "Voltar ao início"
       },
-      "error": "An error occurred. Please try again."
+      "error": "Ocorreu um erro. Por favor, tente novamente."
     }
   },
   "aboutPage": {
     "pageHero": {
-      "eyebrow": "The Science of Polaris",
-      "title": "What is",
-      "titleItalic": "Polaris?",
-      "subtitle": "The answer is not in magic. The answer is in physics."
+      "eyebrow": "A ciência do Polaris",
+      "title": "O que é",
+      "titleItalic": "o Polaris?",
+      "subtitle": "A resposta não está na magia. A resposta está na física."
     },
     "science": {
-      "eyebrow": "Our electromagnetic nature",
-      "title": "A return to the fundamentals of electromagnetic nature.",
-      "body": "We are electromagnetic beings. Every cell in your body emits and receives electromagnetic signals — this is the language your organs use to communicate. When that flow stops, imbalance manifests as pain, fatigue, and illness. Polaris is here to re-establish that connection, passively and without chemistry.",
-      "stat1": {
-        "value": "7.83 Hz",
-        "label": "Earth's Schumann Resonance"
-      },
-      "stat2": {
-        "value": "Φ 1.618",
-        "label": "Nature's Golden Ratio"
-      },
-      "stat3": {
-        "value": "100 μV",
-        "label": "Bioelectric cell potential"
-      }
+      "eyebrow": "A nossa natureza eletromagnética",
+      "title": "Um regresso aos fundamentos da natureza eletromagnética.",
+      "body": "Somos seres eletromagnéticos. Cada célula do seu corpo emite e recebe sinais eletromagnéticos — esta é a linguagem que os seus órgãos usam para comunicar. Quando esse fluxo para, o desequilíbrio manifesta-se como dor, fadiga e doença. O Polaris está aqui para restabelecer essa ligação, de forma passiva e sem química.",
+      "stat1": { "value": "7.83 Hz", "label": "Ressonância Schumann da Terra" },
+      "stat2": { "value": "Φ 1.618", "label": "Proporção Áurea da natureza" },
+      "stat3": { "value": "100 μV", "label": "Potencial bioelétrico celular" }
     },
     "mechanism": {
-      "eyebrow": "The Antenna Principle",
-      "title": "Nine rings.",
-      "titleItalic": "One purpose.",
-      "body": "The nine rings of Polaris, crafted from a special alloy and precisely tuned to the Golden Ratio (Phi = 1.618...), act as a passive bio-antenna. Like a lens focusing scattered light into a point, Polaris collects vital energy (Prana/Qi) from the environment and directs it into your cells.",
-      "detail1": {
-        "label": "9 rings",
-        "body": "Each ring proportionally smaller by the Phi ratio, creating a perfect harmonic series."
-      },
-      "detail2": {
-        "label": "Passive technology",
-        "body": "No batteries, no electricity, no radiation. Only geometry and alloy."
-      },
-      "detail3": {
-        "label": "Metal alloy",
-        "body": "A special combination of metals optimized for bioelectromagnetic resonance."
-      }
+      "eyebrow": "O princípio da antena",
+      "title": "Nove anéis.",
+      "titleItalic": "Um propósito.",
+      "body": "Os nove anéis do Polaris, fabricados com uma liga especial e precisamente sintonizados à Proporção Áurea (Phi = 1.618...), atuam como uma bio-antena passiva. Como uma lente que foca a luz dispersa num ponto, o Polaris recolhe a energia vital (Prana/Qi) do ambiente e direciona-a para as suas células.",
+      "detail1": { "label": "9 anéis", "body": "Cada anel proporcionalmente mais pequeno segundo a relação Phi, criando uma série harmónica perfeita." },
+      "detail2": { "label": "Tecnologia passiva", "body": "Sem baterias, sem eletricidade, sem radiação. Apenas geometria e liga metálica." },
+      "detail3": { "label": "Liga metálica", "body": "Uma combinação especial de metais otimizada para a ressonância bioeletromagnética." }
     },
     "heritage": {
-      "eyebrow": "Standing on the shoulders of giants",
-      "title": "The legacy of",
-      "titleItalic": "the greats.",
-      "intro": "Polaris was not born in a vacuum. It stands on the foundations laid by two visionaries whose work was far ahead of their time.",
-      "conceptTitle": "Cells as oscillating circuits",
-      "conceptBody": "In 1925, Lakhovsky put forward a revolutionary thesis: every living cell functions as a small oscillating circuit. When a cell is healthy, it oscillates at its natural frequency. Polaris helps return cells to that optimal frequency.",
+      "eyebrow": "Nos ombros de gigantes",
+      "title": "O legado dos",
+      "titleItalic": "grandes.",
+      "intro": "O Polaris não nasceu no vácuo. Assenta sobre as fundações estabelecidas por dois visionários cujo trabalho estava muito à frente do seu tempo.",
+      "conceptTitle": "As células como circuitos oscilantes",
+      "conceptBody": "Em 1925, Lakhovsky apresentou uma tese revolucionária: cada célula viva funciona como um pequeno circuito oscilante. Quando uma célula está saudável, oscila na sua frequência natural. O Polaris ajuda a devolver as células a essa frequência ótima.",
       "people": [
         {
           "name": "Nikola Tesla",
           "years": "1856 – 1943",
-          "role": "Visionary of electrical resonance",
-          "contribution": "Tesla systematically explored resonance as a fundamental force of nature. He understood that every object has its own natural frequency and that energy can be transmitted without wires.",
-          "quote": "If you want to find the secrets of the universe, think in terms of energy, frequency and vibration."
+          "role": "Visionário da ressonância elétrica",
+          "contribution": "Tesla explorou sistematicamente a ressonância como uma força fundamental da natureza. Compreendeu que cada objeto tem a sua própria frequência natural e que a energia pode ser transmitida sem fios.",
+          "quote": "Se quer encontrar os segredos do universo, pense em termos de energia, frequência e vibração."
         },
         {
           "name": "Georges Lakhovsky",
           "years": "1869 – 1942",
-          "role": "Father of oscillating circuits",
-          "contribution": "A French engineer of Russian origin who revolutionized the understanding of biology. Author of The Secret of Life, describing his theory that all living cells are oscillating circuits.",
-          "quote": "Every living cell is like a small radio transmitter and receiver that constantly emits and receives waves."
+          "role": "Pai dos circuitos oscilantes",
+          "contribution": "Engenheiro francês de origem russa que revolucionou a compreensão da biologia. Autor de O Segredo da Vida, descrevendo a sua teoria de que todas as células vivas são circuitos oscilantes.",
+          "quote": "Cada célula viva é como um pequeno transmissor e recetor de rádio que emite e recebe constantemente ondas."
         }
       ]
     },
     "expert": {
-      "eyebrow": "Expert perspective",
+      "eyebrow": "Perspetiva especializada",
       "name": "Dr. Dino Tomić",
-      "role": "Gynecologist · Bioenergetics specialist · Founder of Polaris",
-      "title": "From classical gynecology to quantum harmony.",
-      "body": "After twenty years as a specialist gynecologist, Dr. Tomić began to notice what medical literature does not say: many chronic health problems had no structural cause that conventional medicine could solve. This led him to research bioenergetics, quantum biology and electromagnetic therapies.",
-      "body2": "Polaris is not a medicine. It is a tool I designed to give patients back what has always belonged to them — the power of self-healing.",
-      "quote": "I did not abandon medicine. I expanded it. Polaris allows the patient to become an active participant in their own healing, rather than a passive recipient of therapy.",
-      "credentials": [
-        "Specialist in gynecology",
-        "20+ years of clinical practice",
-        "Bioenergetics researcher",
-        "Mentor and lecturer"
-      ]
+      "role": "Ginecologista · Especialista em bioenergética · Fundador do Polaris",
+      "title": "Da ginecologia clássica à harmonia quântica.",
+      "body": "Após vinte anos como ginecologista especialista, o Dr. Tomić começou a notar o que a literatura médica não diz: muitos problemas crónicos de saúde não tinham causa estrutural que a medicina convencional pudesse resolver. Isto levou-o a investigar a bioenergética, a biologia quântica e as terapias eletromagnéticas.",
+      "body2": "O Polaris não é um medicamento. É uma ferramenta que concebi para devolver aos pacientes o que sempre lhes pertenceu — o poder de autocura.",
+      "quote": "Não abandonei a medicina. Expandi-a. O Polaris permite que o paciente se torne um participante ativo na sua própria cura, em vez de um recetor passivo de terapia.",
+      "credentials": ["Especialista em ginecologia", "Mais de 20 anos de prática clínica", "Investigador em bioenergética", "Mentor e conferencista"]
     }
   },
   "testimonialsPage": {
     "pageHero": {
-      "eyebrow": "Experiências dos utilizadores",
+      "eyebrow": "Experiências de utilizadores",
       "title": "Histórias reais.",
       "titleItalic": "Resultados reais.",
       "subtitle": "Milhares de utilizadores satisfeitos. Estes são alguns dos seus testemunhos originais."
@@ -489,127 +411,127 @@
     "filters": {
       "sve": "Todos",
       "bol": "Dor",
-      "stit": "Tireoide e hormônios",
-      "spavanje": "Sono e estresse",
-      "varenje": "Digestão e órgãos",
-      "deca": "Crianças e animais"
+      "stit": "Tiroide e Hormonas",
+      "spavanje": "Sono e Estresse",
+      "varenje": "Digestão e Órgãos",
+      "deca": "Crianças e Animais"
     },
     "items": [
       {
         "id": "dragan-m",
         "type": "text",
         "category": "bol",
-        "hook": "Back pain gone in 3 days",
-        "quote": "Back pain that had been bothering me for years disappeared in just three days. I couldn't believe it. The third morning I woke up without pain for the first time in ten years.",
+        "hook": "Dor nas costas desapareceu em 3 dias",
+        "quote": "A dor nas costas que me incomodava há anos desapareceu em apenas três dias. Não conseguia acreditar. Na terceira manhã acordei sem dor pela primeira vez em dez anos.",
         "author": "Dragan M.",
         "profession": "",
-        "location": "Belgrade",
+        "location": "Belgrado",
         "verified": true,
-        "duration": "User for 3 months"
+        "duration": "Utilizador há 3 meses"
       },
       {
         "id": "jelena-s",
         "type": "text",
         "category": "spavanje",
-        "hook": "Finally sleeping through the night — no more sleeping pills",
-        "quote": "I finally sleep through the night. I wake up rested and full of energy. Before Polaris, I was taking sleeping pills almost every night. I haven't touched them in a month and a half.",
+        "hook": "Finalmente durmo a noite toda — sem comprimidos para dormir",
+        "quote": "Finalmente durmo a noite toda. Acordo descansado e cheio de energia. Antes do Polaris, tomava comprimidos para dormir quase todas as noites. Há mês e meio que não os toco.",
         "author": "Jelena S.",
         "profession": "",
         "location": "Novi Sad",
         "verified": true,
-        "duration": "User for 2 months"
+        "duration": "Utilizador há 2 meses"
       },
       {
         "id": "marko-p",
         "type": "text",
         "category": "stit",
-        "hook": "Thyroid improved — endocrinologist noticed the difference",
-        "quote": "My thyroid had been a problem for years. After applying to the throat chakra, my endocrinologist noticed improvement. I feel more vital than in my twenties.",
+        "hook": "Tiroide melhorou — endocrinologista notou a diferença",
+        "quote": "A minha tiroide tinha sido um problema durante anos. Após aplicar no chakra da garganta, o meu endocrinologista notou melhoria. Sinto-me mais vital do que nos meus vintes.",
         "author": "Nevena R.",
         "profession": "",
         "location": "Kragujevac",
         "verified": true,
-        "duration": "User for 6 months"
+        "duration": "Utilizador há 6 meses"
       },
       {
         "id": "mirjana-t",
         "type": "text",
         "category": "spavanje",
-        "hook": "Insomnia at 67 — Polaris proved doctors wrong",
-        "quote": "I am 67 years old and suffered from insomnia for years. Doctors kept telling me it was normal for my age. Polaris proved that it doesn't have to be.",
+        "hook": "Insónia aos 67 — Polaris provou que os médicos estavam errados",
+        "quote": "Tenho 67 anos e sofri de insónia durante anos. Os médicos continuavam a dizer-me que era normal para a minha idade. O Polaris provou que não tem de ser assim.",
         "author": "Mirjana T.",
         "profession": "",
         "location": "Kragujevac",
         "verified": true,
-        "duration": "User for 2 months"
+        "duration": "Utilizador há 2 meses"
       }
     ]
   },
   "contactPage": {
     "pageHero": {
-      "eyebrow": "Support & Contact",
-      "title": "We're here",
-      "titleItalic": "for you.",
-      "subtitle": "Have a question? Write to us or browse the FAQ below."
+      "eyebrow": "Suporte e contacto",
+      "title": "Estamos aqui",
+      "titleItalic": "para si.",
+      "subtitle": "Tem alguma dúvida? Escreva-nos ou consulte as perguntas frequentes abaixo."
     },
     "faq": {
-      "eyebrow": "Frequently asked questions",
-      "title": "Everything you need to know.",
+      "eyebrow": "Perguntas frequentes",
+      "title": "Tudo o que precisa de saber.",
       "items": [
         {
           "id": "batteries",
-          "question": "Does Polaris have batteries or electrical power?",
-          "answer": "No. Polaris is a completely passive device — no batteries, no cables, no electrical power of any kind. It works solely through the geometry and metal alloy it is made from, with no external energy source."
+          "question": "O Polaris tem baterias ou alimentação elétrica?",
+          "answer": "Não. O Polaris é um dispositivo completamente passivo — sem baterias, sem cabos, sem qualquer tipo de alimentação elétrica. Funciona unicamente através da geometria e da liga metálica de que é feito, sem fonte de energia externa."
         },
         {
           "id": "radiation",
-          "question": "Does Polaris emit electromagnetic radiation?",
-          "answer": "No. Polaris is a passive bio-antenna, meaning it emits no radiation. Instead, like an optical lens that directs light, it collects and focuses naturally occurring frequencies already present in the environment — it does not create them."
+          "question": "O Polaris emite radiação eletromagnética?",
+          "answer": "Não. O Polaris é uma bio-antena passiva, o que significa que não emite radiação. Em vez disso, como uma lente ótica que direciona a luz, recolhe e foca as frequências naturais já presentes no ambiente — não as cria."
         },
         {
           "id": "children",
-          "question": "Can children use it?",
-          "answer": "Yes. Polaris is safe for use by children of all ages. As it is completely passive and emits no signals, there are no contraindications for children. We recommend shorter sessions (10–15 minutes) for young children, with parental supervision."
+          "question": "As crianças podem usá-lo?",
+          "answer": "Sim. O Polaris é seguro para uso por crianças de todas as idades. Como é completamente passivo e não emite sinais, não existem contraindicações para crianças. Recomendamos sessões mais curtas (10–15 minutos) para crianças pequenas, com supervisão parental."
         },
         {
           "id": "lifespan",
-          "question": "What is the lifespan of Polaris?",
-          "answer": "Unlimited. Because Polaris has no moving parts, electronics, or materials that wear or degrade, its geometry and resonant properties remain intact forever. A Polaris purchased once is a lifelong investment."
+          "question": "Qual é a vida útil do Polaris?",
+          "answer": "Ilimitada. Como o Polaris não tem peças móveis, eletrónica ou materiais que se desgastem, a sua geometria e propriedades de ressonância permanecem intactas para sempre. Um Polaris comprado uma vez é um investimento para toda a vida."
         },
         {
           "id": "usage",
-          "question": "How long should it be used?",
-          "answer": "The standard recommendation is 20–30 minutes per day on the chosen area. For acute pain, 3×15 minute sessions deliver fast results. For chronic conditions, regular once-daily use over 30 days gives optimal effects."
+          "question": "Durante quanto tempo deve ser usado?",
+          "answer": "A recomendação padrão é de 20–30 minutos por dia na área escolhida. Para dor aguda, 3×15 minutos proporcionam resultados rápidos. Para condições crónicas, o uso regular uma vez por dia durante 30 dias proporciona efeitos ótimos."
         },
         {
           "id": "delivery",
-          "question": "When can I expect delivery?",
-          "answer": "Delivery within 24 hours for Serbia. For the region (Bosnia, Croatia, Montenegro) 2–3 business days. For the rest of Europe 5–7 business days. Each order is tracked via a tracking code sent to your email."
+          "question": "Quando posso esperar a entrega?",
+          "answer": "Entrega em 24 horas para a Sérvia. Para a região (Bósnia, Croácia, Montenegro) 2–3 dias úteis. Para o resto da Europa 5–7 dias úteis. Cada encomenda é rastreada através de um código de rastreamento enviado para o seu e-mail."
         }
       ]
     },
     "contactForm": {
-      "eyebrow": "Contact us",
-      "title": "Write to us.",
-      "subtitle": "We respond within 24 hours on business days.",
-      "namePlaceholder": "Your full name",
-      "emailPlaceholder": "you@email.com",
-      "messagePlaceholder": "How can we help you?",
-      "submitLabel": "Send message",
-      "submittingLabel": "Sending...",
-      "successTitle": "Message received!",
-      "successBody": "Thank you. We will reply within 24 hours.",
-      "errorLabel": "Something went wrong. Please try again."
+      "eyebrow": "Contacte-nos",
+      "title": "Escreva-nos.",
+      "subtitle": "Respondemos em 24 horas nos dias úteis.",
+      "namePlaceholder": "O seu nome completo",
+      "emailPlaceholder": "voce@email.com",
+      "messagePlaceholder": "Como podemos ajudá-lo?",
+      "submitLabel": "Enviar mensagem",
+      "submittingLabel": "A enviar...",
+      "successTitle": "Mensagem recebida!",
+      "successBody": "Obrigado. Responderemos em 24 horas.",
+      "errorLabel": "Algo correu mal. Por favor, tente novamente."
     },
     "support": {
-      "eyebrow": "Direct support",
-      "title": "Contact details.",
-      "phoneLabel": "Phone",
+      "eyebrow": "Suporte direto",
+      "title": "Dados de contacto.",
+      "phoneLabel": "Telefone",
       "phoneValue": "+381 60 123 4567",
-      "emailLabel": "Email",
+      "emailLabel": "E-mail",
       "emailValue": "support@polaris.rs",
-      "hoursLabel": "Working hours",
-      "hoursValue": "Mon–Fri, 09:00–17:00"
+      "hoursLabel": "Horário de funcionamento",
+      "hoursValue": "Seg–Sex, 09:00–17:00"
     }
   }
 }

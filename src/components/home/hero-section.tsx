@@ -1,6 +1,7 @@
 "use client";
 
 import Link from "next/link";
+import Image from "next/image";
 import { motion } from "framer-motion";
 import { buttonVariants } from "@/components/ui/button";
 import { cn } from "@/lib/utils";
@@ -107,42 +108,13 @@ export function HeroSection({ dict, lang }: HeroSectionProps) {
                 overflow: "hidden",
               }}
             >
-              {/* Gradient fill for placeholder */}
-              <div
-                className="absolute inset-0"
-                style={{
-                  background:
-                    "linear-gradient(155deg, oklch(0.93 0.015 62) 0%, oklch(0.87 0.030 40) 50%, oklch(0.78 0.045 30) 100%)",
-                }}
+              <Image
+                src="/IMG_0829.jpg"
+                alt="Dr. Dina Tomić"
+                fill
+                className="object-cover object-top"
+                priority
               />
-              {/* Inner content placeholder */}
-              <div className="absolute inset-0 flex flex-col items-center justify-end pb-12 px-8">
-                <div className="text-center">
-                  <div
-                    className="w-24 h-24 rounded-full mx-auto mb-4 flex items-center justify-center"
-                    style={{ background: "oklch(0.17 0.040 185 / 0.15)" }}
-                  >
-                    {/* Polaris disc icon placeholder */}
-                    <svg viewBox="0 0 64 64" fill="none" className="w-12 h-12">
-                      {[28, 22, 16, 10, 4].map((r, i) => (
-                        <circle
-                          key={i}
-                          cx="32"
-                          cy="32"
-                          r={r}
-                          stroke="oklch(0.17 0.040 185 / 0.5)"
-                          strokeWidth="1.5"
-                          fill="none"
-                        />
-                      ))}
-                      <circle cx="32" cy="32" r="3" fill="oklch(0.17 0.040 185 / 0.6)" />
-                    </svg>
-                  </div>
-                  <p className="text-xs tracking-widest uppercase font-light text-foreground/50">
-                    Dr. Dina Tomić
-                  </p>
-                </div>
-              </div>
             </div>
 
             {/* Floating accent — Phi symbol */}

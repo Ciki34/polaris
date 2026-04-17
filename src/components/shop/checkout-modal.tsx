@@ -219,6 +219,47 @@ function SuccessScreen({
   );
 }
 
+/* ─── Field ───────────────────────────────────────────────────────────────── */
+function Field({
+  fieldKey,
+  type = "text",
+  autoComplete,
+  form,
+  errors,
+  fields,
+  placeholders,
+  onChange,
+}: {
+  fieldKey: keyof FormState;
+  type?: string;
+  autoComplete?: string;
+  form: FormState;
+  errors: Partial<FormState>;
+  fields: Record<string, string>;
+  placeholders: Record<string, string>;
+  onChange: (key: keyof FormState, value: string) => void;
+}) {
+  const err = errors[fieldKey];
+  return (
+    <div>
+      <label className="block text-xs tracking-widest uppercase text-muted-foreground font-light mb-2">
+        {fields[fieldKey]}
+      </label>
+      <input
+        type={type}
+        autoComplete={autoComplete}
+        value={form[fieldKey]}
+        onChange={(e) => onChange(fieldKey, e.target.value)}
+        placeholder={placeholders[fieldKey]}
+        className={inputClass(!!err)}
+      />
+      {err && (
+        <p className="text-[11px] text-destructive mt-1.5 font-light">{err}</p>
+      )}
+    </div>
+  );
+}
+
 /* ─── Main Component ──────────────────────────────────────────────────────── */
 export function CheckoutModal({
   isOpen,
@@ -323,50 +364,21 @@ export function CheckoutModal({
     }, 300);
   }
 
-  /* Field component (DRY) */
-  function Field({
-    fieldKey,
-    type = "text",
-    autoComplete,
-  }: {
-    fieldKey: keyof FormState;
-    type?: string;
-    autoComplete?: string;
-  }) {
-    const err = errors[fieldKey];
-    return (
-      <div>
-        <label className="block text-xs tracking-widest uppercase text-muted-foreground font-light mb-2">
-          {dict.fields[fieldKey]}
-        </label>
-        <input
-          type={type}
-          autoComplete={autoComplete}
-          value={form[fieldKey]}
-          onChange={(e) => handleField(fieldKey, e.target.value)}
-          placeholder={dict.placeholders[fieldKey]}
-          className={inputClass(!!err)}
-        />
-        {err && (
-          <p className="text-[11px] text-destructive mt-1.5 font-light">{err}</p>
-        )}
-      </div>
-    );
-  }
+  const fieldProps = { form, errors, fields: dict.fields, placeholders: dict.placeholders, onChange: handleField };
 
   const stepContent = {
     1: (
       <div className="flex flex-col gap-5">
-        <Field fieldKey="fullName" autoComplete="name" />
-        <Field fieldKey="email" type="email" autoComplete="email" />
-        <Field fieldKey="phone" type="tel" autoComplete="tel" />
+        <Field fieldKey="fullName" autoComplete="name" {...fieldProps} />
+        <Field fieldKey="email" type="email" autoComplete="email" {...fieldProps} />
+        <Field fieldKey="phone" type="tel" autoComplete="tel" {...fieldProps} />
       </div>
     ),
     2: (
       <div className="flex flex-col gap-5">
-        <Field fieldKey="city" autoComplete="address-level2" />
-        <Field fieldKey="address" autoComplete="street-address" />
-        <Field fieldKey="postcode" autoComplete="postal-code" />
+        <Field fieldKey="city" autoComplete="address-level2" {...fieldProps} />
+        <Field fieldKey="address" autoComplete="street-address" {...fieldProps} />
+        <Field fieldKey="postcode" autoComplete="postal-code" {...fieldProps} />
       </div>
     ),
     3: (

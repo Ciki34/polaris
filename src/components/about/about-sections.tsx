@@ -1,7 +1,13 @@
 "use client";
 
+import Image from "next/image";
 import { motion } from "framer-motion";
 import { ScrollReveal, RevealChild } from "@/components/home/scroll-reveal";
+
+const PERSON_IMAGES: Record<string, string> = {
+  "Nikola Tesla":     "/nikola-tesla.jpeg",
+  "Georges Lakhovsky": "/georges-lakhovsky.jpg",
+};
 
 /* ─── Types ───────────────────────────────────────────────────────────────── */
 interface Stat { value: string; label: string }
@@ -262,17 +268,26 @@ export function HeritageSection({ dict }: { dict: AboutDict["heritage"] }) {
                 whileHover={{ y: -3 }}
                 transition={{ type: "spring", stiffness: 260, damping: 22 }}
               >
-                {/* Top: photo placeholder in blob shape */}
+                {/* Top: blob with photo */}
                 <div className="relative h-52 bg-gradient-to-br from-secondary to-muted overflow-hidden flex items-end">
-                  {/* Blob portrait placeholder */}
+                  {/* Blob portrait */}
                   <div className="absolute inset-0 flex items-center justify-center">
                     <div
-                      className="w-32 h-36 flex flex-col items-center justify-center opacity-20"
-                      style={{
-                        background: "oklch(0.17 0.040 185 / 0.3)",
-                        borderRadius: "60% 40% 55% 45% / 48% 52% 48% 52%",
-                      }}
-                    />
+                      className="relative w-32 h-36 overflow-hidden flex-shrink-0"
+                      style={{ borderRadius: "60% 40% 55% 45% / 48% 52% 48% 52%" }}
+                    >
+                      {PERSON_IMAGES[person.name] ? (
+                        <Image
+                          src={PERSON_IMAGES[person.name]}
+                          alt={person.name}
+                          fill
+                          className="object-cover object-top"
+                          sizes="128px"
+                        />
+                      ) : (
+                        <div className="w-full h-full bg-foreground/10" />
+                      )}
+                    </div>
                   </div>
                   {/* Decorative rings */}
                   <div aria-hidden className="absolute top-4 right-4 opacity-20">

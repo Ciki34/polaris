@@ -1,8 +1,19 @@
 "use client";
 
 import { useState } from "react";
+import Image from "next/image";
 import { motion, AnimatePresence } from "framer-motion";
 import { cn } from "@/lib/utils";
+
+const CHAKRA_IMAGES: Record<number, string> = {
+  1: "/upotreba/chakra-1.jpg",
+  2: "/upotreba/chakra-2.jpg",
+  3: "/upotreba/chakra-3.jpg",
+  4: "/upotreba/chakra-4.jpg",
+  5: "/upotreba/chakra-5.jpg",
+  6: "/upotreba/chakra-6.jpg",
+  7: "/upotreba/chakra-7.jpg",
+};
 
 /* ─── Types ───────────────────────────────────────────────────────────────── */
 export interface ChakraPoint {
@@ -272,10 +283,34 @@ function ChakraPanel({
 
         {/* Local duration note */}
         {mapSection.localDurationNote && (
-          <p className="mt-auto text-[10px] tracking-wide text-muted-foreground/60 font-light border-t border-border/40 pt-4">
+          <p className="text-[10px] tracking-wide text-muted-foreground/60 font-light border-t border-border/40 pt-4 mb-8">
             {mapSection.localDurationNote}
           </p>
         )}
+
+        {/* Chakra photo blob */}
+        <div className="mt-auto flex justify-center pt-2">
+          <div
+            className="relative w-full max-w-[340px] aspect-[4/3] overflow-hidden"
+            style={{
+              borderRadius: "58% 42% 48% 52% / 44% 56% 44% 56%",
+              boxShadow: `0 8px 32px -8px ${meta.color}40`,
+            }}
+          >
+            <Image
+              src={CHAKRA_IMAGES[point.id]}
+              alt={point.name}
+              fill
+              className="object-cover"
+              sizes="(max-width: 768px) 90vw, 340px"
+            />
+            {/* Subtle color overlay */}
+            <div
+              className="absolute inset-0"
+              style={{ background: `${meta.color}12` }}
+            />
+          </div>
+        </div>
       </motion.div>
     </AnimatePresence>
   );

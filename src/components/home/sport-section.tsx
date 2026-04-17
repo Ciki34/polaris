@@ -1,8 +1,8 @@
 "use client";
 
-import { useEffect, useState } from "react";
+import { useRef } from "react";
 import Link from "next/link";
-import { motion } from "framer-motion";
+import { motion, useInView } from "framer-motion";
 import { buttonVariants } from "@/components/ui/button";
 import { cn } from "@/lib/utils";
 import { ScrollReveal } from "./scroll-reveal";
@@ -23,8 +23,8 @@ const features = [
 ];
 
 export function SportSection({ dict, lang }: { dict: SportDict; lang: string }) {
-  const [mounted, setMounted] = useState(false);
-  useEffect(() => setMounted(true), []);
+  const svgRef = useRef<HTMLDivElement>(null);
+  const inView = useInView(svgRef, { once: true, amount: 0 });
 
   return (
     <section className="mx-4 md:mx-6 lg:mx-10 xl:mx-16 my-24 rounded-3xl overflow-hidden relative">
@@ -102,7 +102,7 @@ export function SportSection({ dict, lang }: { dict: SportDict; lang: string }) 
           <div className="flex flex-col items-center lg:items-end gap-8">
             {/* Sport disc visual */}
             <ScrollReveal delay={0.1} className="relative">
-              <div className="relative isolate w-52 h-52 md:w-64 md:h-64">
+              <div ref={svgRef} className="relative isolate w-52 h-52 md:w-64 md:h-64">
                 <svg viewBox="0 0 200 200" className="w-full h-full">
                   {[88, 76, 64, 52, 40, 28, 18, 10, 4].map((r, i) => (
                     <motion.circle
@@ -114,9 +114,8 @@ export function SportSection({ dict, lang }: { dict: SportDict; lang: string }) 
                       stroke="white"
                       strokeWidth={i === 0 ? 1 : 0.7}
                       strokeOpacity={0.08 + (9 - i) * 0.045}
-                      initial={mounted ? { scale: 0, opacity: 0 } : false}
-                      whileInView={mounted ? { scale: 1, opacity: 1 } : undefined}
-                      viewport={mounted ? { once: true, amount: 0.1 } : undefined}
+                      initial={{ scale: 0, opacity: 0 }}
+                      animate={inView ? { scale: 1, opacity: 1 } : {}}
                       transition={{ delay: i * 0.06, duration: 0.5 }}
                       style={{ transformOrigin: "100px 100px" }}
                     />

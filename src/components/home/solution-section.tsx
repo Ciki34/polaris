@@ -1,8 +1,8 @@
 "use client";
 
-import { useEffect, useState } from "react";
+import { useRef } from "react";
 import Link from "next/link";
-import { motion } from "framer-motion";
+import { motion, useInView } from "framer-motion";
 import { buttonVariants } from "@/components/ui/button";
 import { cn } from "@/lib/utils";
 import { ScrollReveal } from "./scroll-reveal";
@@ -18,8 +18,8 @@ interface SolutionDict {
 const rings = [56, 48, 40, 32, 24, 16, 9, 4, 1];
 
 export function SolutionSection({ dict, lang }: { dict: SolutionDict; lang: string }) {
-  const [mounted, setMounted] = useState(false);
-  useEffect(() => setMounted(true), []);
+  const svgRef = useRef<HTMLDivElement>(null);
+  const inView = useInView(svgRef, { once: true, amount: 0 });
 
   return (
     <section className="section-padding bg-secondary/20 border-y border-border/40 overflow-hidden relative">
@@ -38,7 +38,7 @@ export function SolutionSection({ dict, lang }: { dict: SolutionDict; lang: stri
 
           {/* Left — Polaris disc visualisation */}
           <ScrollReveal delay={0.05} className="flex justify-center order-2 lg:order-1">
-            <div className="relative isolate w-72 h-72 md:w-80 md:h-80">
+            <div ref={svgRef} className="relative isolate w-72 h-72 md:w-80 md:h-80">
               {/* Animated rings */}
               <svg viewBox="0 0 200 200" className="w-full h-full">
                 {rings.map((r, i) => (
@@ -51,9 +51,8 @@ export function SolutionSection({ dict, lang }: { dict: SolutionDict; lang: stri
                     stroke="oklch(0.17 0.040 185)"
                     strokeWidth={i === 0 ? 0.8 : 0.6}
                     strokeOpacity={0.15 + (rings.length - i) * 0.04}
-                    initial={mounted ? { scale: 0, opacity: 0 } : false}
-                    whileInView={mounted ? { scale: 1, opacity: 1 } : undefined}
-                    viewport={mounted ? { once: true, amount: 0.1 } : undefined}
+                    initial={{ scale: 0, opacity: 0 }}
+                    animate={inView ? { scale: 1, opacity: 1 } : {}}
                     transition={{ delay: i * 0.07, duration: 0.5, ease: "easeOut" }}
                     style={{ transformOrigin: "100px 100px" }}
                   />
@@ -65,9 +64,8 @@ export function SolutionSection({ dict, lang }: { dict: SolutionDict; lang: stri
                   r="3.5"
                   fill="oklch(0.17 0.040 185)"
                   fillOpacity="0.55"
-                  initial={mounted ? { scale: 0 } : false}
-                  whileInView={mounted ? { scale: 1 } : undefined}
-                  viewport={mounted ? { once: true, amount: 0.1 } : undefined}
+                  initial={{ scale: 0 }}
+                  animate={inView ? { scale: 1 } : {}}
                   transition={{ delay: 0.7, duration: 0.4 }}
                   style={{ transformOrigin: "100px 100px" }}
                 />
@@ -99,9 +97,8 @@ export function SolutionSection({ dict, lang }: { dict: SolutionDict; lang: stri
               {/* Floating label */}
               <motion.div
                 className="absolute -bottom-6 left-1/2 -translate-x-1/2 bg-background border border-border rounded-full px-5 py-2 shadow-sm whitespace-nowrap"
-                initial={mounted ? { opacity: 0, y: 10 } : false}
-                whileInView={mounted ? { opacity: 1, y: 0 } : undefined}
-                viewport={mounted ? { once: true, amount: 0.1 } : undefined}
+                initial={{ opacity: 0, y: 10 }}
+                animate={inView ? { opacity: 1, y: 0 } : {}}
                 transition={{ delay: 0.9 }}
               >
                 <p className="text-xs tracking-widest uppercase font-light text-muted-foreground">

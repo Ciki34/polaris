@@ -74,24 +74,34 @@
     "titleItalic": "korisnici?",
     "items": [
       {
-        "quote": "Bol u leđima koji me mučio godinama nestao je za tri dana. Nisam mogla da poverujem.",
-        "author": "Milena K.",
+        "quote": "Uz pomoć Polaris diska, za ovih pola godine, uspjela sam smanjiti TSH sa 30 na 3. Zahvalna sam na Polarisu koji je zaista savršen.",
+        "author": "Snežana Korlin",
+        "location": "Zagreb"
+      },
+      {
+        "quote": "Tri godine sam imala sevajući bol u glavi. Koristila sam Polaris po 2–3 min na tom mestu i bol je potpuno nestao, neverovatno.",
+        "author": "Ljubica Krnač",
+        "location": "Erdevik"
+      },
+      {
+        "quote": "Spavam sa Polarisom pored jastuka. Budim se odmorna i bez ukočenog vrata.",
+        "author": "Vesna Djinović",
         "location": "Beograd"
       },
       {
-        "quote": "Konačno spavam cele noći. Jutros sam se probudila odmorna po prvi put u mesecima.",
-        "author": "Dragan P.",
-        "location": "Novi Sad"
+        "quote": "Stavila sam ga na natkasnu pored glave i spavala sam do ujutro kao beba — a već 15 dana se budim svaku noć oko 3h.",
+        "author": "Bojana Šoškić",
+        "location": "Podgorica"
       },
       {
-        "quote": "Kao profesionalni sportista, oporavak mi je sve. Polaris je promenio moj trening protokol.",
-        "author": "Aleksandar M.",
-        "location": "Niš"
+        "quote": "Bolje spavam. Pre ni Melatonin nije pomagao. Hvala vam puno.",
+        "author": "Miroslav Šukur",
+        "location": "Beograd"
       },
       {
-        "quote": "Fokus i koncentracija su mi se dramatično poboljšali. Preporučujem svima.",
-        "author": "Jelena T.",
-        "location": "Subotica"
+        "quote": "Smanjili su mi dozu leka za štitnu žlezdu sa 125mg na 100mg. To je uspeh. Nastavljam terapiju Polarisom.",
+        "author": "Jasna Radanović",
+        "location": "Linz"
       }
     ]
   },

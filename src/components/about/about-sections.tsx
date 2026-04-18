@@ -39,7 +39,7 @@ interface AboutDict {
 /* ─── Shared helpers ──────────────────────────────────────────────────────── */
 const RING_RADII = [82, 70, 59, 49, 40, 32, 24, 17, 11];
 
-function PolarisRings({ size = 280, animated = false }: { size?: number; animated?: boolean }) {
+function PolarisRings({ size = 280, animated = false, strokeColor = "oklch(0.17 0.040 185)" }: { size?: number; animated?: boolean; strokeColor?: string }) {
   const [mounted, setMounted] = useState(false);
   useEffect(() => setMounted(true), []);
 
@@ -57,7 +57,7 @@ function PolarisRings({ size = 280, animated = false }: { size?: number; animate
           key={i}
           cx="100" cy="100" r={r}
           fill="none"
-          stroke="oklch(0.17 0.040 185)"
+          stroke={strokeColor}
           strokeWidth={i === 0 ? 0.9 : 0.65}
           strokeOpacity={0.12 + (RING_RADII.length - i) * 0.038}
           initial={animated && mounted ? { scale: 0, opacity: 0 } : false}
@@ -67,7 +67,7 @@ function PolarisRings({ size = 280, animated = false }: { size?: number; animate
           style={animated ? { transformOrigin: "100px 100px" } : undefined}
         />
       ))}
-      <circle cx="100" cy="100" r="3" fill="oklch(0.17 0.040 185)" fillOpacity="0.5" />
+      <circle cx="100" cy="100" r="3" fill={strokeColor} fillOpacity="0.5" />
     </svg>
   );
 }
@@ -338,8 +338,8 @@ export function HeritageSection({ dict }: { dict: AboutDict["heritage"] }) {
             <div className="relative z-10 px-8 md:px-14 py-12 md:py-16 grid lg:grid-cols-[1fr_1.5fr] gap-10 items-center">
               {/* Left: concept title + mini disc */}
               <div className="flex flex-col items-start gap-6">
-                <div className="opacity-50">
-                  <PolarisRings size={120} />
+                <div className="opacity-80">
+                  <PolarisRings size={120} strokeColor="white" />
                 </div>
                 <h3 className="font-heading text-2xl md:text-3xl text-white tracking-tight leading-snug">
                   {dict.conceptTitle}

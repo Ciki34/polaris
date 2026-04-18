@@ -109,7 +109,7 @@ export function HeroSection({ dict, lang }: HeroSectionProps) {
               }}
             >
               <Image
-                src="/IMG_0829.jpg"
+                src="/IMG_0839.jpg"
                 alt="Dr. Dina Tomić"
                 fill
                 className="object-cover object-top"
@@ -134,7 +134,7 @@ export function HeroSection({ dict, lang }: HeroSectionProps) {
               transition={{ delay: 0.8, duration: 0.7 }}
             >
               <p className="text-xs text-muted-foreground font-light tracking-wide uppercase mb-1">Korisnika</p>
-              <p className="font-heading text-2xl tracking-tight">10 000+</p>
+              <p className="font-heading text-2xl tracking-tight">100 000+</p>
             </motion.div>
           </motion.div>
         </div>

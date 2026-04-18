@@ -375,22 +375,22 @@ export function ExpertSection({ dict }: { dict: AboutDict["expert"] }) {
             <div className="relative">
               {/* Main blob photo */}
               <motion.div
-                className="relative w-64 h-80 md:w-72 md:h-[360px] overflow-hidden flex items-end"
+                className="relative w-64 h-80 md:w-72 md:h-[360px] overflow-hidden"
                 style={{
                   borderRadius: "62% 38% 55% 45% / 52% 48% 52% 48%",
-                  background: "linear-gradient(155deg, oklch(0.93 0.015 62) 0%, oklch(0.86 0.030 40) 55%, oklch(0.78 0.042 30) 100%)",
                 }}
                 initial={mounted ? { scale: 0.94, opacity: 0 } : false}
                 whileInView={mounted ? { scale: 1, opacity: 1 } : undefined}
                 viewport={mounted ? { once: true, amount: 0.1 } : undefined}
                 transition={{ duration: 0.8, ease: [0.25, 0.1, 0.25, 1] }}
               >
-                <div className="absolute inset-0 flex flex-col items-center justify-end pb-10 px-8">
-                  <div className="text-center opacity-40">
-                    <PolarisRings size={72} />
-                    <p className="text-[9px] tracking-widest uppercase font-light text-foreground/60 mt-3">Dr. Dino Tomić</p>
-                  </div>
-                </div>
+                <Image
+                  src="/Dino-photo.jpg"
+                  alt="Dr. Dino Tomić"
+                  fill
+                  className="object-cover object-top"
+                  sizes="(max-width: 768px) 256px, 288px"
+                />
               </motion.div>
 
               {/* Credentials pill */}

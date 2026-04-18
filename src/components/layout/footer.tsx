@@ -10,6 +10,9 @@ const tagline: Record<Locale, string> = {
   pt: "Guiados pelas estrelas. Enraizados na intenção.",
   it: "Guidati dalle stelle. Radicati nell'intenzione.",
   fr: "Guidés par les étoiles. Ancrés dans l'intention.",
+  cs: "Vedeni hvězdami. Ukotveni v záměru.",
+  hu: "A csillagok vezérelnek. A szándékban gyökerezve.",
+  sk: "Vedení hviezdami. Zakotvení v zámer.",
 };
 
 const copyright: Record<Locale, string> = {
@@ -19,6 +22,9 @@ const copyright: Record<Locale, string> = {
   pt: "Todos os direitos reservados.",
   it: "Tutti i diritti riservati.",
   fr: "Tous droits réservés.",
+  cs: "Všechna práva vyhrazena.",
+  hu: "Minden jog fenntartva.",
+  sk: "Všetky práva vyhradené.",
 };
 
 /* ─── Footer link sections ────────────────────────────────────────────────── */
@@ -74,6 +80,30 @@ function getFooterSections(lang: Locale): FooterSection[] {
       support: "Support",
       contact: "Contact et FAQ", terms: "Conditions d'utilisation", privacy: "Politique de confidentialité",
     },
+    cs: {
+      discover: "Prozkoumat",
+      about: "Co je Polaris?", howToUse: "Jak používat", testimonials: "Zkušenosti",
+      buy: "Koupit",
+      shop: "Obchod", shipping: "Informace o doručení",
+      support: "Podpora",
+      contact: "Kontakt a FAQ", terms: "Podmínky použití", privacy: "Zásady ochrany soukromí",
+    },
+    hu: {
+      discover: "Felfedezés",
+      about: "Mi a Polaris?", howToUse: "Használat", testimonials: "Vélemények",
+      buy: "Vásárlás",
+      shop: "Bolt", shipping: "Szállítási infó",
+      support: "Támogatás",
+      contact: "Kapcsolat és GYIK", terms: "Felhasználási feltételek", privacy: "Adatvédelmi irányelvek",
+    },
+    sk: {
+      discover: "Preskúmať",
+      about: "Čo je Polaris?", howToUse: "Ako používať", testimonials: "Skúsenosti",
+      buy: "Kúpiť",
+      shop: "Obchod", shipping: "Informácie o doručení",
+      support: "Podpora",
+      contact: "Kontakt a FAQ", terms: "Podmienky použitia", privacy: "Zásady ochrany súkromia",
+    },
   }[lang];
 
   return [
@@ -105,12 +135,15 @@ function getFooterSections(lang: Locale): FooterSection[] {
 
 /* ─── Legal labels ────────────────────────────────────────────────────────── */
 const legalLabels: Record<Locale, { privacy: string; terms: string; cookies: string }> = {
-  en: { privacy: "Privacy", terms: "Terms of Use",          cookies: "Cookies"           },
-  sr: { privacy: "Privatnost", terms: "Uslovi korišćenja",  cookies: "Kolačići"          },
-  es: { privacy: "Privacidad", terms: "Términos de uso",    cookies: "Cookies"           },
-  pt: { privacy: "Privacidade", terms: "Termos de uso",     cookies: "Cookies"           },
-  it: { privacy: "Privacy",  terms: "Termini di utilizzo",  cookies: "Cookie"            },
-  fr: { privacy: "Confidentialité", terms: "Conditions",    cookies: "Cookies"           },
+  en: { privacy: "Privacy",        terms: "Terms of Use",          cookies: "Cookies"  },
+  sr: { privacy: "Privatnost",     terms: "Uslovi korišćenja",     cookies: "Kolačići" },
+  es: { privacy: "Privacidad",     terms: "Términos de uso",       cookies: "Cookies"  },
+  pt: { privacy: "Privacidade",    terms: "Termos de uso",         cookies: "Cookies"  },
+  it: { privacy: "Privacy",        terms: "Termini di utilizzo",   cookies: "Cookie"   },
+  fr: { privacy: "Confidentialité",terms: "Conditions",            cookies: "Cookies"  },
+  cs: { privacy: "Soukromí",       terms: "Podmínky použití",      cookies: "Cookies"  },
+  hu: { privacy: "Adatvédelem",    terms: "Feltételek",            cookies: "Sütik"    },
+  sk: { privacy: "Súkromie",       terms: "Podmienky použitia",    cookies: "Cookies"  },
 };
 
 /* ─── Social icon SVGs ────────────────────────────────────────────────────── */
@@ -148,6 +181,9 @@ const socialLabel: Record<Locale, string> = {
   pt: "Siga-nos",
   it: "Seguici",
   fr: "Suivez-nous",
+  cs: "Sledujte nás",
+  hu: "Kövessen minket",
+  sk: "Sledujte nás",
 };
 
 /* ─── Footer ──────────────────────────────────────────────────────────────── */

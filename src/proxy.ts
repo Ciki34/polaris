@@ -2,7 +2,7 @@ import { createServerClient } from "@supabase/ssr";
 import { NextResponse, type NextRequest } from "next/server";
 
 /* ─── i18n Config ────────────────────────────────────────────────────────── */
-const locales = ["sr", "en", "es", "pt", "it", "fr"] as const;
+const locales = ["sr", "en", "es", "pt", "it", "fr", "cs", "hu", "sk"] as const;
 const defaultLocale = "sr";
 
 function getLocale(request: NextRequest): string {

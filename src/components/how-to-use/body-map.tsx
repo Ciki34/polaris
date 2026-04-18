@@ -291,7 +291,7 @@ function ChakraPanel({
         {/* Chakra photo blob */}
         <div className="mt-auto flex justify-center pt-2">
           <div
-            className="relative w-full max-w-[340px] aspect-[4/3] overflow-hidden"
+            className="relative w-full max-w-[340px] lg:max-w-none aspect-[4/3] overflow-hidden"
             style={{
               borderRadius: "58% 42% 48% 52% / 44% 56% 44% 56%",
               boxShadow: `0 8px 32px -8px ${meta.color}40`,
@@ -302,7 +302,7 @@ function ChakraPanel({
               alt={point.name}
               fill
               className="object-cover"
-              sizes="(max-width: 768px) 90vw, 340px"
+              sizes="(max-width: 768px) 90vw, (max-width: 1024px) 340px, 600px"
             />
             {/* Subtle color overlay */}
             <div

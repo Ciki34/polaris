@@ -66,11 +66,11 @@ export function HowPolarisWorksSection({ lang, dict }: { lang: string; dict: How
               </div>
 
               {/* Body */}
-              <div className="p-7 flex flex-col flex-1">
-                <h3 className="font-heading text-xl md:text-2xl tracking-tight mb-4">
+              <div className="p-7 flex flex-col flex-1" style={{ background: "linear-gradient(135deg, #062C2B 0%, oklch(0.22 0.048 185) 60%, oklch(0.15 0.030 185) 100%)" }}>
+                <h3 className="font-heading text-xl md:text-2xl tracking-tight mb-4 text-white">
                   {dict.card1Title}
                 </h3>
-                <p className="text-sm text-muted-foreground font-light leading-relaxed">
+                <p className="text-sm font-light leading-relaxed text-white/75">
                   {dict.card1Body}
                 </p>
               </div>
@@ -102,11 +102,11 @@ export function HowPolarisWorksSection({ lang, dict }: { lang: string; dict: How
               </div>
 
               {/* Body */}
-              <div className="p-7 flex flex-col flex-1">
-                <h3 className="font-heading text-xl md:text-2xl tracking-tight mb-4">
+              <div className="p-7 flex flex-col flex-1" style={{ background: "linear-gradient(135deg, #062C2B 0%, oklch(0.22 0.048 185) 60%, oklch(0.15 0.030 185) 100%)" }}>
+                <h3 className="font-heading text-xl md:text-2xl tracking-tight mb-4 text-white">
                   {dict.card2Title}
                 </h3>
-                <p className="text-sm text-muted-foreground font-light leading-relaxed">
+                <p className="text-sm font-light leading-relaxed text-white/75">
                   {dict.card2Body}
                 </p>
               </div>
@@ -120,8 +120,8 @@ export function HowPolarisWorksSection({ lang, dict }: { lang: string; dict: How
           <Link
             href={`/${lang}/how-to-use`}
             className={cn(
-              buttonVariants({ variant: "outline", size: "lg" }),
-              "rounded-full px-10 h-12 text-sm tracking-widest uppercase font-light border-foreground/20 hover:border-foreground/50"
+              buttonVariants({ variant: "secondary", size: "lg" }),
+              "rounded-full px-10 h-12 text-sm tracking-widest uppercase font-medium bg-accent text-foreground hover:bg-accent/90"
             )}
           >
             {dict.cta}

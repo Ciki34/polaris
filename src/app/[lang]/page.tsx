@@ -8,6 +8,7 @@ import { SolutionSection } from "@/components/home/solution-section";
 import { SportSection } from "@/components/home/sport-section";
 import { TestimonialsSection } from "@/components/home/testimonials-section";
 import { FinalCtaSection } from "@/components/home/final-cta-section";
+import { HowPolarisWorksSection } from "@/components/home/how-polaris-works-section";
 
 export default async function HomePage({
   params,
@@ -28,6 +29,7 @@ export default async function HomePage({
       <ProblemSection dict={dict.problem} />
       <SolutionSection dict={dict.solution} lang={lang} />
       <SportSection dict={dict.sport} lang={lang} />
+      <HowPolarisWorksSection lang={lang} />
       <TestimonialsSection dict={dict.testimonials} />
       <FinalCtaSection dict={dict.finalCta} lang={lang} />
     </>

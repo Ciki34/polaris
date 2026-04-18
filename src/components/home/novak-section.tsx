@@ -29,49 +29,23 @@ export function NovakSection({ dict }: { dict: NovakDict }) {
       <div className="container-tight">
         <div className="grid lg:grid-cols-2 gap-16 lg:gap-24 items-center">
 
-          {/* Left — video placeholder */}
+          {/* Left — YouTube Shorts embed (9:16) */}
           <ScrollReveal delay={0.05}>
-            <div className="relative isolate">
+            <div className="relative isolate flex justify-center">
               <div
-                className="relative w-full aspect-video rounded-2xl overflow-hidden bg-muted cursor-pointer group"
+                className="relative w-full max-w-[320px] aspect-[9/16] rounded-2xl overflow-hidden"
                 style={{
                   boxShadow:
                     "0 32px 64px -16px oklch(0.17 0.040 185 / 0.18), 0 8px 24px -8px oklch(0.17 0.040 185 / 0.10)",
                 }}
               >
-                {/* Thumbnail placeholder */}
-                <div
-                  className="absolute inset-0 flex items-center justify-center"
-                  style={{
-                    background:
-                      "linear-gradient(135deg, oklch(0.17 0.040 185) 0%, oklch(0.24 0.048 185) 100%)",
-                  }}
-                >
-                  {/* Play button */}
-                  <motion.div
-                    className="w-18 h-18 rounded-full bg-white/10 border border-white/20 flex items-center justify-center backdrop-blur-sm group-hover:bg-white/20 transition-colors"
-                    whileHover={{ scale: 1.08 }}
-                    transition={{ type: "spring", stiffness: 300, damping: 20 }}
-                  >
-                    <svg
-                      className="w-7 h-7 text-white translate-x-0.5"
-                      fill="currentColor"
-                      viewBox="0 0 24 24"
-                    >
-                      <path d="M8 5v14l11-7z" />
-                    </svg>
-                  </motion.div>
-
-                  {/* Novak name overlay */}
-                  <div className="absolute bottom-5 left-5">
-                    <p className="text-white/50 text-[10px] tracking-widest uppercase font-light">
-                      {dict.videoLabel}
-                    </p>
-                    <p className="text-white font-heading text-lg italic mt-0.5">
-                      Novak Đoković
-                    </p>
-                  </div>
-                </div>
+                <iframe
+                  src="https://www.youtube.com/embed/EZHet7Y5VAI"
+                  title="Novak Đoković — Polaris"
+                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                  allowFullScreen
+                  className="absolute inset-0 w-full h-full border-0"
+                />
               </div>
 
               {/* Decorative ring */}

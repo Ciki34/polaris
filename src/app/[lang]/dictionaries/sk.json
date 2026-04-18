@@ -1,0 +1,629 @@
+{
+  "nav": {
+    "about": "O nás",
+    "products": "Produkty",
+    "journal": "Magazín",
+    "signIn": "Prihlásiť sa",
+    "getStarted": "Začať"
+  },
+  "hero": {
+    "badge": "Založené na výskume Nikolu Teslu",
+    "title": "Budúcnosť prirodzenej regenerácie",
+    "titleItalic": "vo vašich rukách.",
+    "subtitle": "Sme bytosti elektromagnetickej prirodzenosti. Využite silu biofotoniky a obnovte svoj organizmus do ideálnej rovnováhy. Polaris je vaša osobná anténa pre životnú energiu, vyvinutá na základoch výskumu Nikolu Teslu a Georgesa Lakhovského.",
+    "cta": "Objednajte si váš Polaris",
+    "scroll": "Preskúmať",
+    "statsUsers": "používateľov po celom svete",
+    "statsTradition": "rokov tradície"
+  },
+  "strip": [
+    "Biofotoniky",
+    "Teslov princíp",
+    "Životná energia",
+    "Zlatý rez",
+    "Regenerácia",
+    "Rovnováha",
+    "Sústredenie",
+    "Prírodné"
+  ],
+  "novak": {
+    "eyebrow": "Globálne uznanie",
+    "title": "Štandard šampióna.",
+    "body": "Keď prekračujete hranice ľudských možností, regenerácia je rovnako dôležitá ako tréning. Novak Djokovič, najväčší športovec všetkých čias, používa Polaris ako neoddeliteľnú súčasť svojho každodenného protokolu na udržanie sústredenia, vnútorného pokoja a fyzickej regenerácie.",
+    "quote": "Jedna z 10 vecí, bez ktorých nikam neidem.",
+    "attribution": "Novak Djokovič",
+    "videoLabel": "Prehrať video"
+  },
+  "problem": {
+    "eyebrow": "Poznávate sa?",
+    "title": "Kde váš organizmus",
+    "titleItalic": "stráca silu?",
+    "cards": [
+      {
+        "number": "01",
+        "title": "Chronická únava",
+        "body": "Vstávate vyčerpaní napriek 'dostatočnému' spánku? Vaše bunky nezískavajú dostatok energie na regeneráciu počas noci."
+      },
+      {
+        "number": "02",
+        "title": "Pretrvávajúce bolesti",
+        "body": "Či už ide o chrbticu, kĺby alebo svaly, bolesť je jasným signálom zablokovaného toku energie. Polaris otvára tieto kanály."
+      },
+      {
+        "number": "03",
+        "title": "Stres a tlak",
+        "body": "Žijeme v mori umelých frekvencií. Polaris neutralizuje škodlivé vplyvy prostredia a vracia vám pokojný spánok a ostrú koncentráciu."
+      }
+    ]
+  },
+  "solution": {
+    "eyebrow": "Čo je Polaris",
+    "title": "Nie je to mágia.",
+    "titleItalic": "To je fyzika.",
+    "body": "Polaris nie je liek v klasickom zmysle – je to bio-anténa. Vyrobená zo špeciálnej kovovej zliatiny, s deviatimi prsteňmi presne naladenými podľa Zlatého rezu (Phi), pasívne sústreďuje životnú energiu z okolia a nasmeruje ju priamo do vášho tela.",
+    "cta": "Zistite viac o vede"
+  },
+  "sport": {
+    "eyebrow": "Pre profesionálov",
+    "title": "Sila pre extrémne výzvy.",
+    "body": "Polaris Sport nie je len väčší disk – je to intenzívnejší zdroj energie. Navrhnutý pre profesionálnych športovcov, ktorí chcú rýchlejšiu regeneráciu tkanív po záťaži. Urýchľuje odvod toxínov, znižuje zápaly a obnovuje elasticitu svalov.",
+    "cta": "Preskúmať Polaris Sport",
+    "badge": "Nové"
+  },
+  "testimonials": {
+    "eyebrow": "Skúsenosti používateľov",
+    "title": "Čo hovoria",
+    "titleItalic": "používatelia?",
+    "items": [
+      {
+        "quote": "Bolesti chrbta, ktoré ma trápili roky, zmizli za tri dni. Nemohol som tomu uveriť.",
+        "author": "Martin K.",
+        "location": "Bratislava"
+      },
+      {
+        "quote": "Konečne spím celú noc. Prebudil som sa oddýchnutý ako nikdy predtým.",
+        "author": "Jana N.",
+        "location": "Košice"
+      },
+      {
+        "quote": "Ako profesionálny športovec je regenerácia všetkým. Polaris zmenil môj tréningový protokol.",
+        "author": "Tomáš H.",
+        "location": "Žilina"
+      },
+      {
+        "quote": "Moje sústredenie a koncentrácia sa dramaticky zlepšili. Odporúčam každému.",
+        "author": "Marta P.",
+        "location": "Nitra"
+      }
+    ]
+  },
+  "howPolarisWorks": {
+    "eyebrow": "Mechanizmus účinku",
+    "title": "Ako Polaris",
+    "titleItalic": "funguje",
+    "card1Title": "Kozmická energia",
+    "card1Body": "Operácia POLARIS zbiera kozmickú (životnú) energiu (pránu) a nasmeruje ju do buniek, povzbudzuje ich k regenerácii a obnove ich normálneho fungovania. Rovnomerne pôsobí na všetky formy života — ľudí, zvieratá a rastliny.",
+    "card1ImageAlt": "Polaris a 7 čakier",
+    "card2Title": "Ochranné pole",
+    "card2Body": "POLARIS harmonizuje všetkých 7 energetických centier (čakier), nastoluje dokonalú rovnováhu vo vašom elektromagnetickom poli (aure). Silná aura vás chráni pred mikroorganizmami, škodlivým žiarením a negatívnymi vonkajšími energiami — tvorí nepriestupnú ochrannú stenu.",
+    "card2ImageAlt": "Aura — pred a po Polarise",
+    "cta": "Ako používať"
+  },
+  "finalCta": {
+    "eyebrow": "Začnite dnes",
+    "title": "Začnite svoju",
+    "titleItalic": "transformáciu dnes.",
+    "subtitle": "Pripojte sa k tisícom, ktorí už objavili rozdiel.",
+    "cta": "Prejsť do obchodu"
+  },
+  "howToUse": {
+    "pageHero": {
+      "eyebrow": "Protokol aplikácie",
+      "title": "Váš sprievodca",
+      "titleItalic": "vitálnou regeneráciou.",
+      "subtitle": "Polaris funguje na princípe pasívnej bio-rezonancie. Žiadna elektrina, žiadne nastavovanie — len ho priložte a nechajte fyziku pracovať."
+    },
+    "mapSection": {
+      "eyebrow": "Interaktívna mapa tela",
+      "title": "Vyberte oblasť aplikácie",
+      "subtitle": "Kliknite na jeden zo siedmich energetických bodov a zobrazte podrobný protokol a prínosy.",
+      "mobileHint": "Klepnite na bod pre detaily",
+      "durationLabel": "Doba aplikácie",
+      "positionLabel": "Poloha",
+      "warningNote": "Prísne 2–3 minúty. U starších osôb a detí kratšie.",
+      "indicationsLabel": "Indikácie",
+      "noteLabel": "Poznámka",
+      "localDurationNote": "Lokálne miesta: 10–20 min, 2–3× denne"
+    },
+    "points": [
+      {
+        "id": 1,
+        "name": "Koreňová / Prvá čakra",
+        "title": "Základ vitality a eliminácia toxínov.",
+        "benefits": "Podporuje urologické zdravie, pomáha pri hemoroidoch a problémoch s prostatou. Posilňuje základnú životnú energiu a stabilitu organizmu.",
+        "duration": "5–10 minút",
+        "position": "Sediaca poloha alebo priamo na oblasť",
+        "warning": false,
+        "indications": [
+          "Análne infekcie",
+          "Pruritus (svrbenie) pošvy",
+          "Zápal močových ciest",
+          "Hemoroidy",
+          "Impotencia",
+          "Hypertrofia prostaty"
+        ],
+        "note": ""
+      },
+      {
+        "id": 2,
+        "name": "Podbrucho / Druhá čakra",
+        "title": "Centrum hormonálnej rovnováhy.",
+        "benefits": "Kľúčový bod pre gynekologické zdravie, reguláciu menštruačného cyklu a plodnosť. Pomáha pri urologických ťažkostiach a problémoch so črevami.",
+        "duration": "5–10 minút",
+        "position": "Ležiaca poloha, disk na podbruchu",
+        "warning": false,
+        "indications": [
+          "Sterilita",
+          "Lumbago",
+          "Celková slabosť",
+          "Problémy s obličkami",
+          "Zápcha",
+          "Hnačka"
+        ],
+        "note": ""
+      },
+      {
+        "id": 3,
+        "name": "Solárny plexus / Tretia čakra",
+        "title": "Hlavný rezervoár vnútorného pokoja.",
+        "benefits": "Okamžite upokojuje žalúdok, reguluje trávenie a kontroluje stres. Mimoriadne účinný bod pre prirodzené znižovanie zvýšeného krvného tlaku.",
+        "duration": "5–10 minút",
+        "position": "Disk nad žalúdkom, ľahko pritlačený",
+        "warning": false,
+        "indications": [
+          "Gastritída",
+          "Vred",
+          "Nevoľnosť",
+          "Vysoký krvný tlak",
+          "Depresia",
+          "Úzkosť",
+          "Búšenie srdca"
+        ],
+        "note": ""
+      },
+      {
+        "id": 4,
+        "name": "Srdce / Štvrtá čakra",
+        "title": "Centrum emocionálnej rovnováhy a dychu.",
+        "benefits": "Podporuje funkciu srdca a pľúc. Pomáha pri astme, bronchitíde a pocite tiesne na hrudi.",
+        "duration": "5–10 minút",
+        "position": "Uprostred hrudnej kosti",
+        "warning": false,
+        "indications": [
+          "Astma",
+          "Bronchitída",
+          "Bolesti prsníka",
+          "Srdcové ťažkosti"
+        ],
+        "note": ""
+      },
+      {
+        "id": 5,
+        "name": "Hrdlo / Piata čakra",
+        "title": "Dirigent metabolizmu a omladenia.",
+        "benefits": "Nevyhnutný bod pre zdravie štítnej žľazy. Stimuluje detoxikáciu a spomaľuje procesy starnutia organizmu.",
+        "duration": "5–10 minút",
+        "position": "U základne krku, ľahký tlak",
+        "warning": false,
+        "indications": [
+          "Hashimotova choroba",
+          "Tyreoiditída",
+          "Zápal hrdla",
+          "Problémy s ďasnami"
+        ],
+        "note": "Štítna žľaza je dirigentom organizmu — ošetrujte ju aj pre mladistvý vzhľad."
+      },
+      {
+        "id": 6,
+        "name": "Čelo / Šiesta čakra",
+        "title": "Sústredenie, intuícia a mentálna jasnosť.",
+        "benefits": "Zmierňuje sinusitídu, závraty a poruchy zraku. Pripravuje mozog na hlboký a regeneračný spánok.",
+        "duration": "Prísne 2–3 minúty (u starších osôb kratšie)",
+        "position": "Uprostred čela — kratšia expozícia!",
+        "warning": true,
+        "indications": [
+          "Sinusitída",
+          "Závraty",
+          "Očné poruchy"
+        ],
+        "note": ""
+      },
+      {
+        "id": 7,
+        "name": "Temeno hlavy / Siedma čakra",
+        "title": "Harmonizácia celého nervového systému.",
+        "benefits": "Pomáha pri ťažkej nespavosti, cerebrálnych poruchách, kŕčoch a kontraktúrach. Vracia pocit jednoty s telom.",
+        "duration": "Prísne 2–3 minúty (u starších osôb kratšie)",
+        "position": "Na temene hlavy — kratšia expozícia!",
+        "warning": true,
+        "indications": [
+          "Nespavosť",
+          "Cerebrálne poruchy",
+          "Kŕče",
+          "Kontraktúry"
+        ],
+        "note": ""
+      }
+    ],
+    "extras": {
+      "eyebrow": "Ďalšie použitie",
+      "title": "Viac ako terapia",
+      "titleItalic": "tela.",
+      "items": [
+        {
+          "id": "water",
+          "title": "Energetizácia vody a potravín",
+          "body": "Postavte džbán s vodou alebo nádobu s jedlom na Polaris na 30 minút. Disk transformuje molekulárnu štruktúru, čím vodu 'oživuje' a robí ľahšie stráviteľnou.",
+          "stat": "30 min"
+        },
+        {
+          "id": "plants",
+          "title": "Rastliny a domáce zvieratá",
+          "body": "Zvieratá neomylne cítia dobrú energiu. Rastliny zalievané energetizovanou vodou rastú až o 30 % rýchlejšie s viditeľne väčšou vitalitou listov.",
+          "stat": "+30% rast"
+        },
+        {
+          "id": "space",
+          "title": "Čistenie priestoru",
+          "body": "Umiestnite disk v miestnosti, kde trávite najviac času, aby ste neutralizovali škodlivé elektromagnetické žiarenie (EMF) a negatívne vplyvy prostredia.",
+          "stat": "EMF ochrana"
+        },
+        {
+          "id": "obesity",
+          "title": "Obezita a metabolizmus",
+          "body": "Ošetrovanie stredu brucha a piatej čakry (hrdlo) urýchľuje metabolizmus. Používajte 2–3× denne pre optimálnu metabolickú aktiváciu.",
+          "stat": "2–3× denne"
+        },
+        {
+          "id": "circulation",
+          "title": "Krvný obeh",
+          "body": "Stojte chodidlami na disku Polaris 10–15 minút. Stimuluje periférny obeh v celom tele, od nôh nahor.",
+          "stat": "10–15 min"
+        },
+        {
+          "id": "stress",
+          "title": "Neutralizácia stresu",
+          "body": "Priložte obe dlane na disk alebo disk umiestnite na tretiu čakru (solárny plexus). Okamžite upokojuje nervový systém a reguluje krvný tlak.",
+          "stat": "Okamžite"
+        }
+      ]
+    },
+    "alert": {
+      "title": "Dôležité upozornenie",
+      "body": "Môžu sa vyskytnúť pocity ako zosilnenie bolesti, brnenie alebo teplo. To je znak, že organizmus začína napravovať poruchu. Nebojte sa, tieto pocity budú miznúť, ako sa problém odstraňuje."
+    }
+  },
+  "footer": {
+    "tagline": "Zakorenené vo fyzike. Zamerané na vás.",
+    "copyright": "Všetky práva vyhradené.",
+    "sections": {
+      "company": "Spoločnosť",
+      "products": "Produkty",
+      "support": "Podpora"
+    },
+    "links": {
+      "about": "O nás",
+      "journal": "Magazín",
+      "careers": "Kariéra",
+      "allProducts": "Všetky produkty",
+      "collections": "Kolekcie",
+      "giftSets": "Darčekové sety",
+      "faq": "Časté otázky",
+      "contact": "Kontakt",
+      "shipping": "Doručenie",
+      "privacy": "Súkromie",
+      "terms": "Podmienky",
+      "cookies": "Cookies"
+    }
+  },
+  "shop": {
+    "eyebrow": "Polaris obchod",
+    "title": "Vyberte si váš",
+    "titleItalic": "Polaris.",
+    "subtitle": "Doručenie domov. Platba pri doručení.",
+    "currency": "EUR",
+    "currencySymbol": "€",
+    "shippingCost": 4,
+    "products": [
+      {
+        "id": "classic",
+        "name": "Polaris Disk",
+        "badge": "Classic",
+        "price": 39,
+        "priceLabel": "€39",
+        "description": "Váš každodenný nástroj pre rovnováhu. Ideálny pre čakry, lokálne bolesti a energetizáciu vody. Životnosť: Neobmedzená.",
+        "features": [
+          "Ideálny pre každodenné použitie",
+          "Všetkých 7 čakier a lokálne bolesti",
+          "Energetizácia vody a potravín",
+          "Životnosť: Neobmedzená"
+        ]
+      },
+      {
+        "id": "sport",
+        "name": "Polaris Sport",
+        "badge": "Pro",
+        "price": 99,
+        "priceLabel": "€99",
+        "description": "Zosilnený výkon pre športovcov a ošetrovanie veľkých priestorov. Maximálna regenerácia tkanív a ochrana pred EMF.",
+        "features": [
+          "Pre profesionálnych športovcov",
+          "Ošetrovanie veľkých priestorov",
+          "Maximálna regenerácia tkanív",
+          "Ochrana pred EMF a detoxikácia"
+        ]
+      }
+    ],
+    "addToCart": "Pridať",
+    "qty": "ks",
+    "orderButton": "Objednať",
+    "emptyCart": "Pridajte produkt do košíka pre pokračovanie",
+    "checkout": {
+      "title": "Vaša objednávka",
+      "steps": [
+        "Údaje",
+        "Doručenie",
+        "Prehľad"
+      ],
+      "step1Title": "Údaje zákazníka",
+      "step2Title": "Doručovacia adresa",
+      "step3Title": "Prehľad objednávky",
+      "fields": {
+        "fullName": "Meno a priezvisko",
+        "email": "E-mailová adresa",
+        "phone": "Telefónne číslo",
+        "city": "Mesto",
+        "address": "Ulica a číslo",
+        "postcode": "PSČ"
+      },
+      "placeholders": {
+        "fullName": "napr. Ján Novák",
+        "email": "jan@email.sk",
+        "phone": "+421 901 234 567",
+        "city": "napr. Bratislava",
+        "address": "napr. Obchodná 1",
+        "postcode": "811 06"
+      },
+      "required": "Povinné pole",
+      "subtotal": "Cena produktov",
+      "shipping": "Doručenie",
+      "total": "Na úhradu",
+      "codNote": "Platba pri doručení · Bez zálohy",
+      "back": "Späť",
+      "next": "Ďalší krok",
+      "confirm": "Potvrdiť objednávku",
+      "processing": "Spracúvame...",
+      "success": {
+        "title": "Objednávka prijatá!",
+        "body": "Ďakujeme! Kontaktujeme vás do 24 hodín na uvedené telefónne číslo.",
+        "cta": "Späť na hlavnú stránku"
+      },
+      "error": "Nastala chyba. Skúste to prosím znova."
+    }
+  },
+  "aboutPage": {
+    "pageHero": {
+      "eyebrow": "Veda o Polarise",
+      "title": "Čo je",
+      "titleItalic": "Polaris?",
+      "subtitle": "Odpoveď nie je v mágii. Odpoveď je vo fyzike."
+    },
+    "science": {
+      "eyebrow": "Naša elektromagnetická prirodzenosť",
+      "title": "Návrat k základom elektromagnetickej prirodzenosti.",
+      "body": "Sme elektromagnetické bytosti. Každá bunka vo vašom tele vysiela a prijíma elektromagnetické signály — to je jazyk, ktorým vaše orgány komunikujú. Keď tento tok ustane, vzniká nerovnováha prejavujúca sa ako bolesť, únava a choroba. Polaris je tu, aby toto spojenie pasívne a bez chémie obnovil.",
+      "stat1": {
+        "value": "7,83 Hz",
+        "label": "Schumannova rezonancia Zeme"
+      },
+      "stat2": {
+        "value": "Φ 1,618",
+        "label": "Zlatý rez prírody"
+      },
+      "stat3": {
+        "value": "100 μV",
+        "label": "Bioelektrický potenciál bunky"
+      }
+    },
+    "mechanism": {
+      "eyebrow": "Anténový princíp",
+      "title": "Deväť prsteňov.",
+      "titleItalic": "Jeden účel.",
+      "body": "Deväť prsteňov Polarisu, vyrobených zo špeciálnej zliatiny a presne naladených podľa Zlatého rezu (Phi = 1,618...), funguje ako pasívna bio-anténa. Ako šošovka sústreďujúca rozptýlené svetlo do bodu, Polaris zbiera životnú energiu (Prana/Qi) z okolia a nasmeruje ju do vašich buniek.",
+      "detail1": {
+        "label": "9 prsteňov",
+        "body": "Každý prsteň proporcionálne menší podľa Phi pomeru, vytvárajúci dokonalý harmonický rad."
+      },
+      "detail2": {
+        "label": "Pasívna technológia",
+        "body": "Žiadne batérie, žiadna elektrina, žiadne žiarenie. Iba geometria a zliatina."
+      },
+      "detail3": {
+        "label": "Kovová zliatina",
+        "body": "Špeciálna kombinácia kovov optimalizovaná pre bio-elektromagnetickú rezonanciu."
+      }
+    },
+    "heritage": {
+      "eyebrow": "Na pleciach gigantov",
+      "title": "Odkaz",
+      "titleItalic": "velikánov.",
+      "intro": "Polaris nevznikol vo vzduchoprázdne. Stojí na základoch, ktoré položili dvaja vizionári, ktorých dielo bolo ďaleko pred svojou dobou.",
+      "conceptTitle": "Bunky ako oscilačné obvody",
+      "conceptBody": "V roku 1925 Lakhovsky predložil revolučnú tézu: každá živá bunka funguje ako malý oscilačný obvod. Keď je bunka zdravá, osciluje na svojej prirodzenej frekvencii. Polaris pomáha vrátiť bunky na túto optimálnu frekvenciu.",
+      "people": [
+        {
+          "name": "Nikola Tesla",
+          "years": "1856 – 1943",
+          "role": "Vizionár elektrickej rezonancie",
+          "contribution": "Tesla systematicky skúmal rezonanciu ako základnú silu prírody. Pochopil, že každý objekt má svoju prirodzenú frekvenciu a že energia môže byť prenášaná bez drôtov.",
+          "quote": "Ak chcete objaviť tajomstvá vesmíru, premýšľajte v pojmoch energie, frekvencie a vibrácie."
+        },
+        {
+          "name": "Georges Lakhovsky",
+          "years": "1869 – 1942",
+          "role": "Otec oscilačných obvodov",
+          "contribution": "Francúzsky inžinier ruského pôvodu, ktorý revolucionalizoval chápanie biológie. Autor diela Tajomstvo života, v ktorom opisuje teóriu, že všetky živé bunky sú oscilačné obvody.",
+          "quote": "Každá živá bunka je ako malý rozhlasový vysielač a prijímač, ktorý neustále vysiela a prijíma vlny."
+        }
+      ]
+    },
+    "expert": {
+      "eyebrow": "Slovo odborníka",
+      "name": "Dr. Dino Tomić",
+      "role": "Gynekológ · Bioenergetik · Zakladateľ Polarisu",
+      "title": "Od klasickej gynekológie ku kvantovej harmónii.",
+      "body": "Po dvadsiatich rokoch ako špecialista gynekológie začal Dr. Tomić pozorovať to, o čom medicínska literatúra nehovorí: mnohé chronické zdravotné problémy pacientov nemali štrukturálnu príčinu, ktorú by konvenčná medicína mohla vyriešiť. To ho viedlo k výskumu bioenergetiky, kvantovej biológie a elektromagnetických terapií.",
+      "body2": "Polaris nie je liek. Je to nástroj, ktorý som navrhol, aby som pacientom vrátil to, čo im vždy patrilo — silu vlastného uzdravenia.",
+      "quote": "Neopustil som medicínu. Rozšíril som ju. Polaris umožňuje pacientovi stať sa aktívnym účastníkom vlastného uzdravenia, nie pasívnym príjemcom terapie.",
+      "credentials": [
+        "Špecialista gynekológie",
+        "20+ rokov klinickej praxe",
+        "Výskumník bioenergetiky",
+        "Mentor a prednášajúci"
+      ]
+    }
+  },
+  "testimonialsPage": {
+    "pageHero": {
+      "eyebrow": "Skúsenosti používateľov",
+      "title": "Skutočné príbehy.",
+      "titleItalic": "Skutočné výsledky.",
+      "subtitle": "Tisíce spokojných používateľov. Toto sú niektoré z ich originálnych svedectiev."
+    },
+    "filters": {
+      "sve": "Všetko",
+      "bol": "Bolesť",
+      "stit": "Štítna žľaza a hormóny",
+      "spavanje": "Spánok a stres",
+      "varenje": "Trávenie a orgány",
+      "deca": "Deti a domáce zvieratá"
+    },
+    "items": [
+      {
+        "id": "dragan-m",
+        "type": "text",
+        "category": "bol",
+        "hook": "Bolesti chrbta zmizli za 3 dni",
+        "quote": "Bolesti chrbta, ktoré ma trápili roky, zmizli za iba tri dni. Nemohol som tomu uveriť. Na tretie ráno som sa prebudil bez bolesti prvýkrát za desať rokov.",
+        "author": "Martin K.",
+        "profession": "",
+        "location": "Bratislava",
+        "verified": true,
+        "duration": "Používateľ 3 mesiace"
+      },
+      {
+        "id": "jelena-s",
+        "type": "text",
+        "category": "spavanje",
+        "hook": "Konečne spím celú noc — žiadne prášky na spanie",
+        "quote": "Konečne spím celú noc. Prebudím sa oddýchnutá a plná energie. Pred Polarisom som brala prášky na spanie takmer každú noc. Mesiac a pol som sa ich nedotkla.",
+        "author": "Jana N.",
+        "profession": "",
+        "location": "Košice",
+        "verified": true,
+        "duration": "Používateľka 2 mesiace"
+      },
+      {
+        "id": "marko-p",
+        "type": "text",
+        "category": "stit",
+        "hook": "Štítna žľaza sa zlepšila — endokrinológ si všimol rozdiel",
+        "quote": "Štítna žľaza mi robila problémy roky. Po aplikácii na hrdlovú čakru si endokrinológ všimol zlepšenie. Cítim sa vitalnejšie ako v dvadsiatke.",
+        "author": "Marta P.",
+        "profession": "",
+        "location": "Žilina",
+        "verified": true,
+        "duration": "Používateľka 6 mesiacov"
+      },
+      {
+        "id": "mirjana-t",
+        "type": "text",
+        "category": "spavanje",
+        "hook": "Nespavosť v 67 rokoch — Polaris dokázal, že to nemusí byť normálne",
+        "quote": "Mám 67 rokov a trpela som nespavosťou roky. Lekári mi stále hovorili, že je to normálne pre môj vek. Polaris dokázal, že nemusí.",
+        "author": "Mária H.",
+        "profession": "",
+        "location": "Nitra",
+        "verified": true,
+        "duration": "Používateľka 2 mesiace"
+      }
+    ]
+  },
+  "contactPage": {
+    "pageHero": {
+      "eyebrow": "Podpora a kontakt",
+      "title": "Sme tu",
+      "titleItalic": "pre vás.",
+      "subtitle": "Máte otázku? Napíšte nám alebo si pozrite časté otázky nižšie."
+    },
+    "faq": {
+      "eyebrow": "Časté otázky",
+      "title": "Všetko, čo potrebujete vedieť.",
+      "items": [
+        {
+          "id": "batteries",
+          "question": "Má Polaris batérie alebo elektrické napájanie?",
+          "answer": "Nie. Polaris je úplne pasívne zariadenie — žiadne batérie, káble ani elektrické napájanie akéhokoľvek druhu. Funguje výlučne vďaka geometrii a kovovej zliatine, z ktorej je vyrobený, bez akéhokoľvek vonkajšieho zdroja energie."
+        },
+        {
+          "id": "radiation",
+          "question": "Emituje Polaris elektromagnetické žiarenie?",
+          "answer": "Nie. Polaris je pasívna bio-anténa, čo znamená, že nevysiela žiadne žiarenie. Namiesto toho, ako optická šošovka zameriavajúca svetlo, zbiera a sústreďuje prirodzené frekvencie, ktoré sú už prítomné v prostredí — nevytvára ich."
+        },
+        {
+          "id": "children",
+          "question": "Môžu ho používať deti?",
+          "answer": "Áno. Polaris je bezpečný pre použitie u detí všetkých vekových kategórií. Pretože je úplne pasívny a nevysiela žiadne signály, nie sú pre deti žiadne kontraindikácie. Pre malé deti odporúčame kratšie sedenia (10–15 minút) pod dohľadom rodičov."
+        },
+        {
+          "id": "lifespan",
+          "question": "Aká je životnosť Polarisu?",
+          "answer": "Neobmedzená. Pretože Polaris nemá pohyblivé časti, elektroniku ani materiály, ktoré sa opotrebúvajú alebo degradujú, jeho geometria a rezonančné vlastnosti zostávajú navždy nedotknuté. Raz zakúpený Polaris je investíciou na celý život."
+        },
+        {
+          "id": "usage",
+          "question": "Ako dlho by sa mal používať?",
+          "answer": "Štandardné odporúčanie je 20–30 minút denne na zvolenej oblasti. Pri akútnych bolestiach prinášajú rýchle výsledky 3×15 minút. Pri chronických stavoch dáva pravidelné každodenné používanie počas 30 dní optimálne účinky."
+        },
+        {
+          "id": "delivery",
+          "question": "Kedy môžem očakávať doručenie?",
+          "answer": "Doručenie do 24 hodín pre Srbsko. Pre región (Bosna, Chorvátsko, Čierna Hora) 2–3 pracovné dni. Pre zvyšok Európy 5–7 pracovných dní. Každá objednávka je sledovaná prostredníctvom sledovacieho kódu zaslaného na e-mail."
+        }
+      ]
+    },
+    "contactForm": {
+      "eyebrow": "Kontaktujte nás",
+      "title": "Napíšte nám.",
+      "subtitle": "Odpovedáme do 24 hodín v pracovné dni.",
+      "namePlaceholder": "Vaše meno a priezvisko",
+      "emailPlaceholder": "vy@email.sk",
+      "messagePlaceholder": "Ako vám môžeme pomôcť?",
+      "submitLabel": "Odoslať správu",
+      "submittingLabel": "Odosielame...",
+      "successTitle": "Správa prijatá!",
+      "successBody": "Ďakujeme. Odpovieme vám do 24 hodín.",
+      "errorLabel": "Niečo sa pokazilo. Skúste to prosím znova."
+    },
+    "support": {
+      "eyebrow": "Priama podpora",
+      "title": "Kontaktné informácie.",
+      "phoneLabel": "Telefón",
+      "phoneValue": "+381 60 123 4567",
+      "emailLabel": "E-mail",
+      "emailValue": "podpora@polaris.rs",
+      "hoursLabel": "Pracovná doba",
+      "hoursValue": "Po–Pi, 09:00–17:00"
+    }
+  }
+}

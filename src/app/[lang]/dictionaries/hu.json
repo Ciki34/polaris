@@ -1,0 +1,629 @@
+{
+  "nav": {
+    "about": "Rólunk",
+    "products": "Termékek",
+    "journal": "Magazin",
+    "signIn": "Bejelentkezés",
+    "getStarted": "Kezdés"
+  },
+  "hero": {
+    "badge": "Nikola Tesla kutatásán alapul",
+    "title": "A természetes regeneráció jövője",
+    "titleItalic": "az Ön kezében.",
+    "subtitle": "Elektromágneses természetű lények vagyunk. Használja ki a biofotonikai erőt, és állítsa vissza szervezetét az ideális egyensúlyba. A Polaris az Ön személyes antennája a vitális energiához, Nikola Tesla és Georges Lakhovsky kutatásai alapján fejlesztve.",
+    "cta": "Rendelje meg Polarisát",
+    "scroll": "Felfedezés",
+    "statsUsers": "felhasználó szerte a világon",
+    "statsTradition": "év hagyomány"
+  },
+  "strip": [
+    "Biofotonikai",
+    "Tesla-elv",
+    "Vitális energia",
+    "Arany arány",
+    "Regeneráció",
+    "Egyensúly",
+    "Fókusz",
+    "Természetes"
+  ],
+  "novak": {
+    "eyebrow": "Globális elismerés",
+    "title": "Egy bajnok mércéje.",
+    "body": "Amikor az emberi teljesítmény határait feszegeti, a regeneráció ugyanolyan fontos, mint az edzés. Novak Djokovics, minden idők legnagyobb sportolója, a Polarist napi protokolljának elengedhetetlen részeként használja a fókusz, a belső béke és a fizikai regeneráció fenntartásához.",
+    "quote": "Egyike annak a 10 dolognak, amivel sosem hagyom el otthonomat.",
+    "attribution": "Novak Djokovics",
+    "videoLabel": "Videó megtekintése"
+  },
+  "problem": {
+    "eyebrow": "Ráismer magára?",
+    "title": "Hol veszíti el szervezete",
+    "titleItalic": "az erejét?",
+    "cards": [
+      {
+        "number": "01",
+        "title": "Krónikus fáradtság",
+        "body": "Kimerülten ébred fel 'elegendő' alvás után is? Sejtjei nem kapnak elegendő energiát az éjszakai regenerációhoz."
+      },
+      {
+        "number": "02",
+        "title": "Tartós fájdalom",
+        "body": "Legyen szó gerincről, ízületekről vagy izmokról, a fájdalom az energiaáramlás blokkolásának egyértelmű jele. A Polaris megnyitja ezeket a csatornákat."
+      },
+      {
+        "number": "03",
+        "title": "Stressz és nyomás",
+        "body": "Mesterséges frekvenciák tengerében élünk. A Polaris semlegesíti a káros környezeti hatásokat, és visszaadja Önnek a nyugodt alvást és az éles fókuszt."
+      }
+    ]
+  },
+  "solution": {
+    "eyebrow": "Mi a Polaris",
+    "title": "Nem mágia.",
+    "titleItalic": "Ez fizika.",
+    "body": "A Polaris nem gyógyszer a klasszikus értelemben – bio-antenna. Különleges fémötvözetből készült, kilenc, az Arany Arány (Phi) szerint pontosan hangolt gyűrűvel, passzívan összegyűjti a vitális energiát a környezetből, és közvetlenül a testébe irányítja.",
+    "cta": "Tudjon meg többet a tudományról"
+  },
+  "sport": {
+    "eyebrow": "Profik számára",
+    "title": "Erő a szélsőséges kihívásokhoz.",
+    "body": "A Polaris Sport nem csak egy nagyobb korong – intenzívebb energiaforrás. Professzionális sportolóknak tervezve, akik gyorsabb szöveti regenerációt szeretnének terhelés után. Gyorsítja a méreganyagok kiürítését, csökkenti a gyulladásokat és visszaadja az izmok rugalmasságát.",
+    "cta": "Fedezze fel a Polaris Sportot",
+    "badge": "Új"
+  },
+  "testimonials": {
+    "eyebrow": "Felhasználói tapasztalatok",
+    "title": "Mit mondanak",
+    "titleItalic": "a felhasználók?",
+    "items": [
+      {
+        "quote": "A hátfájás, ami évek óta kínzott, három nap alatt eltűnt. Nem tudtam elhinni.",
+        "author": "Kovács M.",
+        "location": "Budapest"
+      },
+      {
+        "quote": "Végre átalszom az egész éjszakát. Kipihenten ébredek fel, mint régen.",
+        "author": "Nagy É.",
+        "location": "Debrecen"
+      },
+      {
+        "quote": "Profi sportolóként a regeneráció minden. A Polaris megváltoztatta az edzésprotokollom.",
+        "author": "Szabó T.",
+        "location": "Győr"
+      },
+      {
+        "quote": "A fókuszom és a koncentrációm drámaian javult. Mindenkinek ajánlom.",
+        "author": "Kiss A.",
+        "location": "Pécs"
+      }
+    ]
+  },
+  "howPolarisWorks": {
+    "eyebrow": "Hatásmechanizmus",
+    "title": "Hogyan működik",
+    "titleItalic": "a Polaris",
+    "card1Title": "Kozmikus energia",
+    "card1Body": "A POLARIS-művelet kozmikus (életenergiát) (prána) gyűjt össze, és a sejtekbe irányítja, ösztönözve azokat a regenerációra és normális működésük helyreállítására. Egyformán hat az élet minden formájára — emberekre, állatokra és növényekre.",
+    "card1ImageAlt": "Polaris és a 7 csakra",
+    "card2Title": "Védőmező",
+    "card2Body": "A POLARIS harmonizálja mind a 7 energiaközpontot (csakrát), tökéletes egyensúlyt teremtve az elektromágneses mezőjében (aurájában). Az erős aura megvédi Önt a mikroorganizmusoktól, a káros sugárzástól és a negatív külső energiáktól — áthatolhatatlan védőfalat alkotva.",
+    "card2ImageAlt": "Aura — Polaris előtt és után",
+    "cta": "Használati útmutató"
+  },
+  "finalCta": {
+    "eyebrow": "Kezdje el ma",
+    "title": "Kezdje el",
+    "titleItalic": "átalakulását ma.",
+    "subtitle": "Csatlakozzon azok ezreihez, akik már felfedezték a különbséget.",
+    "cta": "Ugrás az üzletbe"
+  },
+  "howToUse": {
+    "pageHero": {
+      "eyebrow": "Alkalmazási protokoll",
+      "title": "Útmutatója a",
+      "titleItalic": "vitális regenerációhoz.",
+      "subtitle": "A Polaris a passzív bio-rezonancia elvén működik. Nincs áram, nincs beállítás — csak helyezze el, és hagyja, hogy a fizika végezze a munkát."
+    },
+    "mapSection": {
+      "eyebrow": "Interaktív testtérkép",
+      "title": "Válasszon alkalmazási területet",
+      "subtitle": "Kattintson a hét energetikai pont egyikére a részletes protokoll és az előnyök megtekintéséhez.",
+      "mobileHint": "Érintsen egy pontot a részletekért",
+      "durationLabel": "Alkalmazási idő",
+      "positionLabel": "Pozíció",
+      "warningNote": "Szigorúan 2–3 perc. Idősebbeknél és gyerekeknél rövidebb.",
+      "indicationsLabel": "Indikációk",
+      "noteLabel": "Megjegyzés",
+      "localDurationNote": "Helyi területek: 10–20 perc, naponta 2–3-szor"
+    },
+    "points": [
+      {
+        "id": 1,
+        "name": "Gyökér / Első csakra",
+        "title": "A vitalitás alapja és a méreganyagok eltávolítása.",
+        "benefits": "Támogatja az urológiai egészséget, segít az aranyérnél és prosztataproblémáknál. Erősíti az alapvető életenergiát és a szervezet stabilitását.",
+        "duration": "5–10 perc",
+        "position": "Ülő pozícióban vagy közvetlenül a területre",
+        "warning": false,
+        "indications": [
+          "Végbél-fertőzések",
+          "Hüvelyi viszketés",
+          "Húgyúti gyulladás",
+          "Aranyér",
+          "Impotencia",
+          "Prosztata-hipertrófia"
+        ],
+        "note": ""
+      },
+      {
+        "id": 2,
+        "name": "Alsó has / Második csakra",
+        "title": "A hormonális egyensúly középpontja.",
+        "benefits": "Kulcspont a nőgyógyászati egészség, a menstruációs ciklus szabályozása és a termékenység szempontjából. Segít húgyúti panaszoknál és bélproblémáknál.",
+        "duration": "5–10 perc",
+        "position": "Fekvő pozícióban, a korong az alsó hason",
+        "warning": false,
+        "indications": [
+          "Meddőség",
+          "Lumbágó",
+          "Általános gyengeség",
+          "Veseprobléma",
+          "Székrekedés",
+          "Hasmenés"
+        ],
+        "note": ""
+      },
+      {
+        "id": 3,
+        "name": "Napfonat / Harmadik csakra",
+        "title": "A belső béke fő tárháza.",
+        "benefits": "Azonnal megnyugtatja a gyomrot, szabályozza az emésztést és kontrollálja a stresszt. Rendkívül hatékony pont a megemelkedett vérnyomás természetes csökkentésére.",
+        "duration": "5–10 perc",
+        "position": "A korong a gyomor felett, enyhén nyomva",
+        "warning": false,
+        "indications": [
+          "Gyomorhurut",
+          "Fekély",
+          "Hányinger",
+          "Magas vérnyomás",
+          "Depresszió",
+          "Szorongás",
+          "Szívdobogás"
+        ],
+        "note": ""
+      },
+      {
+        "id": 4,
+        "name": "Szív / Negyedik csakra",
+        "title": "Az érzelmi egyensúly és a légzés középpontja.",
+        "benefits": "Támogatja a szív és a tüdő működését. Segít asztma, hörghurut és mellkasi szorítás esetén.",
+        "duration": "5–10 perc",
+        "position": "A szegycsont közepén",
+        "warning": false,
+        "indications": [
+          "Asztma",
+          "Hörghurut",
+          "Mellkasi fájdalom",
+          "Szívproblémák"
+        ],
+        "note": ""
+      },
+      {
+        "id": 5,
+        "name": "Torok / Ötödik csakra",
+        "title": "Az anyagcsere és a megfiatalodás irányítója.",
+        "benefits": "Nélkülözhetetlen pont a pajzsmirigy egészségéhez. Serkenti a méregtelenítést és lassítja a szervezet öregedési folyamatait.",
+        "duration": "5–10 perc",
+        "position": "A nyak tövénél, enyhe nyomással",
+        "warning": false,
+        "indications": [
+          "Hashimoto-betegség",
+          "Pajzsmirigy-gyulladás",
+          "Torokgyulladás",
+          "Fogínyprobléma"
+        ],
+        "note": "A pajzsmirigy a szervezet karmestere — kezelje a fiatalos megjelenésért is."
+      },
+      {
+        "id": 6,
+        "name": "Homlok / Hatodik csakra",
+        "title": "Fókusz, intuíció és mentális tisztaság.",
+        "benefits": "Enyhíti a szinuszitist, a szédülést és a látászavarokat. Felkészíti az agyat a mély, regeneráló alvásra.",
+        "duration": "Szigorúan 2–3 perc (idősebbeknél rövidebb)",
+        "position": "A homlok közepén — rövidebb expozíció!",
+        "warning": true,
+        "indications": [
+          "Szinuszitis",
+          "Szédülés",
+          "Szemproblémák"
+        ],
+        "note": ""
+      },
+      {
+        "id": 7,
+        "name": "Korona / Hetedik csakra",
+        "title": "A teljes idegrendszer harmonizálása.",
+        "benefits": "Segít súlyos álmatlanság, agyi rendellenességek, görcsök és kontraktúrák esetén. Visszaadja a testtel való egység érzését.",
+        "duration": "Szigorúan 2–3 perc (idősebbeknél rövidebb)",
+        "position": "A fejtetőn — rövidebb expozíció!",
+        "warning": true,
+        "indications": [
+          "Álmatlanság",
+          "Agyi rendellenességek",
+          "Görcsök",
+          "Kontraktúrák"
+        ],
+        "note": ""
+      }
+    ],
+    "extras": {
+      "eyebrow": "További felhasználás",
+      "title": "Több mint test-",
+      "titleItalic": "terápia.",
+      "items": [
+        {
+          "id": "water",
+          "title": "Víz és ételek energetizálása",
+          "body": "Helyezzen egy kancsó vizet vagy egy tál ételt a Polarisra 30 percre. A korong átalakítja a molekuláris szerkezetet, 'élővé' és könnyebben emészthetővé téve a vizet.",
+          "stat": "30 perc"
+        },
+        {
+          "id": "plants",
+          "title": "Növények és háziállatok",
+          "body": "Az állatok tévedhetetlenül érzik a jó energiát. Az energetizált vízzel öntözött növények akár 30%-kal gyorsabban nőnek, láthatóan nagyobb levél-vitalitással.",
+          "stat": "+30% növekedés"
+        },
+        {
+          "id": "space",
+          "title": "Tér tisztítása",
+          "body": "Tartsa a korongot abban a szobában, ahol a legtöbb időt tölti, hogy semlegesítse a káros elektromágneses sugárzást (EMF) és a negatív környezeti hatásokat.",
+          "stat": "EMF-védelem"
+        },
+        {
+          "id": "obesity",
+          "title": "Elhízás és anyagcsere",
+          "body": "A haskörnyék és az 5. csakra (torok) kezelése felgyorsítja az anyagcserét. Naponta 2–3-szor használja az optimális metabolikus aktiváláshoz.",
+          "stat": "Naponta 2–3-szor"
+        },
+        {
+          "id": "circulation",
+          "title": "Vérkeringés",
+          "body": "Álljon talppal a Polaris korongon 10–15 percig. Serkenti a perifériás keringést az egész testben, lentről felfelé.",
+          "stat": "10–15 perc"
+        },
+        {
+          "id": "stress",
+          "title": "Stresszcsökkentés",
+          "body": "Helyezze mindkét tenyerét a korongra, vagy helyezze a korongot a harmadik csakrára (napfonat). Azonnal megnyugtatja az idegrendszert és szabályozza a vérnyomást.",
+          "stat": "Azonnal"
+        }
+      ]
+    },
+    "alert": {
+      "title": "Fontos megjegyzés",
+      "body": "Előfordulhatnak érzések, mint a fokozott fájdalom, bizsergés vagy melegség. Ez annak jele, hogy a szervezet elkezdi korrigálni a rendellenességet. Ne aggódjon, az érzések elmúlnak, ahogy a probléma megoldódik."
+    }
+  },
+  "footer": {
+    "tagline": "A fizikában gyökerezve. Önre irányítva.",
+    "copyright": "Minden jog fenntartva.",
+    "sections": {
+      "company": "Vállalat",
+      "products": "Termékek",
+      "support": "Támogatás"
+    },
+    "links": {
+      "about": "Rólunk",
+      "journal": "Magazin",
+      "careers": "Karrier",
+      "allProducts": "Összes termék",
+      "collections": "Kollekciók",
+      "giftSets": "Ajándékcsomag",
+      "faq": "GYIK",
+      "contact": "Kapcsolat",
+      "shipping": "Szállítás",
+      "privacy": "Adatvédelem",
+      "terms": "Feltételek",
+      "cookies": "Sütik"
+    }
+  },
+  "shop": {
+    "eyebrow": "Polaris bolt",
+    "title": "Válassza ki",
+    "titleItalic": "Polarisát.",
+    "subtitle": "Házhozszállítás. Fizetés átvételkor.",
+    "currency": "EUR",
+    "currencySymbol": "€",
+    "shippingCost": 4,
+    "products": [
+      {
+        "id": "classic",
+        "name": "Polaris Korong",
+        "badge": "Classic",
+        "price": 39,
+        "priceLabel": "€39",
+        "description": "Mindennapi eszköze az egyensúlyhoz. Ideális csakrákhoz, helyi fájdalomhoz és vízenergizáláshoz. Élettartam: Korlátlan.",
+        "features": [
+          "Mindennapi használatra ideális",
+          "Mind a 7 csakra és helyi fájdalom",
+          "Víz- és ételenergizálás",
+          "Élettartam: Korlátlan"
+        ]
+      },
+      {
+        "id": "sport",
+        "name": "Polaris Sport",
+        "badge": "Pro",
+        "price": 99,
+        "priceLabel": "€99",
+        "description": "Fokozott teljesítmény sportolóknak és nagy terek kezelésére. Maximális szöveti regeneráció és EMF-védelem.",
+        "features": [
+          "Professzionális sportolóknak",
+          "Nagy terek kezelése",
+          "Maximális szöveti regeneráció",
+          "EMF-védelem és méregtelenítés"
+        ]
+      }
+    ],
+    "addToCart": "Hozzáadás",
+    "qty": "db",
+    "orderButton": "Rendelés",
+    "emptyCart": "Adjon terméket a kosarához a folytatáshoz",
+    "checkout": {
+      "title": "Az Ön rendelése",
+      "steps": [
+        "Adatok",
+        "Szállítás",
+        "Áttekintés"
+      ],
+      "step1Title": "Vásárlói adatok",
+      "step2Title": "Szállítási cím",
+      "step3Title": "Rendelés áttekintése",
+      "fields": {
+        "fullName": "Teljes név",
+        "email": "E-mail cím",
+        "phone": "Telefonszám",
+        "city": "Város",
+        "address": "Utca és házszám",
+        "postcode": "Irányítószám"
+      },
+      "placeholders": {
+        "fullName": "pl. Kovács János",
+        "email": "kovacs@email.hu",
+        "phone": "+36 30 123 4567",
+        "city": "pl. Budapest",
+        "address": "pl. Andrássy út 1",
+        "postcode": "1061"
+      },
+      "required": "Kötelező mező",
+      "subtotal": "Termékek ára",
+      "shipping": "Szállítás",
+      "total": "Fizetendő",
+      "codNote": "Utánvétes fizetés · Előleg nélkül",
+      "back": "Vissza",
+      "next": "Következő lépés",
+      "confirm": "Rendelés megerősítése",
+      "processing": "Feldolgozás...",
+      "success": {
+        "title": "Rendelés fogadva!",
+        "body": "Köszönjük! 24 órán belül felvesszük Önnel a kapcsolatot a megadott telefonszámon.",
+        "cta": "Vissza a főoldalra"
+      },
+      "error": "Hiba történt. Kérjük, próbálja újra."
+    }
+  },
+  "aboutPage": {
+    "pageHero": {
+      "eyebrow": "A Polaris tudománya",
+      "title": "Mi a",
+      "titleItalic": "Polaris?",
+      "subtitle": "A válasz nem a mágiában rejlik. A válasz a fizikában van."
+    },
+    "science": {
+      "eyebrow": "Elektromágneses természetünk",
+      "title": "Visszatérés az elektromágneses természet alapjaihoz.",
+      "body": "Elektromágneses lények vagyunk. Testének minden sejtje elektromágneses jeleket bocsát ki és fogad — ez az a nyelv, amelyen szervei kommunikálnak. Amikor ez az áramlás megáll, egyensúlyzavar keletkezik, amely fájdalomként, fáradtságként és betegségként nyilvánul meg. A Polaris azért van itt, hogy ezt a kapcsolatot passzívan és kémia nélkül helyreállítsa.",
+      "stat1": {
+        "value": "7,83 Hz",
+        "label": "A Föld Schumann-rezonanciája"
+      },
+      "stat2": {
+        "value": "Φ 1,618",
+        "label": "A természet arány aránya"
+      },
+      "stat3": {
+        "value": "100 μV",
+        "label": "A sejt bioelektromos potenciálja"
+      }
+    },
+    "mechanism": {
+      "eyebrow": "Az antenna elv",
+      "title": "Kilenc gyűrű.",
+      "titleItalic": "Egy cél.",
+      "body": "A Polaris kilenc gyűrűje, amelyek speciális ötvözetből készültek és pontosan az Arány Arány (Phi = 1,618...) szerint vannak hangolva, passzív bio-antennaként működik. Mint egy lencse, amely a szórt fényt egy pontra fókuszálja, a Polaris összegyűjti a vitális energiát (Prana/Qi) a környezetből, és a sejtjeibe irányítja.",
+      "detail1": {
+        "label": "9 gyűrű",
+        "body": "Minden gyűrű arányosan kisebb a Phi arány szerint, tökéletes harmonikus sort alkotva."
+      },
+      "detail2": {
+        "label": "Passzív technológia",
+        "body": "Nincs akkumulátor, nincs áram, nincs sugárzás. Csak geometria és ötvözet."
+      },
+      "detail3": {
+        "label": "Fémötvözet",
+        "body": "Fémek speciális kombinációja, bioelektromágneses rezonanciára optimalizálva."
+      }
+    },
+    "heritage": {
+      "eyebrow": "Óriások vállain állva",
+      "title": "A",
+      "titleItalic": "nagyok öröksége.",
+      "intro": "A Polaris nem légüres térben született. Két vízionárius által lefektetett alapokon áll, akiknek munkája messze megelőzte saját korukat.",
+      "conceptTitle": "Sejtek mint oszcilláló áramkörök",
+      "conceptBody": "1925-ben Lakhovsky forradalmi tézist fogalmazott meg: minden élő sejt kis oszcilláló áramkörként működik. Amikor a sejt egészséges, természetes frekvenciáján oszcillál. A Polaris segít visszavinni a sejteket erre az optimális frekvenciára.",
+      "people": [
+        {
+          "name": "Nikola Tesla",
+          "years": "1856 – 1943",
+          "role": "Az elektromos rezonancia vízionáriusa",
+          "contribution": "Tesla szisztematikusan vizsgálta a rezonanciát mint a természet alapvető erejét. Megértette, hogy minden tárgynak megvan a saját természetes frekvenciája, és hogy az energia drót nélkül is átvihető.",
+          "quote": "Ha meg akarod érteni a világegyetem titkait, gondolkodj energia, frekvencia és vibráció fogalmaiban."
+        },
+        {
+          "name": "Georges Lakhovsky",
+          "years": "1869 – 1942",
+          "role": "Az oszcilláló áramkörök atyja",
+          "contribution": "Orosz származású francia mérnök, aki forradalmasította a biológia megértését. Az Élet titka c. mű szerzője, amelyben leírja azt az elméletet, hogy minden élő sejt oszcilláló áramkör.",
+          "quote": "Minden élő sejt olyan, mint egy kis rádióadó és vevő, amely folyamatosan sugároz és fogad hullámokat."
+        }
+      ]
+    },
+    "expert": {
+      "eyebrow": "Szakértői szó",
+      "name": "Dr. Dino Tomić",
+      "role": "Nőgyógyász · Bioenergetikai szakértő · A Polaris alapítója",
+      "title": "A klasszikus nőgyógyászattól a kvantum-harmóniáig.",
+      "body": "Huszonéves nőgyógyász-specialistaként Dr. Tomić kezdte észrevenni azt, amiről az orvosi szakirodalom nem szól: sok beteg krónikus egészségproblémájának nem volt olyan strukturális oka, amelyet a konvencionális orvoslás meg tudott volna oldani. Ez bioenergetikai, kvantumbiológiai és elektromágneses terápiák kutatásához vezette.",
+      "body2": "A Polaris nem gyógyszer. Olyan eszköz, amelyet azért terveztem, hogy visszaadjam a betegeknek azt, ami mindig is az övék volt — az öngyógyítás erejét.",
+      "quote": "Nem hagytam el az orvostudományt. Kiterjesztettem. A Polaris lehetővé teszi, hogy a beteg aktív résztvevőjévé váljon saját gyógyulásának, ne csak passzív terápiavevő legyen.",
+      "credentials": [
+        "Nőgyógyász-specialista",
+        "20+ év klinikai gyakorlat",
+        "Bioenergetikai kutató",
+        "Mentor és előadó"
+      ]
+    }
+  },
+  "testimonialsPage": {
+    "pageHero": {
+      "eyebrow": "Felhasználói tapasztalatok",
+      "title": "Valódi történetek.",
+      "titleItalic": "Valódi eredmények.",
+      "subtitle": "Ezer elégedett felhasználó. Ezek néhány eredeti tanúságtételük."
+    },
+    "filters": {
+      "sve": "Összes",
+      "bol": "Fájdalom",
+      "stit": "Pajzsmirigy és hormonok",
+      "spavanje": "Alvás és stressz",
+      "varenje": "Emésztés és szervek",
+      "deca": "Gyerekek és háziállatok"
+    },
+    "items": [
+      {
+        "id": "dragan-m",
+        "type": "text",
+        "category": "bol",
+        "hook": "A hátfájás 3 nap alatt elmúlt",
+        "quote": "A hátfájás, ami évek óta kínzott, mindössze három nap alatt eltűnt. Nem tudtam elhinni. A harmadik reggelen tíz év óta először ébredtem fájdalom nélkül.",
+        "author": "Kovács M.",
+        "profession": "",
+        "location": "Budapest",
+        "verified": true,
+        "duration": "3 hónapja használja"
+      },
+      {
+        "id": "jelena-s",
+        "type": "text",
+        "category": "spavanje",
+        "hook": "Végre átalszom az egész éjszakát — nincs több altató",
+        "quote": "Végre átalszom az egész éjszakát. Kipihenten és tele energiával ébredek. A Polaris előtt szinte minden éjszaka altatót szedtem. Másfél hónapja nem nyúltam hozzájuk.",
+        "author": "Nagy É.",
+        "profession": "",
+        "location": "Debrecen",
+        "verified": true,
+        "duration": "2 hónapja használja"
+      },
+      {
+        "id": "marko-p",
+        "type": "text",
+        "category": "stit",
+        "hook": "A pajzsmirigy javult — az endokrinológus észrevette a különbséget",
+        "quote": "A pajzsmirigyem évek óta problémát okozott. A torokcsakrára való alkalmazás után az endokrinológusom javulást észlelt. Vitálisabbnak érzem magam, mint húszas éveimben.",
+        "author": "Kiss A.",
+        "profession": "",
+        "location": "Győr",
+        "verified": true,
+        "duration": "6 hónapja használja"
+      },
+      {
+        "id": "mirjana-t",
+        "type": "text",
+        "category": "spavanje",
+        "hook": "Álmatlanság 67 évesen — a Polaris megcáfolta az orvosokat",
+        "quote": "67 éves vagyok, és évek óta szenvedtem álmatlanságban. Az orvosok mindig azt mondták, ez normális az én koromban. A Polaris bebizonyította, hogy nem kell így lennie.",
+        "author": "Szabó M.",
+        "profession": "",
+        "location": "Pécs",
+        "verified": true,
+        "duration": "2 hónapja használja"
+      }
+    ]
+  },
+  "contactPage": {
+    "pageHero": {
+      "eyebrow": "Támogatás és kapcsolat",
+      "title": "Itt vagyunk",
+      "titleItalic": "Önért.",
+      "subtitle": "Kérdése van? Írjon nekünk, vagy nézze meg az alábbi GYIK-et."
+    },
+    "faq": {
+      "eyebrow": "Gyakran ismételt kérdések",
+      "title": "Minden, amit tudnia kell.",
+      "items": [
+        {
+          "id": "batteries",
+          "question": "Van a Polarisnak akkumulátora vagy elektromos tápellátása?",
+          "answer": "Nem. A Polaris teljesen passzív eszköz — nincs akkumulátor, kábel vagy bármilyen elektromos tápellátás. Kizárólag a geometriája és a fémötvözete révén működik, amelyből készült, külső energiaforrás nélkül."
+        },
+        {
+          "id": "radiation",
+          "question": "Bocsát ki a Polaris elektromágneses sugárzást?",
+          "answer": "Nem. A Polaris passzív bio-antenna, ami azt jelenti, hogy nem bocsát ki sugárzást. Ehelyett, mint egy fényt irányító optikai lencse, összegyűjti és fókuszálja a már jelen lévő természetes frekvenciákat a környezetből — nem hozza létre azokat."
+        },
+        {
+          "id": "children",
+          "question": "Használhatják gyerekek?",
+          "answer": "Igen. A Polaris minden korú gyermek számára biztonságos. Mivel teljesen passzív és nem bocsát ki jeleket, gyermekek esetén nincs ellenjavallat. Kisgyermekeknél rövidebb üléseket (10–15 perc) javaslunk szülői felügyelet mellett."
+        },
+        {
+          "id": "lifespan",
+          "question": "Mennyi a Polaris élettartama?",
+          "answer": "Korlátlan. Mivel a Polarisnak nincsenek mozgó alkatrészei, elektronikája vagy elhasználódó anyagai, geometriája és rezonanciatulajdonságai örökre érintetlenek maradnak. Az egyszer megvásárolt Polaris egész életen át tartó befektetés."
+        },
+        {
+          "id": "usage",
+          "question": "Meddig kell használni?",
+          "answer": "A standard ajánlás napi 20–30 perc a választott területen. Akut fájdalomnál 3×15 perces ülések gyors eredményeket hoznak. Krónikus állapotoknál a 30 napos, napi egyszeri rendszeres használat optimális hatásokat eredményez."
+        },
+        {
+          "id": "delivery",
+          "question": "Mikor számíthatok a szállításra?",
+          "answer": "Szerbián belül 24 órán belüli szállítás. A régióban (Bosznia, Horvátország, Montenegró) 2–3 munkanap. Európa többi részére 5–7 munkanap. Minden rendelést az e-mailre küldött nyomkövető kóddal lehet nyomon követni."
+        }
+      ]
+    },
+    "contactForm": {
+      "eyebrow": "Lépjen velünk kapcsolatba",
+      "title": "Írjon nekünk.",
+      "subtitle": "Munkanapokon 24 órán belül válaszolunk.",
+      "namePlaceholder": "Az Ön teljes neve",
+      "emailPlaceholder": "on@email.hu",
+      "messagePlaceholder": "Hogyan segíthetünk Önnek?",
+      "submitLabel": "Üzenet küldése",
+      "submittingLabel": "Küldés...",
+      "successTitle": "Üzenet megérkezett!",
+      "successBody": "Köszönjük. 24 órán belül válaszolunk.",
+      "errorLabel": "Valami hiba történt. Kérjük, próbálja újra."
+    },
+    "support": {
+      "eyebrow": "Közvetlen támogatás",
+      "title": "Elérhetőségeink.",
+      "phoneLabel": "Telefon",
+      "phoneValue": "+381 60 123 4567",
+      "emailLabel": "E-mail",
+      "emailValue": "support@polaris.rs",
+      "hoursLabel": "Munkaidő",
+      "hoursValue": "H–P, 09:00–17:00"
+    }
+  }
+}

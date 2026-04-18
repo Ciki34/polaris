@@ -15,6 +15,9 @@ const localeMeta: Record<Locale, { label: string; currency: string; flag: string
   pt: { label: "PT", currency: "EUR", flag: "🇵🇹" },
   it: { label: "IT", currency: "EUR", flag: "🇮🇹" },
   fr: { label: "FR", currency: "EUR", flag: "🇫🇷" },
+  cs: { label: "CS", currency: "EUR", flag: "🇨🇿" },
+  hu: { label: "HU", currency: "EUR", flag: "🇭🇺" },
+  sk: { label: "SK", currency: "EUR", flag: "🇸🇰" },
 };
 
 /* ─── Nav labels ──────────────────────────────────────────────────────────── */
@@ -28,11 +31,15 @@ const navLabels: Record<Locale, Record<NavKey, string>> = {
   pt: { about: "Sobre",      "how-to-use": "Como usar",       testimonials: "Depoimentos",   contact: "Contato",  shop: "Loja"            },
   it: { about: "Chi siamo",  "how-to-use": "Come usare",      testimonials: "Testimonianze", contact: "Contatti", shop: "Negozio"         },
   fr: { about: "À propos",   "how-to-use": "Comment utiliser",testimonials: "Témoignages",   contact: "Contact",  shop: "Boutique"        },
+  cs: { about: "O nás",      "how-to-use": "Jak používat",    testimonials: "Zkušenosti",    contact: "Kontakt",  shop: "Obchod"          },
+  hu: { about: "Rólunk",     "how-to-use": "Használat",       testimonials: "Vélemények",    contact: "Kapcsolat",shop: "Bolt"            },
+  sk: { about: "O nás",      "how-to-use": "Ako používať",    testimonials: "Skúsenosti",    contact: "Kontakt",  shop: "Obchod"          },
 };
 
 const shopLabel: Record<Locale, string> = {
-  sr: "Naruči",  en: "Order",  es: "Pedir",
-  pt: "Pedir",   it: "Ordina", fr: "Commander",
+  sr: "Naruči",  en: "Order",    es: "Pedir",
+  pt: "Pedir",   it: "Ordina",   fr: "Commander",
+  cs: "Objednat", hu: "Rendelés", sk: "Objednať",
 };
 
 /* ─── Language Dropdown ───────────────────────────────────────────────────── */

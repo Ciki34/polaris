@@ -29,7 +29,7 @@ export default async function HomePage({
       <ProblemSection dict={dict.problem} />
       <SolutionSection dict={dict.solution} lang={lang} />
       <SportSection dict={dict.sport} lang={lang} />
-      <HowPolarisWorksSection lang={lang} />
+      <HowPolarisWorksSection lang={lang} dict={dict.howPolarisWorks} />
       <TestimonialsSection dict={dict.testimonials} />
       <FinalCtaSection dict={dict.finalCta} lang={lang} />
     </>

@@ -13,6 +13,8 @@ interface HeroDict {
   subtitle: string;
   cta: string;
   scroll: string;
+  statsUsers: string;
+  statsTradition: string;
 }
 
 interface HeroSectionProps {
@@ -134,7 +136,7 @@ export function HeroSection({ dict, lang }: HeroSectionProps) {
               transition={{ delay: 0.8, duration: 0.7 }}
             >
               <p className="font-heading text-2xl tracking-tight">100 000+</p>
-              <p className="text-xs text-muted-foreground font-light tracking-wide mt-0.5">korisnika širom sveta</p>
+              <p className="text-xs text-muted-foreground font-light tracking-wide mt-0.5">{dict.statsUsers}</p>
             </motion.div>
 
             {/* Floating stats card — tradicija */}
@@ -145,7 +147,7 @@ export function HeroSection({ dict, lang }: HeroSectionProps) {
               transition={{ delay: 1.0, duration: 0.7 }}
             >
               <p className="font-heading text-2xl tracking-tight">10+</p>
-              <p className="text-xs text-muted-foreground font-light tracking-wide mt-0.5">godina tradicije</p>
+              <p className="text-xs text-muted-foreground font-light tracking-wide mt-0.5">{dict.statsTradition}</p>
             </motion.div>
           </motion.div>
         </div>

@@ -12,7 +12,9 @@
     "titleItalic": "in your hands.",
     "subtitle": "We are beings of electromagnetic nature. Harness the power of biophotonics and restore your body to its ideal balance. Polaris is your personal antenna for vital energy, developed on the foundations of Nikola Tesla and Georges Lakhovsky's research.",
     "cta": "Order Your Polaris",
-    "scroll": "Explore"
+    "scroll": "Explore",
+    "statsUsers": "users worldwide",
+    "statsTradition": "years of tradition"
   },
   "strip": [
     "Biophotonics",
@@ -94,6 +96,18 @@
         "location": "Subotica"
       }
     ]
+  },
+  "howPolarisWorks": {
+    "eyebrow": "Mechanism of Action",
+    "title": "How Polaris",
+    "titleItalic": "works",
+    "card1Title": "Cosmic Energy",
+    "card1Body": "Operation POLARIS collects cosmic (life) energy (prana) and directs it into cells, encouraging them to regenerate and establish their normal functioning. It equally affects all forms of life — people, animals and plants.",
+    "card1ImageAlt": "Polaris and 7 chakras",
+    "card2Title": "Protective Field",
+    "card2Body": "POLARIS harmonizes all 7 energy centers (chakras), establishing perfect balance in your electromagnetic field (aura). A strong aura shields you from microorganisms, harmful radiation, and negative external energies — making it an impenetrable protective wall.",
+    "card2ImageAlt": "Aura — before and after Polaris",
+    "cta": "How to Use"
   },
   "finalCta": {
     "eyebrow": "Start today",

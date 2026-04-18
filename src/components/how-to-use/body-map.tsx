@@ -380,7 +380,7 @@ export function BodyMap({ points, mapSection }: BodyMapProps) {
 
         {/* Left — SVG body */}
         <div className="flex flex-col items-center">
-          <div className="relative w-full max-w-[220px] sm:max-w-[260px] lg:max-w-none mx-auto">
+          <div className="relative w-full max-w-[220px] sm:max-w-[260px] lg:max-w-none mx-auto overflow-hidden max-h-[380px] sm:max-h-[460px] lg:max-h-none lg:overflow-visible">
             <BodySilhouette activeId={activeId} onSelect={setActiveId} />
           </div>
           <p className="hidden lg:block text-center text-[10px] text-muted-foreground font-light tracking-widest uppercase mt-5">

@@ -38,7 +38,7 @@ export function HowPolarisWorksSection({ lang }: { lang: string }) {
               {/* Image top */}
               <div className="relative h-64 bg-gradient-to-br from-secondary to-muted/60 overflow-hidden">
                 <Image
-                  src="/polaris-chakre2.png"
+                  src="/polaris-chakre.png"
                   alt="Polaris i 7 chakri"
                   fill
                   className="object-contain p-6"
@@ -77,7 +77,7 @@ export function HowPolarisWorksSection({ lang }: { lang: string }) {
               {/* Image top */}
               <div className="relative h-64 bg-gradient-to-br from-secondary/80 to-muted/40 overflow-hidden">
                 <Image
-                  src="/aura2.png"
+                  src="/aura.png"
                   alt="Aura — before and after Polaris"
                   fill
                   className="object-contain p-4"

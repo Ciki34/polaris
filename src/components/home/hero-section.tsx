@@ -126,15 +126,26 @@ export function HeroSection({ dict, lang }: HeroSectionProps) {
               <span className="font-heading italic text-xl text-polaris-peach">φ</span>
             </motion.div>
 
-            {/* Floating stats card */}
+            {/* Floating stats card — korisnici */}
             <motion.div
               className="absolute -bottom-2 -left-4 md:-left-8 bg-background/90 backdrop-blur-sm border border-border rounded-2xl px-5 py-4 shadow-md"
               initial={{ opacity: 0, x: -20 }}
               animate={{ opacity: 1, x: 0 }}
               transition={{ delay: 0.8, duration: 0.7 }}
             >
-              <p className="text-xs text-muted-foreground font-light tracking-wide uppercase mb-1">Korisnika</p>
-              <p className="font-heading text-2xl tracking-tight">100 000+</p>
+              <p className="font-heading text-2xl tracking-tight">preko 100 000</p>
+              <p className="text-xs text-muted-foreground font-light tracking-wide mt-0.5">korisnika širom sveta</p>
+            </motion.div>
+
+            {/* Floating stats card — tradicija */}
+            <motion.div
+              className="absolute top-1/2 -right-4 md:-right-6 -translate-y-1/2 bg-background/90 backdrop-blur-sm border border-border rounded-2xl px-5 py-4 shadow-md"
+              initial={{ opacity: 0, x: 20 }}
+              animate={{ opacity: 1, x: 0 }}
+              transition={{ delay: 1.0, duration: 0.7 }}
+            >
+              <p className="font-heading text-2xl tracking-tight">preko 10</p>
+              <p className="text-xs text-muted-foreground font-light tracking-wide mt-0.5">godina tradicije</p>
             </motion.div>
           </motion.div>
         </div>

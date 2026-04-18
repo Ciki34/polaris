@@ -2,134 +2,114 @@
 
 import Image from "next/image";
 import Link from "next/link";
+import { motion } from "framer-motion";
 import { buttonVariants } from "@/components/ui/button";
 import { cn } from "@/lib/utils";
-import { ScrollReveal } from "./scroll-reveal";
+import { ScrollReveal, RevealChild } from "./scroll-reveal";
 
 export function HowPolarisWorksSection({ lang }: { lang: string }) {
   return (
-    <section className="overflow-hidden relative py-24 md:py-32">
-      {/* ── Header ──────────────────────────────────────────────────── */}
-      <div className="container-tight text-center mb-16">
-        <ScrollReveal>
-          <p className="text-xs tracking-[0.22em] uppercase text-muted-foreground font-light mb-5">
-            Mehanizam dejstva
-          </p>
-          <h2 className="font-heading text-4xl md:text-5xl lg:text-[3.2rem] tracking-tight text-balance leading-[1.1]">
-            Kako Polaris{" "}
-            <span className="italic text-polaris-peach">funkcioniše</span>
-          </h2>
-        </ScrollReveal>
-      </div>
+    <section className="section-padding bg-secondary/20 border-y border-border/40 overflow-hidden">
+      <div className="container-tight">
 
-      {/* ── Block 1 — dark emerald rounded box ──────────────────────── */}
-      <div className="mx-4 md:mx-6 lg:mx-10 xl:mx-16 mb-6 rounded-3xl overflow-hidden relative">
-        {/* Background */}
-        <div
-          className="absolute inset-0"
-          style={{
-            background:
-              "linear-gradient(135deg, #062C2B 0%, oklch(0.22 0.048 185) 60%, oklch(0.15 0.030 185) 100%)",
-          }}
-        />
-        {/* Ambient circles */}
-        <div
-          aria-hidden
-          className="pointer-events-none absolute top-0 right-0 w-[500px] h-[500px] opacity-20"
-          style={{
-            background:
-              "radial-gradient(circle, oklch(0.82 0.052 33 / 0.3) 0%, transparent 65%)",
-            transform: "translate(25%, -25%)",
-          }}
-        />
-        <div
-          aria-hidden
-          className="pointer-events-none absolute bottom-0 left-0 w-[360px] h-[360px] opacity-10"
-          style={{
-            background:
-              "radial-gradient(circle, oklch(0.72 0.06 148 / 0.4) 0%, transparent 65%)",
-            transform: "translate(-30%, 30%)",
-          }}
-        />
+        {/* Header */}
+        <div className="text-center mb-16">
+          <ScrollReveal>
+            <p className="text-xs tracking-[0.22em] uppercase text-muted-foreground font-light mb-5">
+              Mehanizam dejstva
+            </p>
+            <h2 className="font-heading text-4xl md:text-5xl lg:text-[3.2rem] tracking-tight text-balance leading-[1.1]">
+              Kako Polaris{" "}
+              <span className="italic text-polaris-peach">funkcioniše</span>
+            </h2>
+          </ScrollReveal>
+        </div>
 
-        <div className="relative z-10 px-8 md:px-14 lg:px-20 py-20 md:py-24">
-          <div className="grid lg:grid-cols-2 gap-12 lg:gap-20 items-center">
-            {/* Left — copy */}
-            <div>
-              <ScrollReveal delay={0.05}>
-                <span
-                  aria-hidden
-                  className="font-heading text-8xl font-bold text-white/10 select-none leading-none block mb-6"
-                >
-                  01
-                </span>
-              </ScrollReveal>
-              <ScrollReveal delay={0.13}>
-                <p className="text-base text-white/60 font-light leading-relaxed">
-                  <span className="font-semibold text-white">Operation POLARIS</span>{" "}
-                  collects cosmic (life) energy (prana) and directs it into cells,
-                  encouraging them to regenerate and establish their normal functioning.
-                  It equally affects all forms of life — people, animals and plants.
-                </p>
-              </ScrollReveal>
-            </div>
+        {/* Cards */}
+        <ScrollReveal stagger className="grid md:grid-cols-2 gap-8 mb-12">
 
-            {/* Right — chakre illustration, full natural size */}
-            <ScrollReveal delay={0.18} className="flex justify-center lg:justify-end">
-              <div className="w-full max-w-md">
+          {/* Card 1 — Energy / Prana */}
+          <RevealChild>
+            <motion.article
+              className="group flex flex-col rounded-3xl bg-card border border-border/50 overflow-hidden hover:border-border hover:shadow-md transition-all duration-300 h-full"
+              whileHover={{ y: -3 }}
+              transition={{ type: "spring", stiffness: 260, damping: 22 }}
+            >
+              {/* Image top */}
+              <div className="relative h-64 bg-gradient-to-br from-secondary to-muted/60 overflow-hidden">
                 <Image
                   src="/polaris-chakre2.png"
                   alt="Polaris i 7 chakri"
-                  width={0}
-                  height={0}
-                  sizes="(max-width: 1024px) 100vw, 448px"
-                  style={{ width: "100%", height: "auto" }}
+                  fill
+                  className="object-contain p-6"
+                  sizes="(max-width: 768px) 100vw, 50vw"
                 />
+                <span
+                  aria-hidden
+                  className="absolute top-5 right-6 font-heading text-7xl font-bold text-foreground/[0.05] select-none leading-none"
+                >
+                  01
+                </span>
               </div>
-            </ScrollReveal>
-          </div>
-        </div>
-      </div>
 
-      {/* ── Block 2 — light, open, aura full-width ───────────────────── */}
-      <div className="container-tight pt-20">
-        {/* Step number + text — centered */}
-        <div className="max-w-2xl mx-auto text-center mb-12">
-          <ScrollReveal delay={0.05}>
-            <span
-              aria-hidden
-              className="font-heading text-8xl font-bold text-muted/20 select-none leading-none block mb-6"
+              {/* Body */}
+              <div className="p-7 flex flex-col flex-1">
+                <h3 className="font-heading text-xl md:text-2xl tracking-tight mb-4">
+                  Kosmička energija
+                </h3>
+                <p className="text-sm text-muted-foreground font-light leading-relaxed">
+                  <span className="font-medium text-foreground">Operation POLARIS</span> collects
+                  cosmic (life) energy (prana) and directs it into cells, encouraging them to
+                  regenerate and establish their normal functioning. It equally affects all forms
+                  of life — people, animals and plants.
+                </p>
+              </div>
+            </motion.article>
+          </RevealChild>
+
+          {/* Card 2 — Aura */}
+          <RevealChild>
+            <motion.article
+              className="group flex flex-col rounded-3xl bg-card border border-border/50 overflow-hidden hover:border-border hover:shadow-md transition-all duration-300 h-full"
+              whileHover={{ y: -3 }}
+              transition={{ type: "spring", stiffness: 260, damping: 22 }}
             >
-              02
-            </span>
-          </ScrollReveal>
-          <ScrollReveal delay={0.13}>
-            <p className="text-base text-muted-foreground font-light leading-relaxed">
-              POLARIS harmonizes all 7 energy centers (chakras), establishing perfect
-              balance in your electromagnetic field (aura) — which at the physical level
-              results in complete health. A strong aura shields you from microorganisms,
-              harmful radiation, and negative external energies, making it an
-              impenetrable protective wall.
-            </p>
-          </ScrollReveal>
-        </div>
+              {/* Image top */}
+              <div className="relative h-64 bg-gradient-to-br from-secondary/80 to-muted/40 overflow-hidden">
+                <Image
+                  src="/aura2.png"
+                  alt="Aura — before and after Polaris"
+                  fill
+                  className="object-contain p-4"
+                  sizes="(max-width: 768px) 100vw, 50vw"
+                />
+                <span
+                  aria-hidden
+                  className="absolute top-5 right-6 font-heading text-7xl font-bold text-foreground/[0.05] select-none leading-none"
+                >
+                  02
+                </span>
+              </div>
 
-        {/* Aura image — full container width */}
-        <ScrollReveal delay={0.18}>
-          <div className="w-full max-w-3xl mx-auto mb-12">
-            <Image
-              src="/aura2.png"
-              alt="Aura — before and after Polaris"
-              width={0}
-              height={0}
-              sizes="(max-width: 1280px) 100vw, 896px"
-              style={{ width: "100%", height: "auto" }}
-            />
-          </div>
+              {/* Body */}
+              <div className="p-7 flex flex-col flex-1">
+                <h3 className="font-heading text-xl md:text-2xl tracking-tight mb-4">
+                  Zaštitno polje
+                </h3>
+                <p className="text-sm text-muted-foreground font-light leading-relaxed">
+                  POLARIS harmonizes all 7 energy centers (chakras), establishing perfect
+                  balance in your electromagnetic field (aura). A strong aura shields you from
+                  microorganisms, harmful radiation, and negative external energies —
+                  making it an impenetrable protective wall.
+                </p>
+              </div>
+            </motion.article>
+          </RevealChild>
+
         </ScrollReveal>
 
         {/* CTA */}
-        <ScrollReveal delay={0.24} className="flex justify-center">
+        <ScrollReveal delay={0.2} className="flex justify-center">
           <Link
             href={`/${lang}/how-to-use`}
             className={cn(
@@ -140,6 +120,7 @@ export function HowPolarisWorksSection({ lang }: { lang: string }) {
             Upotreba
           </Link>
         </ScrollReveal>
+
       </div>
     </section>
   );

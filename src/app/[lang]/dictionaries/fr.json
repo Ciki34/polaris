@@ -418,6 +418,12 @@
       "body2": "Polaris n'est pas un médicament. C'est un outil que j'ai conçu pour redonner aux patients ce qui leur a toujours appartenu — le pouvoir d'autoguérison.",
       "quote": "Je n'ai pas abandonné la médecine. Je l'ai élargie. Polaris permet au patient de devenir un participant actif dans sa propre guérison, plutôt qu'un récepteur passif de thérapie.",
       "credentials": ["Spécialiste en gynécologie", "Plus de 20 ans de pratique clinique", "Chercheur en bioénergétique", "Mentor et conférencier"]
+    },
+    "finalCta": {
+      "heading": "Prêt pour l'expérience?",
+      "body": "Votre Polaris vous attend. Livraison sous 24 heures.",
+      "primaryButton": "Commander Polaris",
+      "secondaryButton": "Comment l'utiliser →"
     }
   },
   "testimonialsPage": {

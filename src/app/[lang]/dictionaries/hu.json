@@ -496,6 +496,12 @@
         "Bioenergetikai kutató",
         "Mentor és előadó"
       ]
+    },
+    "finalCta": {
+      "heading": "Készen áll az élményre?",
+      "body": "Az Ön Polarisa vár. Szállítás 24 órán belül.",
+      "primaryButton": "Polaris rendelése",
+      "secondaryButton": "Hogyan kell használni →"
     }
   },
   "testimonialsPage": {

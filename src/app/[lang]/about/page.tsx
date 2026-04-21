@@ -85,10 +85,10 @@ export default async function AboutPage({
             Polaris
           </p>
           <h2 className="font-heading text-4xl md:text-5xl tracking-tight text-balance leading-[1.1] mb-4">
-            Spremi za iskustvo?
+            {d.finalCta.heading}
           </h2>
           <p className="text-muted-foreground font-light mb-10 max-w-sm mx-auto text-sm leading-relaxed">
-            Vaš Polaris čeka. Dostava u roku od 24h.
+            {d.finalCta.body}
           </p>
           <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
             <Link
@@ -98,7 +98,7 @@ export default async function AboutPage({
                 "rounded-full px-12 h-12 text-sm tracking-widest uppercase font-medium shadow-md shadow-primary/15"
               )}
             >
-              Naruči Polaris
+              {d.finalCta.primaryButton}
             </Link>
             <Link
               href={`/${lang}/how-to-use`}
@@ -107,7 +107,7 @@ export default async function AboutPage({
                 "rounded-full px-10 h-12 text-sm tracking-widest uppercase font-light border-foreground/20"
               )}
             >
-              Kako se koristi →
+              {d.finalCta.secondaryButton}
             </Link>
           </div>
         </ScrollReveal>

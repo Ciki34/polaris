@@ -506,6 +506,12 @@
         "Istraživač bioenergetike",
         "Mentor i predavač"
       ]
+    },
+    "finalCta": {
+      "heading": "Spremi za iskustvo?",
+      "body": "Vaš Polaris čeka. Dostava u roku od 24h.",
+      "primaryButton": "Naruči Polaris",
+      "secondaryButton": "Kako se koristi →"
     }
   },
   "testimonialsPage": {

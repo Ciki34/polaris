@@ -496,6 +496,12 @@
         "Výskumník bioenergetiky",
         "Mentor a prednášajúci"
       ]
+    },
+    "finalCta": {
+      "heading": "Pripravení na zážitok?",
+      "body": "Váš Polaris čaká. Doručenie do 24 hodín.",
+      "primaryButton": "Objednať Polaris",
+      "secondaryButton": "Ako sa používa →"
     }
   },
   "testimonialsPage": {

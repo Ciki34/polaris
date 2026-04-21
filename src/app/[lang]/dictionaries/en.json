@@ -496,6 +496,12 @@
         "Bioenergetics researcher",
         "Mentor and lecturer"
       ]
+    },
+    "finalCta": {
+      "heading": "Ready for the experience?",
+      "body": "Your Polaris is waiting. Delivery within 24 hours.",
+      "primaryButton": "Order Polaris",
+      "secondaryButton": "How to use →"
     }
   },
   "testimonialsPage": {

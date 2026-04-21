@@ -260,6 +260,11 @@
     "alert": {
       "title": "Aviso importante",
       "body": "Pode sentir sensações como aumento da dor, formigueiro ou calor. É um sinal de que o corpo está a começar a corrigir o distúrbio. Não se preocupe — as sensações desaparecerão à medida que o problema se resolver."
+    },
+    "finalCta": {
+      "heading": "Pronto para começar?",
+      "body": "Encomende o Polaris hoje e estará à sua porta em 24 horas.",
+      "button": "Encomendar agora"
     }
   },
   "footer": {

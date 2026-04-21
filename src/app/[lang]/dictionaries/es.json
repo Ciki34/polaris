@@ -301,6 +301,11 @@
     "alert": {
       "title": "Aviso importante",
       "body": "Puedes experimentar sensaciones como aumento del dolor, hormigueo o calor. Es una señal de que el cuerpo está comenzando a corregir el trastorno. No te preocupes — las sensaciones desaparecerán a medida que el problema se resuelva."
+    },
+    "finalCta": {
+      "heading": "¿Listo para empezar?",
+      "body": "Pide Polaris hoy y estará en tu puerta en 24 horas.",
+      "button": "Pedir ahora"
     }
   },
   "footer": {

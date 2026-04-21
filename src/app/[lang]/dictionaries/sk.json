@@ -301,6 +301,11 @@
     "alert": {
       "title": "Dôležité upozornenie",
       "body": "Môžu sa vyskytnúť pocity ako zosilnenie bolesti, brnenie alebo teplo. To je znak, že organizmus začína napravovať poruchu. Nebojte sa, tieto pocity budú miznúť, ako sa problém odstraňuje."
+    },
+    "finalCta": {
+      "heading": "Pripravení začať?",
+      "body": "Objednajte Polaris dnes a do 24 hodín bude pri vašich dverách.",
+      "button": "Objednať teraz"
     }
   },
   "footer": {

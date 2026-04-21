@@ -260,6 +260,11 @@
     "alert": {
       "title": "Avis important",
       "body": "Vous pouvez ressentir des sensations telles qu'une augmentation de la douleur, des picotements ou de la chaleur. C'est un signe que le corps commence à corriger le trouble. Ne vous inquiétez pas — les sensations disparaîtront à mesure que le problème se résoudra."
+    },
+    "finalCta": {
+      "heading": "Prêt à commencer?",
+      "body": "Commandez Polaris aujourd'hui et il sera à votre porte dans les 24 heures.",
+      "button": "Commander maintenant"
     }
   },
   "footer": {

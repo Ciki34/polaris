@@ -311,6 +311,11 @@
     "alert": {
       "title": "Važna napomena",
       "body": "Moguće su senzacije u vidu pojačanja bola, peckanja ili zagrevanja. To je znak da organizam počinje da popravlja poremećaj. Ne brinite, senzacije će nestajati kako se problem uklanja."
+    },
+    "finalCta": {
+      "heading": "Spremni da počnete?",
+      "body": "Naručite Polaris danas i za 24h je na vašim vratima.",
+      "button": "Naruči sada"
     }
   },
   "footer": {

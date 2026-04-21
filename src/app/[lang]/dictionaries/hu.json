@@ -301,6 +301,11 @@
     "alert": {
       "title": "Fontos megjegyzés",
       "body": "Előfordulhatnak érzések, mint a fokozott fájdalom, bizsergés vagy melegség. Ez annak jele, hogy a szervezet elkezdi korrigálni a rendellenességet. Ne aggódjon, az érzések elmúlnak, ahogy a probléma megoldódik."
+    },
+    "finalCta": {
+      "heading": "Készen áll a kezdésre?",
+      "body": "Rendelje meg a Polarist még ma, és 24 órán belül az ajtajánál lesz.",
+      "button": "Rendelés most"
     }
   },
   "footer": {

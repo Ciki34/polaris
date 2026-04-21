@@ -301,6 +301,11 @@
     "alert": {
       "title": "Important Notice",
       "body": "You may experience sensations such as increased pain, tingling, or warmth. This is a sign that the body is beginning to correct the disorder. Do not worry — the sensations will fade as the problem resolves."
+    },
+    "finalCta": {
+      "heading": "Ready to get started?",
+      "body": "Order Polaris today and it will be at your door within 24 hours.",
+      "button": "Order now"
     }
   },
   "footer": {

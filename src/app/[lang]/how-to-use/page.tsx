@@ -138,10 +138,10 @@ export default async function HowToUsePage({
             Polaris
           </p>
           <h2 className="font-heading text-4xl md:text-5xl tracking-tight text-balance leading-[1.1] mb-6">
-            Spremni da počnete?
+            {d.finalCta.heading}
           </h2>
           <p className="text-muted-foreground font-light mb-10 max-w-sm mx-auto text-sm leading-relaxed">
-            Naručite Polaris danas i za 24h je na vašim vratima.
+            {d.finalCta.body}
           </p>
           <Link
             href={`/${lang}/products`}
@@ -150,7 +150,7 @@ export default async function HowToUsePage({
               "rounded-full px-12 h-12 text-sm tracking-widest uppercase font-medium shadow-lg shadow-primary/15"
             )}
           >
-            Naruči Polaris
+            {d.finalCta.button}
           </Link>
         </ScrollReveal>
       </section>

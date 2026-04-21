@@ -260,6 +260,11 @@
     "alert": {
       "title": "Avviso importante",
       "body": "Potresti avvertire sensazioni come aumento del dolore, formicolio o calore. È un segnale che il corpo sta iniziando a correggere il disturbo. Non preoccuparti — le sensazioni scompariranno man mano che il problema si risolve."
+    },
+    "finalCta": {
+      "heading": "Pronto per iniziare?",
+      "body": "Ordina Polaris oggi e sarà alla tua porta entro 24 ore.",
+      "button": "Ordina ora"
     }
   },
   "footer": {

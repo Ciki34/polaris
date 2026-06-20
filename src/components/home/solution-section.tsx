@@ -37,7 +37,7 @@ export function SolutionSection({ dict, lang }: { dict: SolutionDict; lang: stri
 
           {/* Left — Polaris disc visualisation */}
           <ScrollReveal delay={0.05} className="flex justify-center order-2 lg:order-1">
-            <div className="relative isolate w-72 h-72 md:w-80 md:h-80">
+            <div className="relative isolate w-80 h-80 md:w-[28rem] md:h-[28rem]">
               <Image
                 src="/polaris-disk.png"
                 alt="Polaris disk"

@@ -68,7 +68,7 @@ export function ProblemSection({ dict }: { dict: ProblemDict }) {
                 {/* Background number */}
                 <span
                   aria-hidden
-                  className="absolute top-5 right-6 font-heading text-7xl font-bold text-accent/70 group-hover:text-accent transition-colors select-none leading-none"
+                  className="absolute top-5 right-6 font-heading text-7xl font-bold text-accent select-none leading-none"
                 >
                   {card.number}
                 </span>

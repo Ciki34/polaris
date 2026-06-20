@@ -114,7 +114,8 @@ export function HeroSection({ dict, lang }: HeroSectionProps) {
                 src="/IMG_0839.jpg"
                 alt="Dr. Dina Tomić"
                 fill
-                className="object-cover object-top"
+                className="object-cover"
+                style={{ transform: "scale(2.2)", transformOrigin: "50% 55%" }}
                 priority
               />
             </div>

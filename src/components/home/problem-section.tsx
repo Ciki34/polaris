@@ -57,33 +57,37 @@ export function ProblemSection({ dict }: { dict: ProblemDict }) {
           {dict.cards.map((card, i) => (
             <RevealChild key={card.number}>
               <motion.article
-                className="group relative flex flex-col p-8 rounded-2xl border border-border/60 border-t-4 border-t-polaris-emerald bg-polaris-emerald/5 hover:border-t-polaris-emerald transition-all duration-300 hover:shadow-xl cursor-default overflow-hidden"
+                className="group relative flex flex-col p-8 rounded-2xl border border-white/10 transition-all duration-300 hover:shadow-2xl cursor-default overflow-hidden"
+                style={{
+                  background:
+                    "linear-gradient(135deg, #062C2B 0%, oklch(0.22 0.048 185) 60%, oklch(0.15 0.030 185) 100%)",
+                }}
                 whileHover={{ y: -8 }}
                 transition={{ type: "spring", stiffness: 300, damping: 24 }}
               >
                 {/* Background number */}
                 <span
                   aria-hidden
-                  className="absolute top-5 right-6 font-heading text-7xl font-bold text-polaris-emerald/15 group-hover:text-polaris-emerald/25 transition-colors select-none leading-none"
+                  className="absolute top-5 right-6 font-heading text-7xl font-bold text-accent/25 group-hover:text-accent/45 transition-colors select-none leading-none"
                 >
                   {card.number}
                 </span>
 
                 {/* Icon */}
-                <div className="mb-6 w-12 h-12 rounded-xl bg-polaris-emerald/10 flex items-center justify-center text-polaris-emerald group-hover:bg-polaris-emerald/20 transition-colors">
+                <div className="mb-6 w-12 h-12 rounded-xl bg-white/10 flex items-center justify-center text-accent group-hover:bg-white/15 transition-colors">
                   {cardIcons[i]}
                 </div>
 
                 {/* Content */}
-                <h3 className="font-heading text-xl md:text-2xl tracking-tight mb-4">
+                <h3 className="font-heading text-xl md:text-2xl tracking-tight mb-4 text-white">
                   {card.title}
                 </h3>
-                <p className="text-sm text-muted-foreground font-light leading-relaxed">
+                <p className="text-sm text-white/55 font-light leading-relaxed">
                   {card.body}
                 </p>
 
                 {/* Bottom line accent */}
-                <div className="absolute bottom-0 left-0 right-0 h-0.5 bg-gradient-to-r from-transparent via-polaris-emerald/40 to-transparent scale-x-0 group-hover:scale-x-100 transition-transform duration-500 origin-center" />
+                <div className="absolute bottom-0 left-0 right-0 h-0.5 bg-gradient-to-r from-transparent via-accent/60 to-transparent scale-x-0 group-hover:scale-x-100 transition-transform duration-500 origin-center" />
               </motion.article>
             </RevealChild>
           ))}

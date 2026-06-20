@@ -2,6 +2,7 @@
 
 import { useRef } from "react";
 import Link from "next/link";
+import Image from "next/image";
 import { motion, useInView } from "framer-motion";
 import { buttonVariants } from "@/components/ui/button";
 import { cn } from "@/lib/utils";
@@ -14,8 +15,6 @@ interface SolutionDict {
   body: string;
   cta: string;
 }
-
-const rings = [56, 48, 40, 32, 24, 16, 9, 4, 1];
 
 export function SolutionSection({ dict, lang }: { dict: SolutionDict; lang: string }) {
   const sectionRef = useRef<HTMLElement>(null);
@@ -39,59 +38,12 @@ export function SolutionSection({ dict, lang }: { dict: SolutionDict; lang: stri
           {/* Left — Polaris disc visualisation */}
           <ScrollReveal delay={0.05} className="flex justify-center order-2 lg:order-1">
             <div className="relative isolate w-72 h-72 md:w-80 md:h-80">
-              {/* Animated rings */}
-              <svg viewBox="0 0 200 200" className="w-full h-full">
-                {rings.map((r, i) => (
-                  <motion.circle
-                    key={i}
-                    cx="100"
-                    cy="100"
-                    r={r}
-                    fill="none"
-                    stroke="oklch(0.17 0.040 185)"
-                    strokeWidth={i === 0 ? 0.8 : 0.6}
-                    strokeOpacity={0.15 + (rings.length - i) * 0.04}
-                    initial={{ scale: 0, opacity: 0 }}
-                    animate={inView ? { scale: 1, opacity: 1 } : { scale: 0, opacity: 0 }}
-                    transition={{ delay: i * 0.07, duration: 0.5, ease: "easeOut" }}
-                    style={{ transformOrigin: "100px 100px" }}
-                  />
-                ))}
-                {/* Center dot */}
-                <motion.circle
-                  cx="100"
-                  cy="100"
-                  r="3.5"
-                  fill="oklch(0.17 0.040 185)"
-                  fillOpacity="0.55"
-                  initial={{ scale: 0 }}
-                  animate={inView ? { scale: 1 } : { scale: 0 }}
-                  transition={{ delay: 0.7, duration: 0.4 }}
-                  style={{ transformOrigin: "100px 100px" }}
-                />
-                {/* Phi label */}
-                <text
-                  x="100"
-                  y="107"
-                  textAnchor="middle"
-                  fontSize="8"
-                  fontFamily="Georgia, serif"
-                  fontStyle="italic"
-                  fill="oklch(0.17 0.040 185)"
-                  fillOpacity="0.35"
-                >
-                  φ = 1.618
-                </text>
-              </svg>
-
-              {/* Outer glow blob */}
-              <div
-                aria-hidden
-                className="absolute inset-0 -z-10 rounded-full opacity-25"
-                style={{
-                  background:
-                    "radial-gradient(circle, oklch(0.82 0.052 33 / 0.4) 0%, transparent 70%)",
-                }}
+              <Image
+                src="/polaris-disk.png"
+                alt="Polaris disk"
+                fill
+                className="object-contain drop-shadow-2xl"
+                priority
               />
 
               {/* Floating label */}

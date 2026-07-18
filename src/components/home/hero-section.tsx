@@ -25,10 +25,37 @@ interface HeroSectionProps {
 export function HeroSection({ dict, lang }: HeroSectionProps) {
   return (
     <section className="relative min-h-[100svh] flex items-center overflow-hidden bg-background">
+      {/* Faded full-width background photo */}
+      <div aria-hidden className="absolute inset-0 z-0">
+        <Image
+          src="/polaris-hero-back.jpg"
+          alt=""
+          fill
+          priority
+          className="object-cover opacity-25"
+          style={{ filter: "grayscale(0.4) sepia(0.12)" }}
+        />
+      </div>
+
+      {/* Warm cream tint, stronger on the left to keep the copy legible */}
+      <div
+        aria-hidden
+        className="pointer-events-none absolute inset-0 z-[1]"
+        style={{
+          background:
+            "linear-gradient(90deg, var(--background) 0%, oklch(0.98 0.006 62 / 0.6) 45%, transparent 78%)",
+        }}
+      />
+      <div
+        aria-hidden
+        className="pointer-events-none absolute inset-0 z-[1]"
+        style={{ background: "oklch(0.82 0.052 33 / 0.10)" }}
+      />
+
       {/* Ambient blobs */}
       <div
         aria-hidden
-        className="pointer-events-none absolute inset-0 -z-10"
+        className="pointer-events-none absolute inset-0 z-[1]"
         style={{
           background:
             "radial-gradient(ellipse 70% 60% at 30% 50%, oklch(0.82 0.052 33 / 0.10) 0%, transparent 65%)",
@@ -36,14 +63,14 @@ export function HeroSection({ dict, lang }: HeroSectionProps) {
       />
       <div
         aria-hidden
-        className="pointer-events-none absolute inset-0 -z-10"
+        className="pointer-events-none absolute inset-0 z-[1]"
         style={{
           background:
             "radial-gradient(ellipse 55% 55% at 80% 30%, oklch(0.72 0.06 148 / 0.07) 0%, transparent 60%)",
         }}
       />
 
-      <div className="w-full max-w-7xl mx-auto px-6 md:px-10 lg:px-16 py-28">
+      <div className="relative z-10 w-full max-w-7xl mx-auto px-6 md:px-10 lg:px-16 py-28">
         <div className="grid lg:grid-cols-2 gap-16 lg:gap-24 items-center">
 
           {/* Left — copy */}
@@ -95,31 +122,13 @@ export function HeroSection({ dict, lang }: HeroSectionProps) {
             </motion.div>
           </div>
 
-          {/* Right — photo placeholder */}
+          {/* Right — floating stats over the background photo */}
           <motion.div
-            className="relative flex justify-center lg:justify-end"
+            className="relative w-full max-w-sm md:max-w-md aspect-[3/4] mx-auto lg:mx-0 lg:ml-auto"
             initial={{ opacity: 0, scale: 0.96 }}
             animate={{ opacity: 1, scale: 1 }}
             transition={{ duration: 1.0, delay: 0.2, ease: [0.25, 0.1, 0.25, 1] }}
           >
-            {/* Blob container */}
-            <div
-              className="relative w-full max-w-sm md:max-w-md aspect-[3/4]"
-              style={{
-                borderRadius: "62% 38% 55% 45% / 48% 52% 48% 52%",
-                overflow: "hidden",
-              }}
-            >
-              <Image
-                src="/IMG_0839.jpg"
-                alt="Dr. Dina Tomić"
-                fill
-                className="object-cover"
-                style={{ transform: "scale(2.2)", transformOrigin: "50% 55%" }}
-                priority
-              />
-            </div>
-
             {/* Floating accent — Phi symbol */}
             <motion.div
               className="absolute -top-4 -right-4 w-16 h-16 rounded-full bg-background border border-border flex items-center justify-center shadow-sm"
@@ -155,7 +164,7 @@ export function HeroSection({ dict, lang }: HeroSectionProps) {
       </div>
 
       {/* Scroll indicator */}
-      <div className="absolute bottom-8 left-1/2 -translate-x-1/2 flex flex-col items-center gap-2 opacity-30">
+      <div className="absolute z-10 bottom-8 left-1/2 -translate-x-1/2 flex flex-col items-center gap-2 opacity-30">
         <span className="text-[10px] tracking-[0.25em] uppercase font-light">{dict.scroll}</span>
         <motion.div
           className="w-px h-10 bg-foreground/40 origin-top"

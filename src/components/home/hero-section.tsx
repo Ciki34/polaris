@@ -122,13 +122,31 @@ export function HeroSection({ dict, lang }: HeroSectionProps) {
             </motion.div>
           </div>
 
-          {/* Right — floating stats over the background photo */}
+          {/* Right — photo placeholder */}
           <motion.div
-            className="relative w-full max-w-sm md:max-w-md aspect-[3/4] mx-auto lg:mx-0 lg:ml-auto"
+            className="relative flex justify-center lg:justify-end"
             initial={{ opacity: 0, scale: 0.96 }}
             animate={{ opacity: 1, scale: 1 }}
             transition={{ duration: 1.0, delay: 0.2, ease: [0.25, 0.1, 0.25, 1] }}
           >
+            {/* Blob container */}
+            <div
+              className="relative w-full max-w-sm md:max-w-md aspect-[3/4]"
+              style={{
+                borderRadius: "62% 38% 55% 45% / 48% 52% 48% 52%",
+                overflow: "hidden",
+              }}
+            >
+              <Image
+                src="/IMG_0839.jpg"
+                alt="Dr. Dina Tomić"
+                fill
+                className="object-cover"
+                style={{ transform: "scale(2.2)", transformOrigin: "50% 55%" }}
+                priority
+              />
+            </div>
+
             {/* Floating accent — Phi symbol */}
             <motion.div
               className="absolute -top-4 -right-4 w-16 h-16 rounded-full bg-background border border-border flex items-center justify-center shadow-sm"

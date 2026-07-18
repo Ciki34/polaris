@@ -37,14 +37,11 @@ export function HeroSection({ dict, lang }: HeroSectionProps) {
         />
       </div>
 
-      {/* Warm cream tint, stronger on the left to keep the copy legible */}
+      {/* Warm cream tint, even across the whole photo */}
       <div
         aria-hidden
         className="pointer-events-none absolute inset-0 z-[1]"
-        style={{
-          background:
-            "linear-gradient(90deg, var(--background) 0%, oklch(0.98 0.006 62 / 0.6) 45%, transparent 78%)",
-        }}
+        style={{ background: "oklch(0.98 0.006 62 / 0.35)" }}
       />
       <div
         aria-hidden

@@ -39,7 +39,7 @@ export function SolutionSection({ dict, lang }: { dict: SolutionDict; lang: stri
           <ScrollReveal delay={0.05} className="flex justify-center order-2 lg:order-1">
             <div className="relative isolate w-full max-w-md lg:max-w-lg aspect-square">
               <Image
-                src="/polaris-disk2.png"
+                src="/polaris-disk3.png"
                 alt="Polaris disk"
                 fill
                 className="object-contain drop-shadow-2xl"

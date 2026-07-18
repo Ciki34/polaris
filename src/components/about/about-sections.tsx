@@ -198,10 +198,15 @@ export function MechanismSection({ dict }: { dict: AboutDict["mechanism"] }) {
       <div className="container-tight">
         <div className="grid lg:grid-cols-2 gap-16 lg:gap-24 items-center">
 
-          {/* Left — animated rings */}
+          {/* Left — Polaris disc photo */}
           <ScrollReveal delay={0.05} className="flex flex-col items-center order-2 lg:order-1">
-            <div className="relative">
-              <PolarisRings size={300} animated />
+            <div className="relative isolate w-full max-w-md lg:max-w-lg aspect-square">
+              <Image
+                src="/polaris-disk3.png"
+                alt="Polaris disk"
+                fill
+                className="object-contain drop-shadow-2xl"
+              />
 
               {/* Phi label */}
               <motion.div

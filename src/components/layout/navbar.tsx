@@ -7,19 +7,6 @@ import { cn } from "@/lib/utils";
 import { Separator } from "@/components/ui/separator";
 import type { Locale } from "@/app/[lang]/dictionaries";
 
-/* ─── Locale metadata ─────────────────────────────────────────────────────── */
-const localeMeta: Record<Locale, { label: string; currency: string; flag: string }> = {
-  sr: { label: "SR", currency: "RSD", flag: "🇷🇸" },
-  en: { label: "EN", currency: "EUR", flag: "🇬🇧" },
-  es: { label: "ES", currency: "EUR", flag: "🇪🇸" },
-  pt: { label: "PT", currency: "EUR", flag: "🇵🇹" },
-  it: { label: "IT", currency: "EUR", flag: "🇮🇹" },
-  fr: { label: "FR", currency: "EUR", flag: "🇫🇷" },
-  cs: { label: "CS", currency: "EUR", flag: "🇨🇿" },
-  hu: { label: "HU", currency: "EUR", flag: "🇭🇺" },
-  sk: { label: "SK", currency: "EUR", flag: "🇸🇰" },
-};
-
 /* ─── Nav labels ──────────────────────────────────────────────────────────── */
 const navKeys = ["about", "how-to-use", "testimonials", "contact", "shop"] as const;
 type NavKey = (typeof navKeys)[number];
@@ -41,82 +28,6 @@ const shopLabel: Record<Locale, string> = {
   pt: "Pedir",   it: "Ordina",   fr: "Commander",
   cs: "Objednat", hu: "Rendelés", sk: "Objednať",
 };
-
-/* ─── Language Dropdown ───────────────────────────────────────────────────── */
-function LocaleSwitcher({
-  lang,
-  scrolled,
-}: {
-  lang: Locale;
-  scrolled: boolean;
-}) {
-  const [open, setOpen] = useState(false);
-  const current = localeMeta[lang];
-
-  // Close on outside click
-  useEffect(() => {
-    if (!open) return;
-    const handler = () => setOpen(false);
-    document.addEventListener("click", handler);
-    return () => document.removeEventListener("click", handler);
-  }, [open]);
-
-  return (
-    <div className="relative hidden md:block" onClick={(e) => e.stopPropagation()}>
-      <button
-        onClick={() => setOpen((v) => !v)}
-        className={cn(
-          "flex items-center gap-1.5 rounded-full px-3 h-8 text-[11px] font-medium tracking-widest uppercase transition-all duration-200",
-          open || scrolled
-            ? "bg-muted text-foreground"
-            : "text-muted-foreground hover:text-foreground"
-        )}
-        aria-label="Switch language"
-        aria-expanded={open}
-      >
-        <span>{current.label}</span>
-        <span className="text-muted-foreground/50 font-light">·</span>
-        <span className="text-muted-foreground/70 font-light">{current.currency}</span>
-        <svg
-          viewBox="0 0 16 16"
-          fill="none"
-          className={cn("w-3 h-3 transition-transform duration-200 text-muted-foreground/50", open && "rotate-180")}
-        >
-          <path d="M4 6l4 4 4-4" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" />
-        </svg>
-      </button>
-
-      {/* Dropdown */}
-      {open && (
-        <div className="absolute right-0 top-full mt-2 w-44 rounded-2xl border border-border/60 bg-background/95 backdrop-blur-md shadow-lg shadow-foreground/8 overflow-hidden z-50">
-          {(Object.entries(localeMeta) as [Locale, typeof localeMeta[Locale]][]).map(
-            ([locale, meta]) => (
-              <Link
-                key={locale}
-                href={`/${locale}`}
-                onClick={() => setOpen(false)}
-                className={cn(
-                  "flex items-center justify-between px-4 py-2.5 text-sm transition-colors duration-150",
-                  locale === lang
-                    ? "bg-primary/6 text-foreground"
-                    : "text-muted-foreground hover:bg-muted hover:text-foreground"
-                )}
-              >
-                <div className="flex items-center gap-2.5">
-                  <span>{meta.flag}</span>
-                  <span className="font-medium tracking-wide">{meta.label}</span>
-                </div>
-                <span className="text-[11px] text-muted-foreground/60 font-light tracking-widest">
-                  {meta.currency}
-                </span>
-              </Link>
-            )
-          )}
-        </div>
-      )}
-    </div>
-  );
-}
 
 /* ─── Mobile Menu ─────────────────────────────────────────────────────────── */
 function MobileMenu({
@@ -143,27 +54,6 @@ function MobileMenu({
             {labels[key]}
           </Link>
         ))}
-        <div className="pt-4 border-t border-border/40 flex flex-wrap gap-2 mt-2">
-          {(Object.entries(localeMeta) as [Locale, typeof localeMeta[Locale]][]).map(
-            ([locale, meta]) => (
-              <Link
-                key={locale}
-                href={`/${locale}`}
-                onClick={onClose}
-                className={cn(
-                  "flex items-center gap-1.5 px-3 py-1.5 rounded-full text-[11px] font-medium tracking-widest uppercase transition-colors",
-                  locale === lang
-                    ? "bg-primary text-primary-foreground"
-                    : "bg-muted text-muted-foreground hover:bg-muted/80"
-                )}
-              >
-                <span>{meta.flag}</span>
-                <span>{meta.label}</span>
-                <span className="opacity-60">{meta.currency}</span>
-              </Link>
-            )
-          )}
-        </div>
       </nav>
     </div>
   );
@@ -218,9 +108,6 @@ export function Navbar({ lang }: { lang: Locale }) {
 
         {/* Right side */}
         <div className="flex items-center gap-3">
-          {/* Language + currency switcher */}
-          <LocaleSwitcher lang={lang} scrolled={scrolled} />
-
           {/* CTA — Shop */}
           <Link
             href={`/${lang}/shop`}

@@ -14,12 +14,17 @@ const dictionaries = {
 
 export type Locale = keyof typeof dictionaries;
 
-export const locales = Object.keys(dictionaries) as Locale[];
+/*
+ * Only Serbian is offered on the live site right now. The other dictionaries
+ * stay in place (untouched, importable) in case the site goes multilingual
+ * again — this just narrows what's routable and statically generated.
+ */
+export const locales: Locale[] = ["sr"];
 
 export const defaultLocale: Locale = "sr";
 
 export const hasLocale = (locale: string): locale is Locale =>
-  locale in dictionaries;
+  locale === defaultLocale;
 
 export const getDictionary = async (locale: Locale) =>
   dictionaries[locale]();

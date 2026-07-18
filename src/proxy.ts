@@ -2,36 +2,31 @@ import { createServerClient } from "@supabase/ssr";
 import { NextResponse, type NextRequest } from "next/server";
 
 /* ─── i18n Config ────────────────────────────────────────────────────────── */
-const locales = ["sr", "en", "es", "pt", "it", "fr", "cs", "hu", "sk"] as const;
-const defaultLocale = "sr";
-
-function getLocale(request: NextRequest): string {
-  const acceptLanguage = request.headers.get("accept-language") ?? "";
-  const preferred = acceptLanguage
-    .split(",")
-    .map((part) => part.split(";")[0].trim().toLowerCase().split("-")[0])
-    .filter(Boolean);
-
-  for (const lang of preferred) {
-    if ((locales as readonly string[]).includes(lang)) return lang;
-  }
-  return defaultLocale;
-}
+// Only Serbian is served right now. The other locale prefixes are kept here
+// so old bookmarked/indexed links (e.g. /en/about) redirect to their Serbian
+// equivalent instead of 404ing.
+const activeLocale = "sr";
+const allLocales = ["sr", "en", "es", "pt", "it", "fr", "cs", "hu", "sk"] as const;
 
 /* ─── Proxy (Middleware) ─────────────────────────────────────────────────── */
 export async function proxy(request: NextRequest) {
   const { pathname } = request.nextUrl;
 
   // ── Locale redirect ──────────────────────────────────────────────────────
-  const pathnameHasLocale = locales.some(
-    (locale) =>
-      pathname.startsWith(`/${locale}/`) || pathname === `/${locale}`
+  const matchedLocale = allLocales.find(
+    (locale) => pathname === `/${locale}` || pathname.startsWith(`/${locale}/`)
   );
 
-  if (!pathnameHasLocale) {
-    const locale = getLocale(request);
+  if (!matchedLocale) {
     const url = request.nextUrl.clone();
-    url.pathname = `/${locale}${pathname === "/" ? "" : pathname}`;
+    url.pathname = `/${activeLocale}${pathname === "/" ? "" : pathname}`;
+    return NextResponse.redirect(url);
+  }
+
+  if (matchedLocale !== activeLocale) {
+    const rest = pathname.slice(`/${matchedLocale}`.length);
+    const url = request.nextUrl.clone();
+    url.pathname = `/${activeLocale}${rest}`;
     return NextResponse.redirect(url);
   }
 
